@@ -45,9 +45,26 @@ This file records initial public sources considered by HigIA. Every ingested rec
 - Notes: this is a high-priority source for the publication "Evolucion del consumo de antibioticos a nivel extrahospitalario en Asturias, Espana (2005-2018)".
 
 - Name: Additional Spanish university repositories.
-- Seed URLs:
+- Generic UniOvi seed URLs:
+  - https://digibuo.uniovi.es/dspace/
+  - https://digibuo.uniovi.es/dspace/simple-search?query=antibioticos
+  - https://digibuo.uniovi.es/dspace/simple-search?query=medicamentos
+  - https://digibuo.uniovi.es/dspace/simple-search?query=farmacia
+  - https://digibuo.uniovi.es/dspace/simple-search?query=consumo%20antibioticos
+  - https://digibuo.uniovi.es/dspace/simple-search?query=DDD
+  - https://digibuo.uniovi.es/dspace/simple-search?query=DHD
+  - https://portalinvestigacion.uniovi.es/
+  - https://portalinvestigacion.uniovi.es/resultados/publicaciones
+  - https://portalinvestigacion.uniovi.es/resultados/tesis/anualidades
+- High-signal UniOvi seed URLs:
+  - https://digibuo.uniovi.es/dspace/handle/10651/45002
+  - https://portalinvestigacion.uniovi.es/documentos/667c517a6de8e7265d987072?lang=en
   - https://digibuo.uniovi.es/dspace/handle/10651/16740
   - https://digibuo.uniovi.es/dspace/bitstream/10651/34879/1/TD_CristinaMariaSuarezCastanon.pdf
+  - https://digibuo.uniovi.es/dspace/bitstream/handle/10651/50389/TD_DiegoParraRuiz.pdf
+  - https://digibuo.uniovi.es/dspace/bitstream/handle/10651/13462/TD_pedrojavierguerrero.pdf?isAllowed=y&sequence=2
+  - https://digibuo.uniovi.es/dspace/bitstream/handle/10651/72580/2024_025_TD_PilarLumbrerasIglesias.pdf?isAllowed=y&sequence=1
+- Other Spanish university seed URLs:
   - https://eprints.ucm.es/51527/
   - https://repositorio.uam.es/
   - https://idus.us.es/

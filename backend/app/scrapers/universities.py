@@ -13,11 +13,30 @@ from app.normalizers.text import clean_text, extract_dates, extract_year, infer_
 from app.scrapers.base import BaseScraper, ScrapedResource
 
 
-UNIVERSITY_SEEDS = [
+UNIOVI_GENERIC_SEEDS = [
+    "https://digibuo.uniovi.es/dspace/",
+    "https://digibuo.uniovi.es/dspace/simple-search?query=antibioticos",
+    "https://digibuo.uniovi.es/dspace/simple-search?query=medicamentos",
+    "https://digibuo.uniovi.es/dspace/simple-search?query=farmacia",
+    "https://digibuo.uniovi.es/dspace/simple-search?query=consumo%20antibioticos",
+    "https://digibuo.uniovi.es/dspace/simple-search?query=DDD",
+    "https://digibuo.uniovi.es/dspace/simple-search?query=DHD",
+    "https://portalinvestigacion.uniovi.es/",
+    "https://portalinvestigacion.uniovi.es/resultados/publicaciones",
+    "https://portalinvestigacion.uniovi.es/resultados/tesis/anualidades",
+]
+
+UNIOVI_HIGH_SIGNAL_SEEDS = [
     "https://digibuo.uniovi.es/dspace/handle/10651/45002",
     "https://portalinvestigacion.uniovi.es/documentos/667c517a6de8e7265d987072?lang=en",
     "https://digibuo.uniovi.es/dspace/handle/10651/16740",
     "https://digibuo.uniovi.es/dspace/bitstream/10651/34879/1/TD_CristinaMariaSuarezCastanon.pdf",
+    "https://digibuo.uniovi.es/dspace/bitstream/handle/10651/50389/TD_DiegoParraRuiz.pdf",
+    "https://digibuo.uniovi.es/dspace/bitstream/handle/10651/13462/TD_pedrojavierguerrero.pdf?isAllowed=y&sequence=2",
+    "https://digibuo.uniovi.es/dspace/bitstream/handle/10651/72580/2024_025_TD_PilarLumbrerasIglesias.pdf?isAllowed=y&sequence=1",
+]
+
+OTHER_SPANISH_UNIVERSITY_SEEDS = [
     "https://eprints.ucm.es/51527/",
     "https://repositorio.uam.es/",
     "https://idus.us.es/",
@@ -26,6 +45,12 @@ UNIVERSITY_SEEDS = [
     "https://e-spacio.uned.es/",
     "https://zaguan.unizar.es/",
     "https://diposit.ub.edu/",
+]
+
+UNIVERSITY_SEEDS = [
+    *UNIOVI_GENERIC_SEEDS,
+    *UNIOVI_HIGH_SIGNAL_SEEDS,
+    *OTHER_SPANISH_UNIVERSITY_SEEDS,
 ]
 
 ALLOWED_UNIVERSITY_DOMAINS = {
