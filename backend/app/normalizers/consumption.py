@@ -7,22 +7,44 @@ from app.normalizers.text import extract_year, infer_geography, normalize_atc_co
 
 
 COLUMN_ALIASES = {
-    "year": {"year", "ano", "anio", "ejercicio"},
+    "year": {"year", "ano", "anio", "ejercicio", "period", "periodo", "date"},
     "month": {"month", "mes"},
-    "geography": {"geography", "ambito", "territorio", "ccaa", "comunidad autonoma"},
-    "geography_type": {"geography_type", "tipo geografia", "tipo_ambito"},
-    "population_group": {"population_group", "grupo poblacion", "grupo_poblacion"},
-    "sector": {"sector", "ambito asistencial", "ambito_asistencial", "tipo consumo"},
-    "category": {"category", "categoria", "clasificacion", "grupo", "aware"},
-    "atc_code": {"atc", "codigo atc", "codigo_atc", "atc_code"},
-    "drug_name": {"medicamento", "drug", "drug_name", "nombre medicamento"},
-    "active_ingredient": {"principio activo", "active ingredient", "active_ingredient"},
-    "packages": {"envases", "packages", "numero envases", "num_envases"},
-    "ddd": {"ddd", "dosis diaria definida"},
-    "dhd": {"dhd", "dosis habitante dia"},
-    "amount_pvpiva": {"pvpiva", "importe pvpiva", "amount_pvpiva", "importe"},
-    "unit": {"unit", "unidad"},
-    "notes": {"notes", "notas", "observaciones"},
+    "geography": {"geography", "ambito", "territorio", "ccaa", "comunidad autonoma", "region", "country", "pais", "area"},
+    "geography_type": {"geography_type", "tipo geografia", "tipo_ambito", "geo_type"},
+    "population_group": {"population_group", "grupo poblacion", "grupo_poblacion", "population"},
+    "sector": {"sector", "ambito asistencial", "ambito_asistencial", "tipo consumo", "setting", "sector_type", "hospital_community"},
+    "category": {"category", "categoria", "clasificacion", "grupo", "aware", "class", "subgroup"},
+    "atc_code": {"atc", "codigo atc", "codigo_atc", "atc_code", "atc code", "code"},
+    "drug_name": {"medicamento", "drug", "drug_name", "nombre medicamento", "drug name", "medicine", "substance", "sustancia", "principio"},
+    "active_ingredient": {"principio activo", "active ingredient", "active_ingredient", "active substance", "ingredient"},
+    "packages": {"envases", "packages", "numero envases", "num_envases", "packs", "units"},
+    "ddd": {"ddd", "dosis diaria definida", "ddd_value", "ddd per 1000"},
+    "dhd": {"dhd", "dosis habitante dia", "did", "doses per 1000 inhabitants per day", "doses", "consumption"},
+    "amount_pvpiva": {"pvpiva", "importe pvpiva", "amount_pvpiva", "importe", "cost", "reimbursement"},
+    "unit": {"unit", "unidad", "measure"},
+    "notes": {"notes", "notas", "observaciones", "comments"},
+}
+
+SOURCE_SPECIFIC_PARSERS: dict[str, dict[str, str]] = {
+    "sanidad": {
+        "year_column": "ano",
+        "geography_column": "ccaa",
+        "metric_column": "dhd",
+        "atc_column": "codigo atc",
+        "encoding": "latin-1",
+    },
+    "pran": {
+        "year_column": "ano",
+        "geography_column": "comunidad autonoma",
+        "metric_column": "dhd",
+        "atc_column": "codigo_atc",
+    },
+    "ecdc": {
+        "year_column": "year",
+        "geography_column": "country",
+        "metric_column": "ddd",
+        "atc_column": "atc",
+    },
 }
 
 
