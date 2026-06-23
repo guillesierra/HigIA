@@ -120,10 +120,24 @@ class SpanishUniversityPublicationsScraper(BaseScraper):
     raw_subdir = "universities"
     parser_version = "spanish-university-publications-0.1"
 
-    def parse(self, limit: int = 50, max_pages: int = 35, **_: Any) -> list[ScrapedResource]:
+    def parse(
+        self,
+        limit: int = 50,
+        max_pages: int = 35,
+        max_error_records: int = 20,
+        **_: Any,
+    ) -> list[ScrapedResource]:
         resources: list[ScrapedResource] = []
+        error_resources: list[ScrapedResource] = []
         queue: deque[tuple[str, int]] = deque((seed, 0) for seed in UNIVERSITY_SEEDS)
         visited: set[str] = set()
+
+        def add_resource(resource: ScrapedResource) -> None:
+            if resource.resource_type == "source_error":
+                if len(error_resources) < max_error_records:
+                    error_resources.append(resource)
+                return
+            resources.append(resource)
 
         while queue and len(visited) < max_pages and len(resources) < limit:
             url, depth = queue.popleft()
@@ -132,12 +146,12 @@ class SpanishUniversityPublicationsScraper(BaseScraper):
             visited.add(url)
 
             if _is_pdf(url):
-                resources.append(self._download_pdf(url, url, Path(urlparse(url).path).name))
+                add_resource(self._download_pdf(url, url, Path(urlparse(url).path).name))
                 continue
 
             page = self.fetch_url(url, ".html")
             if page.error:
-                resources.append(self.error_resource(url, "university_page_fetch_failed", page.error))
+                add_resource(self.error_resource(url, "university_page_fetch_failed", page.error))
                 continue
 
             soup = BeautifulSoup(page.text or "", "html.parser")
@@ -169,12 +183,12 @@ class SpanishUniversityPublicationsScraper(BaseScraper):
                 if not _allowed_domain(target):
                     continue
                 if _is_pdf(target) and _looks_relevant(context):
-                    resources.append(self._download_pdf(target, url, link_text or Path(urlparse(target).path).name))
+                    add_resource(self._download_pdf(target, url, link_text or Path(urlparse(target).path).name))
                     if len(resources) >= limit:
                         break
                 elif depth < 1 and _looks_relevant(context):
                     queue.append((target, depth + 1))
-        return resources[:limit]
+        return [*resources[:limit], *error_resources]
 
     def normalize(self, resources: list[ScrapedResource]) -> list[dict[str, Any]]:
         rows: list[dict[str, Any]] = []

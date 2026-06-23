@@ -1,5 +1,4 @@
 from datetime import datetime
-from pathlib import Path
 from typing import Any
 
 from app.normalizers.documents import extract_pdf_text, infer_document_metadata
@@ -16,8 +15,19 @@ class ManualDocumentIngester(BaseScraper):
     raw_subdir = "manual"
     parser_version = "manual-documents-0.3"
 
-    def __init__(self, timeout: int = 30, delay_seconds: float = 0, respect_robots: bool = False) -> None:
-        super().__init__(timeout=timeout, delay_seconds=delay_seconds, respect_robots=respect_robots)
+    def __init__(
+        self,
+        timeout: float = 15,
+        delay_seconds: float = 0,
+        respect_robots: bool = False,
+        verify_ssl: bool | str = True,
+    ) -> None:
+        super().__init__(
+            timeout=timeout,
+            delay_seconds=delay_seconds,
+            respect_robots=respect_robots,
+            verify_ssl=verify_ssl,
+        )
 
     def parse(self, limit: int = 100, **_: Any) -> list[ScrapedResource]:
         MANUAL_DIR.mkdir(parents=True, exist_ok=True)
@@ -68,4 +78,3 @@ class ManualDocumentIngester(BaseScraper):
                 }
             )
         return rows
-

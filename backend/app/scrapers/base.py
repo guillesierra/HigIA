@@ -12,6 +12,9 @@ from urllib.robotparser import RobotFileParser
 
 import requests
 from bs4 import BeautifulSoup
+from requests.exceptions import SSLError
+from urllib3.exceptions import InsecureRequestWarning
+import urllib3
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[3]
@@ -74,19 +77,24 @@ class BaseScraper:
 
     def __init__(
         self,
-        timeout: int = 30,
+        timeout: float = 15,
         delay_seconds: float = 1.0,
         respect_robots: bool = True,
+        verify_ssl: bool | str = True,
     ) -> None:
         self.timeout = timeout
         self.delay_seconds = delay_seconds
         self.respect_robots = respect_robots
+        self.verify_ssl = verify_ssl
         self.session = requests.Session()
         self.session.headers.update(DEFAULT_HEADERS)
         self._robots_cache: dict[str, RobotFileParser | None] = {}
+        self._origin_failures: dict[str, str] = {}
         self._last_request_at = 0.0
         self.logger = logging.getLogger(f"higia.scrapers.{self.raw_subdir}")
         self.logger.setLevel(logging.INFO)
+        if self.verify_ssl is False:
+            urllib3.disable_warnings(InsecureRequestWarning)
         self._ensure_dirs()
 
     @property
@@ -143,14 +151,24 @@ class BaseScraper:
 
     def fetch_url(self, url: str, extension: str | None = None, save: bool = True) -> FetchResult:
         accessed_at = datetime.utcnow()
+        origin_error = self._origin_failure(url)
+        if origin_error:
+            self.log_error("origin_skipped", url, origin_error)
+            return FetchResult(url, accessed_at, None, None, None, error=origin_error)
+
         if not self.can_fetch(url):
             error = f"robots.txt disallows fetch: {url}"
             self.log_error("robots_disallow", url, error)
             return FetchResult(url, accessed_at, None, None, None, error=error)
 
+        origin_error = self._origin_failure(url)
+        if origin_error:
+            self.log_error("origin_skipped", url, origin_error)
+            return FetchResult(url, accessed_at, None, None, None, error=origin_error)
+
         self._delay()
         try:
-            response = self.session.get(url, timeout=self.timeout)
+            response = self._get(url)
             content_type = response.headers.get("content-type", "")
             raw_path = None
             if save:
@@ -164,7 +182,7 @@ class BaseScraper:
                     content_type=content_type,
                     raw_file_path=raw_path,
                     content=response.content,
-                    text=response.text,
+                    text=self._response_text(response),
                     error=f"HTTP {response.status_code}",
                 )
             return FetchResult(
@@ -174,8 +192,12 @@ class BaseScraper:
                 content_type=content_type,
                 raw_file_path=raw_path,
                 content=response.content,
-                text=response.text,
+                text=self._response_text(response),
             )
+        except SSLError as exc:
+            self._remember_origin_failure(url, "ssl_verification_failed", exc)
+            self.log_error("request_ssl_failed", url, exc)
+            return FetchResult(url, accessed_at, None, None, None, error=str(exc))
         except requests.RequestException as exc:
             self.log_error("request_failed", url, exc)
             return FetchResult(url, accessed_at, None, None, None, error=str(exc))
@@ -185,7 +207,7 @@ class BaseScraper:
         if not self.can_fetch(url):
             raise RuntimeError(f"robots.txt disallows fetch: {url}")
         self._delay()
-        response = self.session.get(url, timeout=self.timeout)
+        response = self._get(url)
         response.raise_for_status()
         return response
 
@@ -226,6 +248,8 @@ class BaseScraper:
             "user_agent": USER_AGENT,
             "respect_robots": self.respect_robots,
             "delay_seconds": self.delay_seconds,
+            "timeout_seconds": self.timeout,
+            "verify_ssl": self.verify_ssl,
             "updated_at": datetime.utcnow().isoformat(),
         }
         (self.metadata_dir / "source_metadata.json").write_text(
@@ -316,18 +340,39 @@ class BaseScraper:
             time.sleep(self.delay_seconds - elapsed)
         self._last_request_at = time.monotonic()
 
+    def _get(self, url: str, timeout: float | None = None) -> requests.Response:
+        return self.session.get(
+            url,
+            timeout=timeout or self.timeout,
+            verify=self.verify_ssl,
+        )
+
+    @staticmethod
+    def _response_text(response: requests.Response) -> str:
+        encoding = response.encoding
+        if not encoding or encoding.casefold() in {"iso-8859-1", "latin-1"}:
+            encoding = response.apparent_encoding or "utf-8"
+        try:
+            return response.content.decode(encoding, errors="replace")
+        except LookupError:
+            return response.text
+
     def _load_robots(self, origin: str) -> RobotFileParser | None:
         robots_url = urljoin(origin, "/robots.txt")
         parser = RobotFileParser()
         parser.set_url(robots_url)
         try:
             self._delay()
-            response = self.session.get(robots_url, timeout=min(self.timeout, 10))
+            response = self._get(robots_url, timeout=min(self.timeout, 8))
             self.log_fetch(robots_url, response.status_code, None, response.headers.get("content-type"))
             if response.status_code >= 400:
                 return None
-            parser.parse(response.text.splitlines())
+            parser.parse(self._response_text(response).splitlines())
             return parser
+        except SSLError as exc:
+            self._remember_origin_failure(robots_url, "ssl_verification_failed", exc)
+            self.log_error("robots_ssl_failed", robots_url, exc)
+            return None
         except requests.RequestException as exc:
             self.log_error("robots_fetch_failed", robots_url, exc)
             return None
@@ -342,6 +387,15 @@ class BaseScraper:
         with path.open("a", encoding="utf-8") as handle:
             handle.write(json.dumps(payload, ensure_ascii=False, default=json_default) + "\n")
 
+    def _origin_failure(self, url: str) -> str | None:
+        parsed = urlparse(url)
+        return self._origin_failures.get(f"{parsed.scheme}://{parsed.netloc}")
+
+    def _remember_origin_failure(self, url: str, stage: str, exc: Exception | str) -> None:
+        parsed = urlparse(url)
+        if parsed.scheme and parsed.netloc:
+            self._origin_failures[f"{parsed.scheme}://{parsed.netloc}"] = f"{stage}: {exc}"
+
 
 def safe_filename(value: str) -> str:
     cleaned = "".join(char if char.isalnum() or char in {"-", "_"} else "_" for char in value)
@@ -354,4 +408,3 @@ def json_default(value: object) -> str | float | None:
     if hasattr(value, "isoformat"):
         return value.isoformat()  # type: ignore[no-any-return]
     return None
-

@@ -1,9 +1,11 @@
 from datetime import datetime
 from pathlib import Path
 
+import requests
+
 from app.scrapers.aemps import AempsSafetyAlertsScraper
 from app.scrapers.asturias import AsturiasPublicDocsScraper
-from app.scrapers.base import FetchResult, ScrapedResource
+from app.scrapers.base import BaseScraper, FetchResult, ScrapedResource
 from app.scrapers.sanidad import SanidadConsumptionScraper
 from app.scrapers.universities import SpanishUniversityPublicationsScraper
 
@@ -76,6 +78,54 @@ def test_sanidad_normalize_missing_columns_from_csv(tmp_path: Path) -> None:
     assert rows[0]["record_type"] == "consumption"
     assert rows[0]["year"] == 2024
     assert rows[0]["atc_code"] is None
+
+
+class TmpBaseScraper(BaseScraper):
+    source_name = "Temporary test source"
+    base_url = "https://broken.example"
+    raw_subdir = "tmp-base"
+
+    def __init__(self, tmp_path: Path) -> None:
+        self.tmp_path = tmp_path
+        super().__init__(delay_seconds=0)
+
+    @property
+    def raw_dir(self) -> Path:
+        path = self.tmp_path / "base_raw"
+        path.mkdir(exist_ok=True)
+        return path
+
+    @property
+    def processed_dir(self) -> Path:
+        path = self.tmp_path / "base_processed"
+        path.mkdir(exist_ok=True)
+        return path
+
+    @property
+    def metadata_dir(self) -> Path:
+        path = self.tmp_path / "base_metadata"
+        path.mkdir(exist_ok=True)
+        return path
+
+    def parse(self, limit: int = 50, **_: object) -> list[ScrapedResource]:
+        return []
+
+
+def test_base_scraper_skips_origin_after_ssl_failure(monkeypatch, tmp_path: Path) -> None:
+    scraper = TmpBaseScraper(tmp_path)
+    calls = []
+
+    def fail_get(url: str, **_: object) -> object:
+        calls.append(url)
+        raise requests.exceptions.SSLError("certificate verify failed")
+
+    monkeypatch.setattr(scraper.session, "get", fail_get)
+    first = scraper.fetch_url("https://broken.example/page")
+    second = scraper.fetch_url("https://broken.example/other")
+
+    assert "certificate verify failed" in (first.error or "")
+    assert "ssl_verification_failed" in (second.error or "")
+    assert calls == ["https://broken.example/robots.txt"]
 
 
 def test_asturias_pdf_mock_metadata(monkeypatch, tmp_path: Path) -> None:
