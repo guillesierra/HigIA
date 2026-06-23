@@ -10,7 +10,9 @@ from app.scrapers.tabular import DATASET_EXTENSIONS, discover_links, read_tabula
 
 
 SANIDAD_SEED_URLS = [
-    "https://www.sanidad.gob.es/gabinete/notasPrensa.do?id=5655",
+    "https://www.sanidad.gob.es/areas/farmacia/home.htm",
+    "https://www.sanidad.gob.es/areas/farmacia/prestacionFarmaceutica/home.htm",
+    "https://www.sanidad.gob.es/areas/farmacia/publicaciones/home.htm",
     "https://pestadistico.inteligenciadegestion.sanidad.gob.es/publicoSNS/D/consumo-farmaceutico-en-el-sns/consumo-en-recetas-medicas-sns/consumo-medicamentos-por-atc/nota-metodologica",
 ]
 SANIDAD_KEYWORDS = {
