@@ -1,0 +1,99 @@
+from datetime import datetime
+from pathlib import Path
+
+from app.scrapers.aemps import AempsSafetyAlertsScraper
+from app.scrapers.asturias import AsturiasPublicDocsScraper
+from app.scrapers.base import FetchResult, ScrapedResource
+from app.scrapers.sanidad import SanidadConsumptionScraper
+
+
+class TmpAempsScraper(AempsSafetyAlertsScraper):
+    def __init__(self, tmp_path: Path) -> None:
+        self.tmp_path = tmp_path
+        super().__init__(delay_seconds=0, respect_robots=False)
+
+    @property
+    def raw_dir(self) -> Path:
+        path = self.tmp_path / "raw"
+        path.mkdir(exist_ok=True)
+        return path
+
+    @property
+    def processed_dir(self) -> Path:
+        path = self.tmp_path / "processed"
+        path.mkdir(exist_ok=True)
+        return path
+
+    @property
+    def metadata_dir(self) -> Path:
+        path = self.tmp_path / "metadata"
+        path.mkdir(exist_ok=True)
+        return path
+
+    def fetch_url(self, url: str, extension: str | None = None, save: bool = True) -> FetchResult:
+        if url.endswith("detail"):
+            text = """
+            <html><body><main><h1>Nota sobre amoxicillin</h1>
+            <p>15 de junio de 2021. Medicamentos que contienen amoxicillin.</p>
+            <a href="note.pdf">PDF</a></main></body></html>
+            """
+        elif url.endswith("note.pdf"):
+            raw = self.raw_dir / "note.pdf"
+            raw.write_bytes(b"%PDF-1.4 mock")
+            return FetchResult(url, datetime.utcnow(), 200, "application/pdf", str(raw), content=b"%PDF-1.4 mock")
+        else:
+            text = '<html><body><a href="https://www.aemps.gob.es/detail">Nota de seguridad medicamento</a></body></html>'
+        raw = self.raw_dir / "page.html"
+        raw.write_text(text, encoding="utf-8")
+        return FetchResult(url, datetime.utcnow(), 200, "text/html", str(raw), text=text, content=text.encode())
+
+
+def test_aemps_mock_html_does_not_need_network(tmp_path: Path) -> None:
+    scraper = TmpAempsScraper(tmp_path)
+    rows = scraper.run(limit=1)
+    assert rows[0]["record_type"] == "safety_alert"
+    assert rows[0]["date"] == "2021-06-15"
+    assert "amoxicillin" in rows[0]["possible_active_ingredients"]
+    assert rows[0]["raw_file_path"]
+
+
+def test_sanidad_normalize_missing_columns_from_csv(tmp_path: Path) -> None:
+    csv_path = tmp_path / "consumption.csv"
+    csv_path.write_text("Ano,CCAA,DHD\n2024,Asturias,11.9\n", encoding="utf-8")
+    scraper = SanidadConsumptionScraper(delay_seconds=0, respect_robots=False)
+    resource = ScrapedResource(
+        source_name=scraper.source_name,
+        source_url="https://example.test/source",
+        resource_type="dataset_file",
+        title="mock csv",
+        url="https://example.test/consumption.csv",
+        accessed_at=datetime.utcnow(),
+        raw_path=str(csv_path),
+        parser_version=scraper.parser_version,
+    )
+    rows = scraper.normalize([resource])
+    assert rows[0]["record_type"] == "consumption"
+    assert rows[0]["year"] == 2024
+    assert rows[0]["atc_code"] is None
+
+
+def test_asturias_pdf_mock_metadata(monkeypatch, tmp_path: Path) -> None:
+    pdf_path = tmp_path / "proa.pdf"
+    pdf_path.write_bytes(b"%PDF-1.4 mock")
+    monkeypatch.setattr("app.scrapers.asturias.extract_pdf_text", lambda _path: "Informe PROA antibioticos Asturias 2024")
+    scraper = AsturiasPublicDocsScraper(delay_seconds=0, respect_robots=False)
+    resource = ScrapedResource(
+        source_name=scraper.source_name,
+        source_url="https://www.astursalud.es/",
+        resource_type="document",
+        title="Informe PROA",
+        url="https://www.astursalud.es/proa.pdf",
+        accessed_at=datetime.utcnow(),
+        raw_path=str(pdf_path),
+        parser_version=scraper.parser_version,
+    )
+    rows = scraper.normalize([resource])
+    assert rows[0]["record_type"] == "study_document"
+    assert rows[0]["year"] == 2024
+    assert rows[0]["geography"] == "Asturias"
+    assert rows[0]["therapeutic_group"] == "antibiotics"

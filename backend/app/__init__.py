@@ -1,0 +1,2 @@
+"""HigIA backend package."""
+

@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Amoxicillin", "active_ingredient": "amoxicillin", "normalized_name": "amoxicillin" },
+  { "id": 2, "name": "Diazepam", "active_ingredient": "diazepam", "normalized_name": "diazepam" },
+  { "id": 3, "name": "Omeprazole", "active_ingredient": "omeprazole", "normalized_name": "omeprazole" }
+]
+

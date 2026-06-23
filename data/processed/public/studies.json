@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "source_id": 4,
+    "title": "Demo Asturias public document inventory for medicine use",
+    "authors": "HigIA seed",
+    "year": 2024,
+    "url": "https://www.astursalud.es/",
+    "document_type": "public_document_inventory",
+    "geography": "Asturias",
+    "period_start": null,
+    "period_end": null,
+    "summary": "Placeholder record showing where public Asturias documents will appear.",
+    "conclusions": "No internal SESPA data is included in the public MVP.",
+    "pending_work": "Review public PDFs and only normalize data that can be extracted reliably."
+  }
+]
+

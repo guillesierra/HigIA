@@ -1,0 +1,18 @@
+{
+  "drug_atc": [
+    { "drug_id": 1, "atc_code_id": 2 },
+    { "drug_id": 2, "atc_code_id": 3 },
+    { "drug_id": 3, "atc_code_id": 4 }
+  ],
+  "alert_drugs": [
+    { "id": 1, "alert_id": 1, "drug_id": 2, "atc_code_id": 3 }
+  ],
+  "study_drugs": [
+    { "id": 1, "study_id": 1, "drug_id": 1, "atc_code_id": 2 }
+  ],
+  "atc_consumption": [
+    { "atc_code": "J01CA", "consumption_record_id": 1, "drug_name": "Amoxicillin", "year": 2019, "geography": "Spain" },
+    { "atc_code": "N05BA", "consumption_record_id": 3, "drug_name": "Diazepam", "year": 2021, "geography": "Spain" }
+  ]
+}
+

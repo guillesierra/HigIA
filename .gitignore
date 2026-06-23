@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+npm-debug.log*
+
+# Local databases and generated data
+data/*.sqlite
+data/*.sqlite3
+data/higia.sqlite
+data/raw/**/*.html
+data/raw/**/*.pdf
+data/raw/**/*.xlsx
+data/raw/**/*.xls
+data/raw/**/*.csv
+data/processed/**/*.csv
+data/processed/**/*.xlsx
+data/processed/**/*.json
+data/metadata/**/*.json
+data/metadata/**/*.jsonl
+
+# Keep public demo exports versionable by default.
+!data/processed/public/*.json
+!frontend/public/data/*.json
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.*

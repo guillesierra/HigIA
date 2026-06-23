@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "name": "AEMPS medicine safety notes",
+    "url": "https://www.aemps.gob.es/comunicacion/notas-de-seguridad/notas-informativas-de-seguridad-de-medicamentos-de-uso-humano/",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T00:00:00",
+    "notes": "Demo source. Real scraper stores raw HTML/PDF and extraction notes."
+  },
+  {
+    "id": 2,
+    "name": "Ministry of Health medicine consumption by ATC",
+    "url": "https://www.sanidad.gob.es/gabinete/notasPrensa.do?id=5655",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T00:00:00",
+    "notes": "Demo source for aggregated SNS consumption metrics."
+  },
+  {
+    "id": 3,
+    "name": "PRAN antibiotic consumption maps",
+    "url": "https://www.resistenciaantibioticos.es/es/lineas-de-accion/vigilancia/mapas-de-consumo/consumos-antibioticos-humana",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T00:00:00",
+    "notes": "Demo source for human antibiotic consumption pages."
+  },
+  {
+    "id": 4,
+    "name": "Asturias public pharmacotherapeutic documents",
+    "url": "https://www.astursalud.es/",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T00:00:00",
+    "notes": "Demo source for public Asturias documents. No internal SESPA data included."
+  }
+]
+

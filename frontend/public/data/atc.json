@@ -1,0 +1,7 @@
+[
+  { "id": 1, "code": "J01", "level": 2, "name": "Antibacterials for systemic use", "parent_code": "J" },
+  { "id": 2, "code": "J01CA", "level": 4, "name": "Penicillins with extended spectrum", "parent_code": "J01" },
+  { "id": 3, "code": "N05BA", "level": 4, "name": "Benzodiazepine derivatives", "parent_code": "N05B" },
+  { "id": 4, "code": "A02BC", "level": 4, "name": "Proton pump inhibitors", "parent_code": "A02B" }
+]
+
