@@ -15,21 +15,22 @@ export function AlertTable({ alerts, selectedId, onSelect }: AlertTableProps) {
     <DataTable
       rows={alerts}
       columns={[
-        { key: "date", label: "Fecha", render: (row) => row.date ?? "-" },
+        { key: "date", label: "Fecha", render: (row) => row.date?.slice(0, 10) ?? "-" },
         {
           key: "title",
-          label: "Titulo",
+          label: "Alerta",
           render: (row) => (
             <button className={row.id === selectedId ? "table-button selected" : "table-button"} onClick={() => onSelect(row)}>
-              {row.title}
+              <span style={{ color: "#c62828", fontWeight: 500, fontSize: 13 }}>
+                {row.summary ? row.summary.slice(0, 140) + (row.summary.length > 140 ? "…" : "") : row.title.slice(0, 120)}
+              </span>
             </button>
           )
         },
-        { key: "org", label: "Org.", render: (row) => row.organization ?? "-" },
-        { key: "type", label: "Tipo", render: (row) => row.alert_type ?? "-" },
-        { key: "ingredients", label: "Principios", render: (row) => row.possible_active_ingredients?.join(", ") || "-" }
+        { key: "org", label: "Organismo", render: (row) => row.organization ?? "AEMPS" },
+        { key: "type", label: "Tipo", render: (row) => row.alert_type ?? "Seguridad" },
+        { key: "ingredients", label: "Principios activos", render: (row) => row.possible_active_ingredients?.slice(0, 4).join(", ") || "—" },
       ]}
     />
   );
 }
-

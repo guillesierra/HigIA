@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Layout } from "./components/Layout";
 import { AlertsPage } from "./pages/AlertsPage";
+import { AnalyticsPage } from "./pages/AnalyticsPage";
 import { AsturiasPage } from "./pages/AsturiasPage";
 import { ConsumptionPage } from "./pages/ConsumptionPage";
 import { HomePage } from "./pages/HomePage";
@@ -8,7 +9,7 @@ import { MethodologyPage } from "./pages/MethodologyPage";
 import { RelationsPage } from "./pages/RelationsPage";
 import { SourcesPage } from "./pages/SourcesPage";
 
-const validRoutes = new Set(["home", "sources", "alerts", "consumption", "relations", "asturias", "methodology"]);
+const validRoutes = new Set(["home", "sources", "alerts", "consumption", "relations", "analytics", "asturias", "methodology"]);
 
 export function App() {
   const [route, setRoute] = useState(() => getInitialRoute());
@@ -31,6 +32,7 @@ export function App() {
       {route === "alerts" && <AlertsPage />}
       {route === "consumption" && <ConsumptionPage />}
       {route === "relations" && <RelationsPage />}
+      {route === "analytics" && <AnalyticsPage />}
       {route === "asturias" && <AsturiasPage />}
       {route === "methodology" && <MethodologyPage />}
     </Layout>

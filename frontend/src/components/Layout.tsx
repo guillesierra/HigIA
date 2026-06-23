@@ -1,4 +1,4 @@
-import { Activity, AlertTriangle, BookOpen, Database, FileText, GitBranch, Home, MapPinned } from "lucide-react";
+import { Activity, AlertTriangle, BarChart3, BookOpen, Database, FileText, GitBranch, Home, MapPinned } from "lucide-react";
 import type { ReactNode } from "react";
 
 type Route = {
@@ -13,6 +13,7 @@ const routes: Route[] = [
   { id: "alerts", label: "Alertas", icon: <AlertTriangle size={18} /> },
   { id: "consumption", label: "Consumo", icon: <Activity size={18} /> },
   { id: "relations", label: "Relaciones", icon: <GitBranch size={18} /> },
+  { id: "analytics", label: "Analisis", icon: <BarChart3 size={18} /> },
   { id: "asturias", label: "Asturias", icon: <MapPinned size={18} /> },
   { id: "methodology", label: "Metodo", icon: <BookOpen size={18} /> }
 ];

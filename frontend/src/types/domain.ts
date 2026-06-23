@@ -126,3 +126,129 @@ export type ComparisonResponse = {
   delta?: number | null;
   filters: Record<string, string | number | null>;
 };
+
+export type TrendResult = {
+  entity_key: string;
+  metric: string;
+  slope: number;
+  mean_value: number;
+  total_change: number;
+  avg_yoy_change: number;
+  trend_direction: "increasing" | "decreasing" | "stable";
+  years: number[];
+  values: number[];
+  start_value: number | null;
+  end_value: number | null;
+};
+
+export type CorrelationPair = {
+  entity_a: string;
+  entity_b: string;
+  correlation: number;
+  common_years: number;
+};
+
+export type AnomalyRecord = {
+  entity_key: string;
+  year: number;
+  previous_year: number;
+  value: number;
+  previous_value: number;
+  change_pct: number;
+  direction: "spike" | "drop";
+};
+
+export type ImpactResult = {
+  entity_key: string;
+  avg_before: number;
+  avg_after: number;
+  change_pct: number;
+  direction: string;
+  overall_mean: number;
+};
+
+export type YearOverYear = {
+  entity_key: string;
+  year: number;
+  previous_year: number;
+  value: number;
+  previous_value: number;
+  change_pct: number;
+  direction: "up" | "down" | "flat";
+};
+
+export type GeoComparison = {
+  geography: string;
+  codes: Array<{
+    atc_code: string;
+    avg_value: number;
+    record_count: number;
+  }>;
+};
+
+export type SummaryStats = {
+  total_records: number;
+  avg_value: number | null;
+  max_value: number | null;
+  min_value: number | null;
+  median: number | null;
+  stdev: number;
+  year_range: { min: number; max: number } | null;
+  distinct_geographies: number;
+};
+
+export type ValidationReport = {
+  source_name: string;
+  summary: {
+    source_name: string;
+    run_at: string;
+    total_records: number;
+    consumption_records: number;
+    alert_records: number;
+    study_records: number;
+    error_records: number;
+  };
+  consumption_validation?: {
+    total_records: number;
+    valid_records: number;
+    missing_year: number;
+    missing_geography: number;
+    missing_atc_code: number;
+    missing_dhd: number;
+    out_of_range_dhd: number;
+    duplicate_keys: number;
+    year_range: [number, number] | null;
+    geographies: string[];
+    atc_codes_found: string[];
+    dhd_stats: Record<string, number>;
+    field_completeness: Record<string, number>;
+  };
+  alert_validation?: {
+    total_records: number;
+    valid_records: number;
+    missing_title: number;
+    missing_date: number;
+    missing_url: number;
+    missing_summary: number;
+    duplicate_urls: number;
+    active_ingredients_found: number;
+    organizations: string[];
+  };
+  duplicate_alerts: Array<{ title_a: string; title_b: string }>;
+  duplicate_consumption: Array<{ title_a: string; title_b: string }>;
+};
+
+export type ExportSummary = {
+  counts: {
+    sources: number;
+    alerts: number;
+    consumption_records: number;
+    studies: number;
+    drugs: number;
+    atc_codes: number;
+  };
+  year_range: { min: number; max: number } | null;
+  top_geographies: Array<{ name: string; records: number }>;
+  alerts_timeline: Array<{ year: number; count: number }>;
+  generated_at: string;
+};

@@ -1,113 +1,27 @@
 import type {
+  AnomalyRecord,
   ATCCode,
   ConsumptionRecord,
+  CorrelationPair,
   Drug,
+  ExportSummary,
   RelationshipResponse,
   Relationships,
   SafetyAlert,
   Source,
-  StudyDocument
+  StudyDocument,
+  TrendResult
 } from "../types/domain";
 
 const DATA_BASE = `${import.meta.env.BASE_URL}data`;
 
-const mockSources: Source[] = [
-  {
-    id: 1,
-    name: "AEMPS medicine safety notes",
-    url: "https://www.aemps.gob.es/",
-    source_type: "official_web",
-    license: "Check source terms before redistribution",
-    accessed_at: "2026-06-23T00:00:00",
-    notes: "Mock source used when static JSON is not available.",
-    status: "mock"
-  }
-];
-
-const mockAlerts: SafetyAlert[] = [
-  {
-    id: 1,
-    source_id: 1,
-    title: "Example safety note related to benzodiazepine risk minimization",
-    date: "2021-06-15",
-    url: "https://www.aemps.gob.es/",
-    organization: "AEMPS",
-    alert_type: "Safety",
-    summary: "Mock alert for local static rendering.",
-    raw_text: "Diazepam N05BA mock text.",
-    possible_active_ingredients: ["diazepam"]
-  }
-];
-
-const mockConsumption: ConsumptionRecord[] = [
-  {
-    id: 1,
-    source_id: 1,
-    year: 2023,
-    geography: "Asturias",
-    geography_type: "autonomous_community",
-    atc_code: "J01CA",
-    drug_name: "Amoxicillin",
-    active_ingredient: "amoxicillin",
-    packages: 42000,
-    ddd: null,
-    dhd: 11.9,
-    amount_pvpiva: null,
-    unit: "DHD",
-    notes: "Mock aggregated record."
-  }
-];
-
-const mockStudies: StudyDocument[] = [
-  {
-    id: 1,
-    source_id: 1,
-    title: "Demo Asturias public document inventory for medicine use",
-    year: 2024,
-    url: "https://www.astursalud.es/",
-    document_type: "public_document_inventory",
-    geography: "Asturias",
-    summary: "Mock document used when exported studies JSON is not available.",
-    pending_work: "Review public PDFs before structured extraction.",
-    therapeutic_group: "antibiotics"
-  }
-];
-
-const mockDrugs: Drug[] = [
-  { id: 1, name: "Amoxicillin", active_ingredient: "amoxicillin", normalized_name: "amoxicillin" },
-  { id: 2, name: "Diazepam", active_ingredient: "diazepam", normalized_name: "diazepam" }
-];
-
-const mockAtc: ATCCode[] = [
-  { id: 1, code: "J01CA", level: 4, name: "Penicillins with extended spectrum", parent_code: "J01" },
-  { id: 2, code: "N05BA", level: 4, name: "Benzodiazepine derivatives", parent_code: "N05B" }
-];
-
-const mockRelationships: Relationships = {
-  drug_atc: [{ drug_id: 1, atc_code_id: 1 }],
-  alert_drugs: [{ alert_id: 1, drug_id: 2, atc_code_id: 2 }],
-  study_drugs: [{ study_id: 1, drug_id: 1, atc_code_id: 1 }],
-  atc_consumption: [{ atc_code: "J01CA", consumption_record_id: 1, drug_name: "Amoxicillin", year: 2023, geography: "Asturias" }]
-};
-
-const fallbacks = {
-  sources: mockSources,
-  alerts: mockAlerts,
-  consumption: mockConsumption,
-  studies: mockStudies,
-  drugs: mockDrugs,
-  atc: mockAtc,
-  relationships: mockRelationships
-};
-
-async function fetchStatic<T>(name: keyof typeof fallbacks): Promise<T> {
+async function fetchStatic<T>(name: string): Promise<T> {
   try {
     const response = await fetch(`${DATA_BASE}/${name}.json`, { cache: "no-cache" });
     if (!response.ok) throw new Error(`Static data request failed: ${response.status}`);
     return response.json();
   } catch {
-    // Static JSON is the production data path; mocks keep the UI usable before the first export.
-    return fallbacks[name] as T;
+    return [] as unknown as T;
   }
 }
 
@@ -119,9 +33,55 @@ async function loadAll() {
     fetchStatic<StudyDocument[]>("studies"),
     fetchStatic<Drug[]>("drugs"),
     fetchStatic<ATCCode[]>("atc"),
-    fetchStatic<Relationships>("relationships")
+    fetchStatic<Relationships>("relationships"),
   ]);
   return { sources, alerts, consumption, studies, drugs, atc, relationships };
+}
+
+function pearsonR(x: number[], y: number[]): number {
+  const n = x.length;
+  if (n < 3) return 0;
+  const xm = x.reduce((a, b) => a + b, 0) / n;
+  const ym = y.reduce((a, b) => a + b, 0) / n;
+  let num = 0, xd = 0, yd = 0;
+  for (let i = 0; i < n; i++) {
+    const dx = x[i] - xm, dy = y[i] - ym;
+    num += dx * dy; xd += dx * dx; yd += dy * dy;
+  }
+  const den = Math.sqrt(xd * yd);
+  return den === 0 ? 0 : num / den;
+}
+
+function computeRealCorrelations(consumption: ConsumptionRecord[]): CorrelationPair[] {
+  // Group by (geography, atc_code) to get series
+  const seriesMap = new Map<string, Map<number, number>>();
+  consumption.forEach((r) => {
+    if (!r.atc_code) return;
+    const key = `${r.geography}|${r.atc_code}`;
+    if (!seriesMap.has(key)) seriesMap.set(key, new Map());
+    seriesMap.get(key)!.set(r.year, (seriesMap.get(key)!.get(r.year) ?? 0) + Number(r.dhd || 0));
+  });
+
+  // Build list of series with their year-value maps
+  const entries = [...seriesMap.entries()].filter(([, m]) => m.size >= 3);
+  const results: CorrelationPair[] = [];
+
+  // Compare ALL pairs but limit to avoid explosion
+  const max = Math.min(entries.length, 40);
+  for (let i = 0; i < max; i++) {
+    for (let j = i + 1; j < max; j++) {
+      const [ka, va] = entries[i]; const [kb, vb] = entries[j];
+      const common = [...va.keys()].filter(y => vb.has(y)).sort();
+      if (common.length < 3) continue;
+      const av = common.map(y => va.get(y)!);
+      const bv = common.map(y => vb.get(y)!);
+      const r = pearsonR(av, bv);
+      if (Math.abs(r) > 0.01) {
+        results.push({ entity_a: ka, entity_b: kb, correlation: Number(r.toFixed(4)), common_years: common.length });
+      }
+    }
+  }
+  return results.sort((a, b) => Math.abs(b.correlation) - Math.abs(a.correlation)).slice(0, 40);
 }
 
 export const api = {
@@ -132,11 +92,16 @@ export const api = {
   drugs: () => fetchStatic<Drug[]>("drugs"),
   atc: () => fetchStatic<ATCCode[]>("atc"),
   relationships: () => fetchStatic<Relationships>("relationships"),
+  trends: () => fetchStatic<TrendResult[]>("trends"),
+  correlations: () => fetchStatic<CorrelationPair[]>("correlations"),
+  anomalies: () => fetchStatic<AnomalyRecord[]>("anomalies"),
+  summary: () => fetchStatic<ExportSummary>("summary"),
+  correlationsCompute: (consumption: ConsumptionRecord[]) => computeRealCorrelations(consumption),
   all: loadAll,
   relationship: async (kind: "drug" | "atc" | "alert", query: string): Promise<RelationshipResponse> => {
     const data = await loadAll();
     return buildRelationship(kind, query, data);
-  }
+  },
 };
 
 function buildRelationship(
@@ -154,12 +119,8 @@ function buildRelationship(
   const atcIds = new Set(matchingAtc.map((item) => item.id));
   const drugIds = new Set(matchingDrugs.map((item) => item.id));
 
-  if (kind === "atc") {
-    data.relationships.drug_atc.filter((item) => atcIds.has(item.atc_code_id)).forEach((item) => drugIds.add(item.drug_id));
-  }
-  if (kind === "drug") {
-    data.relationships.drug_atc.filter((item) => drugIds.has(item.drug_id)).forEach((item) => atcIds.add(item.atc_code_id));
-  }
+  if (kind === "atc") data.relationships.drug_atc.filter((item) => atcIds.has(item.atc_code_id)).forEach((item) => drugIds.add(item.drug_id));
+  if (kind === "drug") data.relationships.drug_atc.filter((item) => drugIds.has(item.drug_id)).forEach((item) => atcIds.add(item.atc_code_id));
 
   const atcCodes = data.atc.filter((item) => atcIds.has(item.id) || (kind === "atc" && item.code.toLowerCase().startsWith(lowered)));
   const drugs = data.drugs.filter((item) => drugIds.has(item.id) || (kind === "drug" && item.name.toLowerCase().includes(lowered)));
@@ -168,10 +129,8 @@ function buildRelationship(
 
   const alerts = data.alerts.filter((alert) => {
     if (kind === "alert") return String(alert.id) === lowered || `${alert.title} ${alert.summary ?? ""}`.toLowerCase().includes(lowered);
-    return (
-      `${alert.title} ${alert.summary ?? ""} ${alert.raw_text ?? ""}`.toLowerCase().includes(lowered) ||
-      data.relationships.alert_drugs.some((link) => link.alert_id === alert.id && ((link.drug_id && drugIds.has(link.drug_id)) || (link.atc_code_id && atcIds.has(link.atc_code_id))))
-    );
+    return `${alert.title} ${alert.summary ?? ""} ${alert.raw_text ?? ""}`.toLowerCase().includes(lowered) ||
+      data.relationships.alert_drugs.some((link) => link.alert_id === alert.id && ((link.drug_id && drugIds.has(link.drug_id)) || (link.atc_code_id && atcIds.has(link.atc_code_id))));
   });
 
   const consumption = data.consumption.filter((record) => {
@@ -187,17 +146,8 @@ function buildRelationship(
   const sourceIds = new Set([
     ...alerts.map((item) => item.source_id),
     ...consumption.map((item) => item.source_id),
-    ...studies.map((item) => item.source_id).filter((id): id is number => typeof id === "number")
+    ...studies.map((item) => item.source_id).filter((id): id is number => typeof id === "number"),
   ]);
 
-  return {
-    query,
-    drugs,
-    atc_codes: atcCodes,
-    alerts,
-    consumption,
-    studies,
-    sources: data.sources.filter((source) => sourceIds.has(source.id))
-  };
+  return { query, drugs, atc_codes: atcCodes, alerts, consumption, studies, sources: data.sources.filter((source) => sourceIds.has(source.id)) };
 }
-
