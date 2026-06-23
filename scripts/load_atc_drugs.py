@@ -6,11 +6,11 @@ ROOT = Path(__file__).resolve().parents[1]
 BACKEND = ROOT / "backend"
 sys.path.insert(0, str(BACKEND))
 
-from app.db.init_db import create_db
-from app.db.session import SessionLocal
-from app.repositories.ingestion import get_or_create_atc, get_or_create_drug, link_drug_to_atc
-from app.scrapers.who_atc import get_embedded_atc_codes, EMBEDDED_ATC_NAMES
-from app.normalizers.safety_alerts import KNOWN_ACTIVE_INGREDIENTS, KNOWN_DRUG_NAMES
+from app.db.init_db import create_db  # noqa: E402
+from app.db.session import SessionLocal  # noqa: E402
+from app.normalizers.safety_alerts import KNOWN_ACTIVE_INGREDIENTS, KNOWN_DRUG_NAMES  # noqa: E402
+from app.repositories.ingestion import get_or_create_atc, get_or_create_drug, link_drug_to_atc  # noqa: E402
+from app.scrapers.who_atc import EMBEDDED_ATC_NAMES, get_embedded_atc_codes  # noqa: E402
 
 create_db()
 

@@ -1,5 +1,4 @@
 from dataclasses import dataclass
-from datetime import date
 from statistics import mean
 from typing import Any
 

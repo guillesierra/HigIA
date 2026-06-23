@@ -1,13 +1,11 @@
 from __future__ import annotations
 
-from copy import deepcopy
-from datetime import datetime
 import re
 from typing import Any
 
 from bs4 import BeautifulSoup
 
-from app.normalizers.text import clean_text, normalize_name
+from app.normalizers.text import clean_text
 from app.scrapers.base import BaseScraper, ScrapedResource
 
 

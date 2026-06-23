@@ -1,7 +1,6 @@
 from collections import defaultdict
 from datetime import date
-from decimal import Decimal
-from statistics import mean, median, stdev
+from statistics import median, stdev
 from typing import Annotated
 
 from fastapi import APIRouter, Depends, HTTPException, Query
@@ -22,7 +21,7 @@ from app.schemas.domain import (
     SourceRead,
     StudyDocumentRead,
 )
-from app.services.comparison import compare_consumption_before_after_alert, geographies_around_alert, time_series_around_alert
+from app.services.comparison import compare_consumption_before_after_alert
 from app.services.relationships import relationship_for_alert, relationship_for_atc, relationship_for_drug
 from app.validators.report import ValidationReportGenerator
 

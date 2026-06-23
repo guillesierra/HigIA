@@ -1,18 +1,28 @@
 """Full scrape of ALL hospital consumption data 2017-2026."""
-import sys, json, re
-from pathlib import Path
+import json
+import re
+import sys
 from datetime import datetime, timezone
+from pathlib import Path
+
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "backend"))
 
 from bs4 import BeautifulSoup
-from app.scrapers.base import BaseScraper
+from app.scrapers.base import BaseScraper  # noqa: E402
 
 BASE = "https://www.sanidad.gob.es"
 
+
 class Crawler(BaseScraper):
-    source_name = "c"; base_url = BASE; start_url = ""
-    raw_subdir = "hospital_full"; parser_version = "c"
-    def parse(self, limit=10, **kw): return []
+    source_name = "c"
+    base_url = BASE
+    start_url = ""
+    raw_subdir = "hospital_full"
+    parser_version = "c"
+
+    def parse(self, limit=10, **kw):
+        return []
+
 
 crawler = Crawler(delay_seconds=0.15, verify_ssl=False)
 
@@ -47,10 +57,13 @@ def parse_ccaa(raw):
     return None
 
 def clean_num(s):
-    if not s: return None
+    if not s:
+        return None
     s = str(s).strip().replace(".", "").replace(",", ".")
-    try: return float(s)
-    except: return None
+    try:
+        return float(s)
+    except ValueError:
+        return None
 
 records = []
 total_pages = 0
@@ -98,9 +111,11 @@ for year in range(2017, 2027):
 
                 if monthly is not None and monthly > 0:
                     notes_parts = []
-                    if accumulated is not None: notes_parts.append(f"Acum: {accumulated}")
-                    if interannual is not None: notes_parts.append(f"Interanual: {interannual}")
-                    
+                    if accumulated is not None:
+                        notes_parts.append(f"Acum: {accumulated}")
+                    if interannual is not None:
+                        notes_parts.append(f"Interanual: {interannual}")
+
                     records.append({
                         "record_type": "consumption",
                         "source_name": "Ministerio de Sanidad - Consumo hospitalario SNS",

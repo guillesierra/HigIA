@@ -999,15 +999,6 @@
     "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
   },
   {
-    "id": 112,
-    "name": "PRAN - Patrones consumo extrahospitalario",
-    "url": "https://www.resistenciaantibioticos.es/",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T19:47:01.576705",
-    "notes": "Created from normalized scraper output. Parser: representative-0.4"
-  },
-  {
     "id": 113,
     "name": "AEMPS medicine safety notes",
     "url": "https://www.aemps.gob.es/comunicacion/notas-de-seguridad/notas-informativas-de-seguridad-de-medicamentos-de-uso-humano/",

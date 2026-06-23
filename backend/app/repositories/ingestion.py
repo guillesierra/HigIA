@@ -14,7 +14,6 @@ from app.models.domain import (
     SafetyAlert,
     Source,
     StudyDocument,
-    StudyDrug,
 )
 from app.normalizers.safety_alerts import (
     KNOWN_ATC_CODES,

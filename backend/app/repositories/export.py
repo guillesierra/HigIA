@@ -1,9 +1,7 @@
-from collections import defaultdict
 from datetime import date, datetime
 from decimal import Decimal
 import json
 from pathlib import Path
-from statistics import mean
 from typing import Any
 
 from sqlalchemy import func, select

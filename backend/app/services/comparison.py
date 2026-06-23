@@ -1,5 +1,4 @@
 from collections import defaultdict
-from decimal import Decimal
 from statistics import mean
 from typing import Any
 

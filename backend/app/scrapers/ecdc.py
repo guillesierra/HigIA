@@ -1,13 +1,8 @@
 from __future__ import annotations
 
-from datetime import datetime
-import re
 from typing import Any
-from urllib.parse import urljoin
 
-from bs4 import BeautifulSoup
-
-from app.normalizers.text import clean_text, extract_year, infer_geography
+from app.normalizers.text import clean_text
 from app.scrapers.base import BaseScraper, ScrapedResource
 from app.scrapers.tabular import DATASET_EXTENSIONS, discover_links, html_tables_to_dataframes, relevant_dataset_links, rows_to_jsonable
 from app.normalizers.consumption import normalize_consumption_dataframe
@@ -88,7 +83,6 @@ class EuropeAntimicrobialScraper(BaseScraper):
                                 parser_version=self.parser_version,
                             )
                         )
-                soup = BeautifulSoup(page.text, "html.parser")
                 for table_idx, frame in enumerate(html_tables_to_dataframes(page.text), start=1):
                     if frame.shape[0] < 2:
                         continue

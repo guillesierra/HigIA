@@ -18,6 +18,7 @@ data/*.sqlite
 data/*.sqlite3
 data/higia.sqlite
 data/raw/**/*.html
+data/raw/**/*.htm
 data/raw/**/*.pdf
 data/raw/**/*.xlsx
 data/raw/**/*.xls

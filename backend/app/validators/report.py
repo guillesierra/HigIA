@@ -7,7 +7,7 @@ from pathlib import Path
 from statistics import mean, median, stdev
 from typing import Any
 
-from app.normalizers.text import clean_text, normalize_name
+from app.normalizers.text import normalize_name
 
 
 METADATA_ROOT = Path(__file__).resolve().parents[3] / "data" / "metadata"
