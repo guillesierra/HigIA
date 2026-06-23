@@ -17,6 +17,9 @@ npm-debug.log*
 data/*.sqlite
 data/*.sqlite3
 data/higia.sqlite
+data/raw/**
+!data/raw/
+!data/raw/.gitkeep
 data/raw/**/*.html
 data/raw/**/*.htm
 data/raw/**/*.pdf

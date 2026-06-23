@@ -6,6 +6,7 @@ import requests
 from app.scrapers.aemps import AempsSafetyAlertsScraper
 from app.scrapers.asturias import AsturiasPublicDocsScraper
 from app.scrapers.base import BaseScraper, FetchResult, ScrapedResource
+from app.scrapers.pran import PranAntibioticsScraper
 from app.scrapers.sanidad import SanidadConsumptionScraper
 from app.scrapers.universities import SpanishUniversityPublicationsScraper
 
@@ -78,6 +79,51 @@ def test_sanidad_normalize_missing_columns_from_csv(tmp_path: Path) -> None:
     assert rows[0]["record_type"] == "consumption"
     assert rows[0]["year"] == 2024
     assert rows[0]["atc_code"] is None
+
+
+def test_pran_powerbi_querydata_normalizes_dhd_rows() -> None:
+    scraper = PranAntibioticsScraper(delay_seconds=0, respect_robots=False)
+    querydata = """
+    {
+      "results": [{
+        "result": {
+          "data": {
+            "dsr": {
+              "DS": [{
+                "PH": [{
+                  "DM0": [{
+                    "S": [{"N": "G0"}, {"N": "M0"}, {"N": "M1"}, {"N": "M2"}, {"N": "M3"}, {"N": "M4"}],
+                    "C": [2024, "16.50", "6.30", "22.80", "0.88", "15.62"]
+                  }]
+                }]
+              }]
+            }
+          }
+        }
+      }]
+    }
+    """
+    resource = ScrapedResource(
+        source_name=scraper.source_name,
+        source_url="https://www.resistenciaantibioticos.es/pran",
+        resource_type="powerbi_querydata",
+        title="PRAN J01 community antibiotic consumption DHD",
+        url="https://wabi-north-europe-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+        accessed_at=datetime.utcnow(),
+        raw_path="raw/pran-query.json",
+        content_text=querydata,
+        parser_version=scraper.parser_version,
+    )
+
+    rows = scraper.normalize([resource])
+
+    assert len(rows) == 5
+    global_row = next(row for row in rows if row["category"] == "Global comunitario")
+    assert global_row["record_type"] == "consumption"
+    assert global_row["year"] == 2024
+    assert global_row["atc_code"] == "J01"
+    assert global_row["dhd"] == "22.80"
+    assert global_row["unit"] == "DHD"
 
 
 class TmpBaseScraper(BaseScraper):

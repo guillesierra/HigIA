@@ -364,23 +364,46 @@ def _persist_normalized_consumption(db: Session, source: Source, record: dict[st
     year = _to_int(record.get("year"))
     if year is None:
         return False
+    source_url = _none(record.get("source_url"))
+    parser_version = _none(record.get("parser_version"))
+    month = _to_int(record.get("month"))
+    geography = str(record.get("geography") or "Spain")
+    sector = _none(record.get("sector"))
+    category = _none(record.get("category"))
+    atc_code = _none(record.get("atc_code"))
+    drug_name = _none(record.get("drug_name"))
+    existing = db.scalar(
+        select(ConsumptionRecord).where(
+            ConsumptionRecord.source_url == source_url,
+            ConsumptionRecord.parser_version == parser_version,
+            ConsumptionRecord.year == year,
+            ConsumptionRecord.month == month,
+            ConsumptionRecord.geography == geography,
+            ConsumptionRecord.sector == sector,
+            ConsumptionRecord.category == category,
+            ConsumptionRecord.atc_code == atc_code,
+            ConsumptionRecord.drug_name == drug_name,
+        )
+    )
+    if existing:
+        return False
     db.add(
         ConsumptionRecord(
             source_id=source.id,
             source_name=_none(record.get("source_name")),
-            source_url=_none(record.get("source_url")),
+            source_url=source_url,
             accessed_at=_parse_datetime(record.get("accessed_at")),
             raw_file_path=_none(record.get("raw_file_path")),
-            parser_version=_none(record.get("parser_version")),
+            parser_version=parser_version,
             year=year,
-            month=_to_int(record.get("month")),
-            geography=str(record.get("geography") or "Spain"),
+            month=month,
+            geography=geography,
             geography_type=str(record.get("geography_type") or "country"),
             population_group=_none(record.get("population_group")),
-            sector=_none(record.get("sector")),
-            category=_none(record.get("category")),
-            atc_code=_none(record.get("atc_code")),
-            drug_name=_none(record.get("drug_name")),
+            sector=sector,
+            category=category,
+            atc_code=atc_code,
+            drug_name=drug_name,
             active_ingredient=_none(record.get("active_ingredient")),
             packages=_to_decimal(record.get("packages")),
             ddd=_to_decimal(record.get("ddd")),

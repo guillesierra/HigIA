@@ -1,14 +1,14 @@
 {
   "counts": {
-    "sources": 132,
-    "alerts": 43,
-    "consumption_records": 2694,
+    "sources": 155,
+    "alerts": 44,
+    "consumption_records": 2749,
     "studies": 16,
-    "drugs": 541,
-    "atc_codes": 89
+    "drugs": 118,
+    "atc_codes": 35
   },
   "year_range": {
-    "min": 2017,
+    "min": 2014,
     "max": 2026
   },
   "top_geographies": [
@@ -72,6 +72,10 @@
     },
     {
       "year": 2019,
+      "count": 1
+    },
+    {
+      "year": 2021,
       "count": 1
     },
     {
@@ -187,5 +191,5 @@
       "count": 1
     }
   ],
-  "generated_at": "2026-06-23T19:54:38.690587"
+  "generated_at": "2026-06-23T20:26:59.873105"
 }
