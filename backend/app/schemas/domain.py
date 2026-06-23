@@ -1,4 +1,7 @@
-from datetime import date, datetime
+from __future__ import annotations
+
+from datetime import date as DateType
+from datetime import datetime
 from decimal import Decimal
 
 from pydantic import BaseModel, ConfigDict, Field
@@ -49,7 +52,7 @@ class ATCCodeRead(ATCCodeBase, ORMModel):
 class SafetyAlertBase(BaseModel):
     source_id: int
     title: str
-    date: date | None = None
+    date: DateType | None = None
     url: str
     organization: str | None = None
     alert_type: str | None = None
@@ -103,8 +106,8 @@ class StudyDocumentBase(BaseModel):
     url: str | None = None
     document_type: str | None = None
     geography: str | None = None
-    period_start: date | None = None
-    period_end: date | None = None
+    period_start: DateType | None = None
+    period_end: DateType | None = None
     summary: str | None = None
     conclusions: str | None = None
     pending_work: str | None = None
