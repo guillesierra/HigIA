@@ -65,8 +65,21 @@ This file records initial public sources considered by HigIA. Every ingested rec
   - https://digibuo.uniovi.es/dspace/bitstream/handle/10651/13462/TD_pedrojavierguerrero.pdf?isAllowed=y&sequence=2
   - https://digibuo.uniovi.es/dspace/bitstream/handle/10651/72580/2024_025_TD_PilarLumbrerasIglesias.pdf?isAllowed=y&sequence=1
 - Other Spanish university seed URLs:
+  - https://eprints.ucm.es/
   - https://eprints.ucm.es/51527/
   - https://repositorio.uam.es/
+  - https://ddd.uab.cat/
+  - https://repositori.upf.edu/
+  - https://upcommons.upc.edu/
+  - https://digibug.ugr.es/
+  - https://e-archivo.uc3m.es/
+  - https://dadun.unav.edu/
+  - https://addi.ehu.es/
+  - https://roderic.uv.es/
+  - https://gredos.usal.es/
+  - https://minerva.usc.gal/
+  - https://rua.ua.es/
+  - https://riuma.uma.es/
   - https://idus.us.es/
   - https://riunet.upv.es/
   - https://digitum.um.es/
