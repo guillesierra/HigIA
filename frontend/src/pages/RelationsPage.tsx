@@ -11,7 +11,7 @@ import type { RelationshipResponse, SafetyAlert } from "../types/domain";
 
 export function RelationsPage() {
   const [kind, setKind] = useState<"drug" | "atc" | "alert">("drug");
-  const [query, setQuery] = useState("amoxicillin");
+  const [query, setQuery] = useState("");
   const [result, setResult] = useState<RelationshipResponse | null>(null);
   const [selectedAlert, setSelectedAlert] = useState<SafetyAlert | null>(null);
   const [loading, setLoading] = useState(false);
@@ -85,4 +85,3 @@ export function RelationsPage() {
     </div>
   );
 }
-

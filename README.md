@@ -35,6 +35,14 @@ uvicorn app.main:app --reload
 
 The API will be available at `http://127.0.0.1:8000`.
 
+`seed_db.py` only creates the database schema. It does not insert demo records; publishable data should come from scrapers or reviewed public documents.
+
+To remove legacy demo rows from an existing local SQLite database:
+
+```powershell
+python ..\scripts\purge_demo_data.py
+```
+
 ### Frontend
 
 ```powershell
@@ -63,6 +71,18 @@ python scripts\run_scrapers.py --source asturias --limit 20
 python scripts\run_scrapers.py --source universities --limit 20
 python scripts\run_scrapers.py --source manual --limit 20
 ```
+
+If Windows, a corporate network, or a public repository with a misconfigured certificate returns
+`CERTIFICATE_VERIFY_FAILED`, keep the normal mode as the default and rerun only when needed with:
+
+```powershell
+python scripts\run_scrapers.py --source universities --limit 50 --persist --timeout 8 --allow-insecure-ssl
+```
+
+The insecure SSL flag is explicit because it disables certificate verification for scraping requests.
+It still checks `robots.txt`, keeps the project `User-Agent`, saves raw data, and logs source errors.
+When SSL validation is enabled and a host fails certificate verification, the scraper records the
+error once and skips later URLs from that same origin quickly.
 
 If a public source changes, the run records an error row and continues with other records/sources. Scrapers do not invent unavailable fields; pages or PDFs without structured data are stored as documents with basic metadata and pending-review notes.
 
@@ -111,7 +131,7 @@ This repository includes:
 - Normalizers for text, alert records, consumption dataframes, and PDFs.
 - React pages for sources, alerts, consumption, relations, Asturias, and methodology.
 - ECharts visualizations.
-- Demo seed data for local development.
+- Empty-by-default database initialization; runtime data is populated only from public-source scrapers or reviewed imports.
 - Basic backend tests.
 
 ## Limitations

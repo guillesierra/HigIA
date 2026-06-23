@@ -3,7 +3,7 @@
 ## MVP
 
 - Scaffold backend, frontend, scripts, and docs.
-- Seed demo data for local development.
+- Keep runtime data real-only: empty schema by default, then populate from public-source scrapers.
 - Implement conservative scrapers that discover and store public links/documents.
 - Export public JSON for GitHub Pages.
 - Display sources, alerts, consumption charts, relations, Asturias documentation, and methodology.
@@ -22,4 +22,3 @@
 - Deploy backend to Render, Fly.io, Railway, or a VPS.
 - Add scheduled GitHub Actions for public-source refreshes if source terms permit it.
 - Add OpenAPI client generation for the frontend.
-
