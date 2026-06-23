@@ -1,0 +1,182 @@
+[
+  {
+    "entity_a": "Aragon|J01C",
+    "entity_b": "Spain|J01CR",
+    "correlation": -1.0,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Andalucia|J01CR",
+    "entity_b": "Pais Vasco|J01CR",
+    "correlation": 1.0,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Aragon|J01C",
+    "entity_b": "Spain|J01C",
+    "correlation": 0.9999,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Aragon|J01C",
+    "entity_b": "La Rioja|J01CR",
+    "correlation": -0.9999,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Aragon|J01C",
+    "entity_b": "Navarra|J01CR",
+    "correlation": -0.9999,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Castilla-La Mancha|J01C",
+    "entity_b": "Canarias|J01CR",
+    "correlation": -0.9999,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Castilla-La Mancha|J01C",
+    "entity_b": "Pais Vasco|J01CR",
+    "correlation": -0.9999,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Galicia|J01C",
+    "entity_b": "Cataluna|J01CR",
+    "correlation": -0.9999,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Illes Balears|J01C",
+    "entity_b": "Region de Murcia|J01CR",
+    "correlation": -0.9999,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Navarra|J01C",
+    "entity_b": "Spain|J01M",
+    "correlation": 0.9999,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Region de Murcia|J01C",
+    "entity_b": "Galicia|J01CR",
+    "correlation": -0.9999,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Spain|J01C",
+    "entity_b": "Aragon|J01CR",
+    "correlation": -0.9999,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Spain|J01C",
+    "entity_b": "Comunidad de Madrid|J01CR",
+    "correlation": -0.9999,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Spain|J01C",
+    "entity_b": "Navarra|J01CR",
+    "correlation": -0.9999,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Spain|J01C",
+    "entity_b": "Spain|J01CR",
+    "correlation": -0.9999,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Canarias|J01CR",
+    "entity_b": "Spain|J01CR",
+    "correlation": 0.9999,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Spain|J01CR",
+    "entity_b": "Comunitat Valenciana|J01M",
+    "correlation": -0.9999,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Andalucia|J01C",
+    "entity_b": "Andalucia|J01CR",
+    "correlation": -0.9998,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Andalucia|J01C",
+    "entity_b": "Comunidad de Madrid|J01CR",
+    "correlation": -0.9998,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Andalucia|J01C",
+    "entity_b": "Melilla|J01CR",
+    "correlation": -0.9998,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Andalucia|J01C",
+    "entity_b": "Pais Vasco|J01CR",
+    "correlation": -0.9998,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Andalucia|J01C",
+    "entity_b": "Spain|J01M",
+    "correlation": 0.9998,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Aragon|J01C",
+    "entity_b": "Galicia|J01C",
+    "correlation": 0.9998,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Aragon|J01C",
+    "entity_b": "Canarias|J01CR",
+    "correlation": -0.9998,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Aragon|J01C",
+    "entity_b": "Ceuta|J01CR",
+    "correlation": -0.9998,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Aragon|J01C",
+    "entity_b": "Extremadura|J01CR",
+    "correlation": -0.9998,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Aragon|J01C",
+    "entity_b": "Galicia|J01CR",
+    "correlation": -0.9998,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Aragon|J01C",
+    "entity_b": "Comunitat Valenciana|J01M",
+    "correlation": 0.9998,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Asturias|J01C",
+    "entity_b": "Illes Balears|J01C",
+    "correlation": 0.9998,
+    "common_years": 10
+  },
+  {
+    "entity_a": "Cantabria|J01C",
+    "entity_b": "Extremadura|J01CR",
+    "correlation": -0.9998,
+    "common_years": 10
+  }
+]
