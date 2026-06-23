@@ -1,4 +1,4 @@
-import { Activity, AlertTriangle, BarChart3, Database, GitBranch, MapPinned, TrendingDown, TrendingUp } from "lucide-react";
+import { Activity, AlertTriangle, BarChart3, Database, ExternalLink, GitBranch, MapPinned, TrendingDown, TrendingUp } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { AlertsByYearChart } from "../charts/AlertsByYearChart";
 import { HeatmapChart } from "../charts/HeatmapChart";
@@ -10,6 +10,7 @@ import { formatEntityKey } from "../services/labels";
 import type { ConsumptionRecord, ExportSummary, SafetyAlert, Source, StudyDocument, TrendResult } from "../types/domain";
 
 type HomePageProps = { onNavigate?: (route: string) => void };
+type SourceGroup = Source & { urlCount: number };
 
 export function HomePage({ onNavigate }: HomePageProps) {
   const [sources, setSources] = useState<Source[]>([]);
@@ -60,9 +61,29 @@ export function HomePage({ onNavigate }: HomePageProps) {
     return results;
   }, [consumption]);
 
+  const sourceGroups = useMemo(() => {
+    const grouped = new Map<string, SourceGroup>();
+    sources.forEach((source) => {
+      const key = `${source.name}|${source.source_type}`;
+      const current = grouped.get(key);
+      if (!current) {
+        grouped.set(key, { ...source, urlCount: 1 });
+        return;
+      }
+      current.urlCount += 1;
+      if (new Date(source.accessed_at).getTime() > new Date(current.accessed_at).getTime()) {
+        current.accessed_at = source.accessed_at;
+        current.url = source.url;
+        current.status = source.status;
+        current.notes = source.notes;
+      }
+    });
+    return [...grouped.values()].sort((a, b) => b.urlCount - a.urlCount || a.name.localeCompare(b.name));
+  }, [sources]);
+
   if (loading) return <LoadingState />;
 
-  const officialSources = sources.filter((s) => s.source_type.includes("official")).length;
+  const officialSources = sourceGroups.filter((s) => s.source_type.includes("official")).length;
   const geographies = new Set(consumption.map((r) => r.geography)).size;
   const atcCodes = new Set(consumption.map((r) => r.atc_code).filter(Boolean)).size;
   const increasing = trends.filter((t) => t.trend_direction === "increasing").length;
@@ -85,7 +106,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
 
       <MetricStrip
         metrics={[
-          { label: "Fuentes de datos", value: sources.length, tone: "teal" },
+          { label: "Fuentes de datos", value: sourceGroups.length, tone: "teal" },
           { label: "Fuentes oficiales", value: officialSources, tone: "ink" },
           { label: "Alertas", value: alerts.length, tone: "rust" },
           { label: "Territorios", value: geographies, tone: "teal" },
@@ -174,10 +195,16 @@ export function HomePage({ onNavigate }: HomePageProps) {
       <section className="panel">
         <div className="panel-heading"><h2>Resumen de fuentes de datos</h2></div>
         <div className="source-summary">
-          {sources.slice(0, 6).map((source) => (
-            <div key={source.id}>
+          {sourceGroups.slice(0, 6).map((source) => (
+            <div key={`${source.name}-${source.source_type}`}>
               <strong>{source.name}</strong>
-              <span>{source.source_type}</span>
+              <span>{formatSourceType(source.source_type)}</span>
+              <span>{source.urlCount === 1 ? "1 URL trazada" : `${source.urlCount} URLs trazadas`}</span>
+              <span>Ultimo acceso: {formatDate(source.accessed_at)}</span>
+              <a className="source-summary-link" href={source.url} target="_blank" rel="noreferrer" title={source.url}>
+                <ExternalLink size={14} />
+                <span>abrir referencia</span>
+              </a>
             </div>
           ))}
         </div>
@@ -196,4 +223,18 @@ export function HomePage({ onNavigate }: HomePageProps) {
       )}
     </div>
   );
+}
+
+function formatDate(value: string) {
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? value : date.toLocaleDateString();
+}
+
+function formatSourceType(value: string) {
+  const labels: Record<string, string> = {
+    official_web: "Web oficial",
+    dataset: "Dataset publico",
+    repository: "Repositorio publico",
+  };
+  return labels[value] ?? value.replace(/_/g, " ");
 }

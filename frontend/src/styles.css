@@ -430,12 +430,12 @@ tr:last-child td {
 
 .source-summary {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 12px;
 }
 
 .source-summary div {
-  min-height: 72px;
+  min-height: 128px;
   border: 1px solid #e2e7e2;
   border-radius: 8px;
   padding: 12px;
@@ -451,6 +451,20 @@ tr:last-child td {
   margin-top: 6px;
   color: #647179;
   font-size: 13px;
+}
+
+.source-summary-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.source-summary-link span {
+  display: inline;
+  margin-top: 0;
+  color: inherit;
 }
 
 .study-list {
@@ -624,6 +638,10 @@ tr:last-child td {
     flex: 0 0 auto;
   }
 
+  .source-summary {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .filter-panel {
     flex-direction: column;
   }
@@ -653,6 +671,10 @@ tr:last-child td {
 
   .metric strong {
     font-size: 24px;
+  }
+
+  .source-summary {
+    grid-template-columns: 1fr;
   }
 }
 
