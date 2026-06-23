@@ -5,9 +5,25 @@ from typing import Any
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
-from app.models.domain import ConsumptionRecord, SafetyAlert, Source, StudyDocument
-from app.normalizers.safety_alerts import normalize_alert_record
-from app.normalizers.text import parse_date
+from app.models.domain import (
+    ATCCode,
+    AlertDrug,
+    ConsumptionRecord,
+    Drug,
+    DrugATC,
+    SafetyAlert,
+    Source,
+    StudyDocument,
+    StudyDrug,
+)
+from app.normalizers.safety_alerts import (
+    KNOWN_ATC_CODES,
+    detect_atc_codes,
+    detect_known_ingredients,
+    detect_possible_drug_names,
+    normalize_alert_record,
+)
+from app.normalizers.text import normalize_name, parse_date
 from app.scrapers.base import ScrapedResource
 
 
@@ -27,6 +43,114 @@ def get_or_create_source(db: Session, resource: ScrapedResource) -> Source:
     db.add(source)
     db.flush()
     return source
+
+
+def get_or_create_drug(db: Session, name: str, active_ingredient: str | None = None) -> Drug:
+    normalized = normalize_name(name)
+    if not normalized:
+        normalized = normalize_name(name)
+    existing = db.scalar(select(Drug).where(Drug.normalized_name == normalized))
+    if existing:
+        if active_ingredient and not existing.active_ingredient:
+            existing.active_ingredient = active_ingredient
+            db.flush()
+        return existing
+    drug = Drug(
+        name=name,
+        active_ingredient=active_ingredient,
+        normalized_name=normalized,
+    )
+    db.add(drug)
+    db.flush()
+    return drug
+
+
+def get_or_create_atc(db: Session, code: str, name: str = "") -> ATCCode | None:
+    if not code or len(code) < 3:
+        return None
+    existing = db.scalar(select(ATCCode).where(ATCCode.code == code))
+    if existing:
+        return existing
+    atc = ATCCode(
+        code=code,
+        name=name or KNOWN_ATC_CODES.get(code, code),
+        level=1 + sum(1 for ch in code if ch.isalpha()),
+        parent_code=code[:-1] if len(code) > 1 and code[-1].isalpha() else (code[:-2] if len(code) > 2 else None),
+    )
+    db.add(atc)
+    try:
+        db.flush()
+    except Exception:
+        db.rollback()
+        return db.scalar(select(ATCCode).where(ATCCode.code == code))
+    return atc
+
+
+def link_drug_to_atc(db: Session, drug: Drug, atc_code: str) -> None:
+    atc = get_or_create_atc(db, atc_code)
+    if not atc:
+        return
+    existing = db.scalar(
+        select(DrugATC).where(DrugATC.drug_id == drug.id, DrugATC.atc_code_id == atc.id)
+    )
+    if not existing:
+        db.add(DrugATC(drug_id=drug.id, atc_code_id=atc.id))
+        db.flush()
+
+
+def link_alert_to_drug(db: Session, alert_id: int, drug: Drug) -> None:
+    existing = db.scalar(
+        select(AlertDrug).where(AlertDrug.alert_id == alert_id, AlertDrug.drug_id == drug.id)
+    )
+    if not existing:
+        db.add(AlertDrug(alert_id=alert_id, drug_id=drug.id, atc_code_id=None))
+        db.flush()
+
+
+def link_alert_to_atc(db: Session, alert_id: int, atc_code: str) -> None:
+    atc = get_or_create_atc(db, atc_code)
+    if not atc:
+        return
+    existing = db.scalar(
+        select(AlertDrug).where(AlertDrug.alert_id == alert_id, AlertDrug.atc_code_id == atc.id)
+    )
+    if not existing:
+        db.add(AlertDrug(alert_id=alert_id, drug_id=None, atc_code_id=atc.id))
+        db.flush()
+
+
+def _auto_link_alert(db: Session, alert_id: int, raw_text: str | None) -> None:
+    if not raw_text:
+        return
+    text = str(raw_text)
+    atc_codes = detect_atc_codes(text)
+    for code in atc_codes:
+        link_alert_to_atc(db, alert_id, code)
+    ingredients = detect_known_ingredients(text)
+    for ingredient in ingredients:
+        drug = get_or_create_drug(db, ingredient, ingredient)
+        link_alert_to_drug(db, alert_id, drug)
+    drug_names = detect_possible_drug_names(text)
+    for dname in drug_names[:10]:
+        drug = get_or_create_drug(db, dname, None)
+        link_alert_to_drug(db, alert_id, drug)
+    for code in atc_codes:
+        name = KNOWN_ATC_CODES.get(code)
+        if name:
+            drug = get_or_create_drug(db, name, name)
+            link_alert_to_drug(db, alert_id, drug)
+            link_drug_to_atc(db, drug, code)
+
+
+def _auto_link_consumption(db: Session, record: dict[str, Any]) -> None:
+    drug_name = str(record.get("drug_name") or "")
+    active_ingredient = str(record.get("active_ingredient") or "")
+    atc_code = str(record.get("atc_code") or "")
+    if drug_name or active_ingredient:
+        dname = drug_name or active_ingredient
+        drug = get_or_create_drug(db, dname, active_ingredient or None)
+        if atc_code:
+            link_drug_to_atc(db, drug, atc_code)
 
 
 def persist_resources(db: Session, resources: list[ScrapedResource]) -> dict[str, int]:
@@ -63,17 +187,18 @@ def _persist_alert(db: Session, source: Source, resource: ScrapedResource) -> No
             "raw_text": resource.content_text,
         }
     )
-    db.add(
-        SafetyAlert(
-            source_id=source.id,
-            source_name=resource.source_name,
-            source_url=resource.source_url,
-            accessed_at=resource.accessed_at,
-            raw_file_path=resource.raw_path,
-            parser_version=resource.parser_version,
-            **normalized,
-        )
+    alert = SafetyAlert(
+        source_id=source.id,
+        source_name=resource.source_name,
+        source_url=resource.source_url,
+        accessed_at=resource.accessed_at,
+        raw_file_path=resource.raw_path,
+        parser_version=resource.parser_version,
+        **normalized,
     )
+    db.add(alert)
+    db.flush()
+    _auto_link_alert(db, alert.id, resource.content_text or str(metadata.get("row_text", "")))
 
 
 def _persist_study_or_document(db: Session, source: Source, resource: ScrapedResource) -> None:
@@ -113,11 +238,59 @@ def _pending_work(resource: ScrapedResource, metadata: dict[str, object]) -> str
     return "Review license and extraction quality before publishing."
 
 
+def _fuzzy_duplicate_score(title_a: str, title_b: str) -> float:
+    na = normalize_name(title_a)
+    nb = normalize_name(title_b)
+    if not na or not nb:
+        return 0.0
+    set_a = set(na.split())
+    set_b = set(nb.split())
+    if not set_a or not set_b:
+        return 0.0
+    return len(set_a & set_b) / len(set_a | set_b)
+
+
+def _check_alert_duplicate(db: Session, title: str, url: str) -> bool:
+    if url:
+        existing = db.scalar(select(SafetyAlert).where(SafetyAlert.url == url))
+        if existing:
+            return True
+    if not title:
+        return False
+    recent_alerts = db.scalars(
+        select(SafetyAlert)
+        .order_by(SafetyAlert.date.desc())
+        .limit(200)
+    ).all()
+    for alert in recent_alerts:
+        if _fuzzy_duplicate_score(title, alert.title) > 0.85:
+            return True
+    return False
+
+
+def _check_study_duplicate(db: Session, title: str, url: str) -> bool:
+    if url:
+        existing = db.scalar(select(StudyDocument).where(StudyDocument.url == url))
+        if existing:
+            return True
+    if not title:
+        return False
+    recent = db.scalars(
+        select(StudyDocument)
+        .order_by(StudyDocument.year.desc())
+        .limit(200)
+    ).all()
+    for doc in recent:
+        if _fuzzy_duplicate_score(title, doc.title) > 0.85:
+            return True
+    return False
+
+
 def persist_normalized_records(db: Session, records: list[dict[str, Any]]) -> dict[str, int]:
-    counts = {"sources": 0, "alerts": 0, "consumption": 0, "studies": 0, "errors": 0}
+    counts = {"sources": 0, "alerts": 0, "consumption": 0, "studies": 0, "errors": 0, "drugs_linked": 0, "atc_linked": 0}
     for record in records:
         record_type = str(record.get("record_type") or "")
-        if record_type == "error" or record_type == "source_error":
+        if record_type in {"error", "source_error"}:
             counts["errors"] += 1
             continue
         source = get_or_create_source_from_record(db, record)
@@ -128,6 +301,13 @@ def persist_normalized_records(db: Session, records: list[dict[str, Any]]) -> di
         elif record_type == "consumption":
             if _persist_normalized_consumption(db, source, record):
                 counts["consumption"] += 1
+                _auto_link_consumption(db, record)
+                counts["drugs_linked"] += 1
+        elif record_type == "atc_code":
+            code = str(record.get("code", ""))
+            name = str(record.get("name", ""))
+            if code and get_or_create_atc(db, code, name):
+                counts["atc_linked"] += 1
         elif record_type in {"study_document", "document", "source_page", "dataset_link", "html_tables"}:
             if _persist_normalized_study(db, source, record):
                 counts["studies"] += 1
@@ -157,25 +337,27 @@ def get_or_create_source_from_record(db: Session, record: dict[str, Any]) -> Sou
 
 def _persist_normalized_alert(db: Session, source: Source, record: dict[str, Any]) -> bool:
     url = str(record.get("url") or "")
-    if not url or db.scalar(select(SafetyAlert).where(SafetyAlert.url == url)):
+    title = str(record.get("title") or "")
+    if not url or _check_alert_duplicate(db, title, url):
         return False
-    db.add(
-        SafetyAlert(
-            source_id=source.id,
-            title=str(record.get("title") or ""),
-            date=_parse_date(record.get("date")),
-            url=url,
-            organization=_none(record.get("organization")),
-            alert_type=_none(record.get("alert_type")),
-            summary=_none(record.get("summary")),
-            raw_text=_none(record.get("raw_text")),
-            source_name=_none(record.get("source_name")),
-            source_url=_none(record.get("source_url")),
-            accessed_at=_parse_datetime(record.get("accessed_at")),
-            raw_file_path=_none(record.get("raw_file_path")),
-            parser_version=_none(record.get("parser_version")),
-        )
+    alert = SafetyAlert(
+        source_id=source.id,
+        title=title,
+        date=_parse_date(record.get("date")),
+        url=url,
+        organization=_none(record.get("organization")),
+        alert_type=_none(record.get("alert_type")),
+        summary=_none(record.get("summary")),
+        raw_text=_none(record.get("raw_text")),
+        source_name=_none(record.get("source_name")),
+        source_url=_none(record.get("source_url")),
+        accessed_at=_parse_datetime(record.get("accessed_at")),
+        raw_file_path=_none(record.get("raw_file_path")),
+        parser_version=_none(record.get("parser_version")),
     )
+    db.add(alert)
+    db.flush()
+    _auto_link_alert(db, alert.id, _none(record.get("raw_text")) or _none(record.get("summary")) or "")
     return True
 
 
@@ -214,12 +396,13 @@ def _persist_normalized_consumption(db: Session, source: Source, record: dict[st
 
 def _persist_normalized_study(db: Session, source: Source, record: dict[str, Any]) -> bool:
     url = _none(record.get("url"))
-    if url and db.scalar(select(StudyDocument).where(StudyDocument.url == url)):
+    title = str(record.get("title") or "Untitled public document")
+    if _check_study_duplicate(db, title, url or ""):
         return False
     db.add(
         StudyDocument(
             source_id=source.id,
-            title=str(record.get("title") or "Untitled public document"),
+            title=title,
             authors=_none(record.get("authors")),
             year=_to_int(record.get("year")),
             url=url,
