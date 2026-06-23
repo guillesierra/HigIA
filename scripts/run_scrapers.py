@@ -15,6 +15,7 @@ from app.scrapers.asturias import AsturiasPublicDocsScraper  # noqa: E402
 from app.scrapers.manual_documents import ManualDocumentIngester  # noqa: E402
 from app.scrapers.pran import PranAntibioticsScraper  # noqa: E402
 from app.scrapers.sanidad import SanidadConsumptionScraper  # noqa: E402
+from app.scrapers.universities import SpanishUniversityPublicationsScraper  # noqa: E402
 
 
 SCRAPERS = {
@@ -22,6 +23,7 @@ SCRAPERS = {
     "sanidad": SanidadConsumptionScraper,
     "pran": PranAntibioticsScraper,
     "asturias": AsturiasPublicDocsScraper,
+    "universities": SpanishUniversityPublicationsScraper,
     "manual": ManualDocumentIngester,
 }
 

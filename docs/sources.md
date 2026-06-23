@@ -32,10 +32,36 @@ This file records initial public sources considered by HigIA. Every ingested rec
 - Expected data: public PDFs and pages about PROA, antibiotics, benzodiazepines, psychopharmaceuticals, pharmacovigilance, pharmacy, and rational medicine use.
 - Notes: the Asturias scraper catalogs public documents and extracts metadata/text when reliable. It should never infer structured consumption metrics from ambiguous PDF text.
 
+## Spanish Universities
+
+- Name: University of Oviedo RUO / DIGIBUO record.
+- URL: https://digibuo.uniovi.es/dspace/handle/10651/45002
+- Expected data: thesis/publication metadata, public PDF links when available, title, authors, year, abstract or extracted text, DOI if present, geography, and therapeutic group inferred from text.
+- Notes: this URL may deny automated access depending on robots or server policy. The scraper records the error and continues.
+
+- Name: University of Oviedo Research Portal article record.
+- URL: https://portalinvestigacion.uniovi.es/documentos/667c517a6de8e7265d987072?lang=en
+- Expected data: title, authors, journal, year, pages, DOI, external full text link, abstract, Asturias-related antibiotic consumption metadata.
+- Notes: this is a high-priority source for the publication "Evolucion del consumo de antibioticos a nivel extrahospitalario en Asturias, Espana (2005-2018)".
+
+- Name: Additional Spanish university repositories.
+- Seed URLs:
+  - https://digibuo.uniovi.es/dspace/handle/10651/16740
+  - https://digibuo.uniovi.es/dspace/bitstream/10651/34879/1/TD_CristinaMariaSuarezCastanon.pdf
+  - https://eprints.ucm.es/51527/
+  - https://repositorio.uam.es/
+  - https://idus.us.es/
+  - https://riunet.upv.es/
+  - https://digitum.um.es/
+  - https://e-spacio.uned.es/
+  - https://zaguan.unizar.es/
+  - https://diposit.ub.edu/
+- Expected data: public academic documents about medicines, pharmacy, antibiotic consumption, antimicrobial resistance, ATC/DDD/DHD, rational medicine use, pharmacovigilance, benzodiazepines, and psychopharmaceuticals.
+- Notes: use only public pages and PDFs, respect `robots.txt`, apply delays, store raw files, and treat extracted text as document metadata unless a structured table is explicitly available.
+
 ## WHO ATC/DDD
 
 - Name: WHO Collaborating Centre ATC/DDD Index.
 - URL: https://atcddd.fhi.no/atc_ddd_index/
 - Expected data: ATC code, name, level, DDD when terms allow.
 - Notes: consult and respect terms of use before redistribution.
-

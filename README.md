@@ -60,6 +60,7 @@ python scripts\run_scrapers.py --source aemps --limit 20
 python scripts\run_scrapers.py --source sanidad --limit 20
 python scripts\run_scrapers.py --source pran --limit 20
 python scripts\run_scrapers.py --source asturias --limit 20
+python scripts\run_scrapers.py --source universities --limit 20
 python scripts\run_scrapers.py --source manual --limit 20
 ```
 

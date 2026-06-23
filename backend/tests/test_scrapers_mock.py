@@ -5,6 +5,7 @@ from app.scrapers.aemps import AempsSafetyAlertsScraper
 from app.scrapers.asturias import AsturiasPublicDocsScraper
 from app.scrapers.base import FetchResult, ScrapedResource
 from app.scrapers.sanidad import SanidadConsumptionScraper
+from app.scrapers.universities import SpanishUniversityPublicationsScraper
 
 
 class TmpAempsScraper(AempsSafetyAlertsScraper):
@@ -97,3 +98,56 @@ def test_asturias_pdf_mock_metadata(monkeypatch, tmp_path: Path) -> None:
     assert rows[0]["year"] == 2024
     assert rows[0]["geography"] == "Asturias"
     assert rows[0]["therapeutic_group"] == "antibiotics"
+
+
+class TmpUniversityScraper(SpanishUniversityPublicationsScraper):
+    def __init__(self, tmp_path: Path) -> None:
+        self.tmp_path = tmp_path
+        super().__init__(delay_seconds=0, respect_robots=False)
+
+    @property
+    def raw_dir(self) -> Path:
+        path = self.tmp_path / "university_raw"
+        path.mkdir(exist_ok=True)
+        return path
+
+    @property
+    def processed_dir(self) -> Path:
+        path = self.tmp_path / "university_processed"
+        path.mkdir(exist_ok=True)
+        return path
+
+    @property
+    def metadata_dir(self) -> Path:
+        path = self.tmp_path / "university_metadata"
+        path.mkdir(exist_ok=True)
+        return path
+
+    def fetch_url(self, url: str, extension: str | None = None, save: bool = True) -> FetchResult:
+        text = """
+        <html><head>
+          <title>Evolucion del consumo de antibioticos</title>
+          <meta name="citation_author" content="Laura Calle-Miguel" />
+          <meta name="citation_author" content="Ana Isabel Iglesias Carbajo" />
+        </head><body>
+          <h1>Evolucion del consumo de antibioticos a nivel extrahospitalario en Asturias</h1>
+          <p>Journal: Anales de Pediatria</p>
+          <p>Year of publication: 2021</p>
+          <p>DOI: 10.1016/J.ANPEDI.2020.11.010</p>
+          <h2>Abstract</h2>
+          <p>Antibiotic consumption in pediatric outpatients in Principado de Asturias, J01, DDD and DID.</p>
+        </body></html>
+        """
+        raw = self.raw_dir / "publication.html"
+        raw.write_text(text, encoding="utf-8")
+        return FetchResult(url, datetime.utcnow(), 200, "text/html", str(raw), text=text, content=text.encode())
+
+
+def test_university_scraper_extracts_publication_metadata(tmp_path: Path) -> None:
+    scraper = TmpUniversityScraper(tmp_path)
+    rows = scraper.run(limit=1)
+    assert rows[0]["record_type"] == "study_document"
+    assert rows[0]["year"] == 2021
+    assert rows[0]["doi"].lower() == "10.1016/j.anpedi.2020.11.010"
+    assert rows[0]["therapeutic_group"] == "antibiotics"
+    assert "Laura Calle-Miguel" in rows[0]["authors"]
