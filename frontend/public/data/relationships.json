@@ -1,41 +1,235 @@
 {
   "drug_atc": [
     {
-      "drug_id": 1,
+      "drug_id": 5,
       "atc_code_id": 1
     },
     {
-      "drug_id": 2,
+      "drug_id": 5,
       "atc_code_id": 2
     },
     {
-      "drug_id": 54,
+      "drug_id": 10,
+      "atc_code_id": 3
+    },
+    {
+      "drug_id": 14,
+      "atc_code_id": 4
+    },
+    {
+      "drug_id": 7,
+      "atc_code_id": 5
+    },
+    {
+      "drug_id": 13,
+      "atc_code_id": 6
+    },
+    {
+      "drug_id": 12,
       "atc_code_id": 7
+    },
+    {
+      "drug_id": 16,
+      "atc_code_id": 8
+    },
+    {
+      "drug_id": 3,
+      "atc_code_id": 9
+    },
+    {
+      "drug_id": 29,
+      "atc_code_id": 10
+    },
+    {
+      "drug_id": 23,
+      "atc_code_id": 11
+    },
+    {
+      "drug_id": 43,
+      "atc_code_id": 12
+    },
+    {
+      "drug_id": 44,
+      "atc_code_id": 13
+    },
+    {
+      "drug_id": 32,
+      "atc_code_id": 14
+    },
+    {
+      "drug_id": 28,
+      "atc_code_id": 15
+    },
+    {
+      "drug_id": 26,
+      "atc_code_id": 16
+    },
+    {
+      "drug_id": 38,
+      "atc_code_id": 17
+    },
+    {
+      "drug_id": 25,
+      "atc_code_id": 18
+    },
+    {
+      "drug_id": 52,
+      "atc_code_id": 19
+    },
+    {
+      "drug_id": 51,
+      "atc_code_id": 20
+    },
+    {
+      "drug_id": 36,
+      "atc_code_id": 21
+    },
+    {
+      "drug_id": 17,
+      "atc_code_id": 22
+    },
+    {
+      "drug_id": 45,
+      "atc_code_id": 23
+    },
+    {
+      "drug_id": 37,
+      "atc_code_id": 24
+    },
+    {
+      "drug_id": 53,
+      "atc_code_id": 25
+    },
+    {
+      "drug_id": 35,
+      "atc_code_id": 26
+    },
+    {
+      "drug_id": 20,
+      "atc_code_id": 27
+    },
+    {
+      "drug_id": 41,
+      "atc_code_id": 28
+    },
+    {
+      "drug_id": 27,
+      "atc_code_id": 29
+    },
+    {
+      "drug_id": 9,
+      "atc_code_id": 30
+    },
+    {
+      "drug_id": 39,
+      "atc_code_id": 31
+    },
+    {
+      "drug_id": 40,
+      "atc_code_id": 32
+    },
+    {
+      "drug_id": 46,
+      "atc_code_id": 33
+    },
+    {
+      "drug_id": 22,
+      "atc_code_id": 34
+    },
+    {
+      "drug_id": 1,
+      "atc_code_id": 35
+    },
+    {
+      "drug_id": 18,
+      "atc_code_id": 36
+    },
+    {
+      "drug_id": 30,
+      "atc_code_id": 37
+    },
+    {
+      "drug_id": 2,
+      "atc_code_id": 38
+    },
+    {
+      "drug_id": 15,
+      "atc_code_id": 39
+    },
+    {
+      "drug_id": 50,
+      "atc_code_id": 40
+    },
+    {
+      "drug_id": 42,
+      "atc_code_id": 41
+    },
+    {
+      "drug_id": 15,
+      "atc_code_id": 42
+    },
+    {
+      "drug_id": 24,
+      "atc_code_id": 43
+    },
+    {
+      "drug_id": 19,
+      "atc_code_id": 44
+    },
+    {
+      "drug_id": 33,
+      "atc_code_id": 45
+    },
+    {
+      "drug_id": 47,
+      "atc_code_id": 46
+    },
+    {
+      "drug_id": 31,
+      "atc_code_id": 47
+    },
+    {
+      "drug_id": 11,
+      "atc_code_id": 48
+    },
+    {
+      "drug_id": 48,
+      "atc_code_id": 49
+    },
+    {
+      "drug_id": 49,
+      "atc_code_id": 50
+    },
+    {
+      "drug_id": 4,
+      "atc_code_id": 51
+    },
+    {
+      "drug_id": 8,
+      "atc_code_id": 52
+    },
+    {
+      "drug_id": 34,
+      "atc_code_id": 53
     }
   ],
   "alert_drugs": [
     {
       "id": 1,
-      "alert_id": 1,
-      "drug_id": 2,
-      "atc_code_id": 2
+      "alert_id": 11,
+      "drug_id": 114,
+      "atc_code_id": null
     },
     {
       "id": 2,
-      "alert_id": 12,
-      "drug_id": 3,
+      "alert_id": 42,
+      "drug_id": 41,
       "atc_code_id": null
     },
     {
       "id": 3,
-      "alert_id": 43,
-      "drug_id": 4,
-      "atc_code_id": null
-    },
-    {
-      "id": 4,
-      "alert_id": 43,
-      "drug_id": 5,
+      "alert_id": 42,
+      "drug_id": 105,
       "atc_code_id": null
     }
   ],
@@ -43,385 +237,385 @@
   "atc_consumption": [
     {
       "atc_code": "J01",
-      "consumption_record_id": 2695,
+      "consumption_record_id": 11438,
       "drug_name": null,
       "year": 2024,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2696,
+      "consumption_record_id": 11439,
       "drug_name": null,
       "year": 2024,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2697,
+      "consumption_record_id": 11440,
       "drug_name": null,
       "year": 2024,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2698,
+      "consumption_record_id": 11441,
       "drug_name": null,
       "year": 2024,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2699,
+      "consumption_record_id": 11442,
       "drug_name": null,
       "year": 2024,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2700,
+      "consumption_record_id": 11443,
       "drug_name": null,
       "year": 2023,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2701,
+      "consumption_record_id": 11444,
       "drug_name": null,
       "year": 2023,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2702,
+      "consumption_record_id": 11445,
       "drug_name": null,
       "year": 2023,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2703,
+      "consumption_record_id": 11446,
       "drug_name": null,
       "year": 2023,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2704,
+      "consumption_record_id": 11447,
       "drug_name": null,
       "year": 2023,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2705,
+      "consumption_record_id": 11448,
       "drug_name": null,
       "year": 2022,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2706,
+      "consumption_record_id": 11449,
       "drug_name": null,
       "year": 2022,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2707,
+      "consumption_record_id": 11450,
       "drug_name": null,
       "year": 2022,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2708,
+      "consumption_record_id": 11451,
       "drug_name": null,
       "year": 2022,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2709,
+      "consumption_record_id": 11452,
       "drug_name": null,
       "year": 2022,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2710,
+      "consumption_record_id": 11453,
       "drug_name": null,
       "year": 2021,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2711,
+      "consumption_record_id": 11454,
       "drug_name": null,
       "year": 2021,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2712,
+      "consumption_record_id": 11455,
       "drug_name": null,
       "year": 2021,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2713,
+      "consumption_record_id": 11456,
       "drug_name": null,
       "year": 2021,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2714,
+      "consumption_record_id": 11457,
       "drug_name": null,
       "year": 2021,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2715,
+      "consumption_record_id": 11458,
       "drug_name": null,
       "year": 2020,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2716,
+      "consumption_record_id": 11459,
       "drug_name": null,
       "year": 2020,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2717,
+      "consumption_record_id": 11460,
       "drug_name": null,
       "year": 2020,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2718,
+      "consumption_record_id": 11461,
       "drug_name": null,
       "year": 2020,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2719,
+      "consumption_record_id": 11462,
       "drug_name": null,
       "year": 2020,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2720,
+      "consumption_record_id": 11463,
       "drug_name": null,
       "year": 2019,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2721,
+      "consumption_record_id": 11464,
       "drug_name": null,
       "year": 2019,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2722,
+      "consumption_record_id": 11465,
       "drug_name": null,
       "year": 2019,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2723,
+      "consumption_record_id": 11466,
       "drug_name": null,
       "year": 2019,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2724,
+      "consumption_record_id": 11467,
       "drug_name": null,
       "year": 2019,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2725,
+      "consumption_record_id": 11468,
       "drug_name": null,
       "year": 2018,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2726,
+      "consumption_record_id": 11469,
       "drug_name": null,
       "year": 2018,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2727,
+      "consumption_record_id": 11470,
       "drug_name": null,
       "year": 2018,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2728,
+      "consumption_record_id": 11471,
       "drug_name": null,
       "year": 2018,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2729,
+      "consumption_record_id": 11472,
       "drug_name": null,
       "year": 2018,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2730,
+      "consumption_record_id": 11473,
       "drug_name": null,
       "year": 2017,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2731,
+      "consumption_record_id": 11474,
       "drug_name": null,
       "year": 2017,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2732,
+      "consumption_record_id": 11475,
       "drug_name": null,
       "year": 2017,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2733,
+      "consumption_record_id": 11476,
       "drug_name": null,
       "year": 2017,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2734,
+      "consumption_record_id": 11477,
       "drug_name": null,
       "year": 2017,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2735,
+      "consumption_record_id": 11478,
       "drug_name": null,
       "year": 2016,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2736,
+      "consumption_record_id": 11479,
       "drug_name": null,
       "year": 2016,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2737,
+      "consumption_record_id": 11480,
       "drug_name": null,
       "year": 2016,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2738,
+      "consumption_record_id": 11481,
       "drug_name": null,
       "year": 2016,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2739,
+      "consumption_record_id": 11482,
       "drug_name": null,
       "year": 2016,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2740,
+      "consumption_record_id": 11483,
       "drug_name": null,
       "year": 2015,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2741,
+      "consumption_record_id": 11484,
       "drug_name": null,
       "year": 2015,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2742,
+      "consumption_record_id": 11485,
       "drug_name": null,
       "year": 2015,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2743,
+      "consumption_record_id": 11486,
       "drug_name": null,
       "year": 2015,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2744,
+      "consumption_record_id": 11487,
       "drug_name": null,
       "year": 2015,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2745,
+      "consumption_record_id": 11488,
       "drug_name": null,
       "year": 2014,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2746,
+      "consumption_record_id": 11489,
       "drug_name": null,
       "year": 2014,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2747,
+      "consumption_record_id": 11490,
       "drug_name": null,
       "year": 2014,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2748,
+      "consumption_record_id": 11491,
       "drug_name": null,
       "year": 2014,
       "geography": "Spain"
     },
     {
       "atc_code": "J01",
-      "consumption_record_id": 2749,
+      "consumption_record_id": 11492,
       "drug_name": null,
       "year": 2014,
       "geography": "Spain"

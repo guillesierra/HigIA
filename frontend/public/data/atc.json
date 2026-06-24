@@ -1,244 +1,615 @@
 [
   {
     "id": 1,
-    "code": "J01CA",
+    "code": "J01CA04",
     "level": 4,
-    "name": "Penicillins with extended spectrum",
-    "parent_code": "J01"
+    "name": "amoxicillin",
+    "parent_code": "J01CA"
   },
   {
     "id": 2,
-    "code": "N05BA",
+    "code": "J01CR02",
     "level": 4,
-    "name": "Benzodiazepine derivatives",
-    "parent_code": "N05B"
+    "name": "amoxicillin and beta-lactamase inhibitor",
+    "parent_code": "J01CR"
   },
   {
     "id": 3,
+    "code": "J01FA10",
+    "level": 4,
+    "name": "azithromycin",
+    "parent_code": "J01FA"
+  },
+  {
+    "id": 4,
+    "code": "J01MA02",
+    "level": 4,
+    "name": "ciprofloxacin",
+    "parent_code": "J01MA"
+  },
+  {
+    "id": 5,
+    "code": "J01CA01",
+    "level": 4,
+    "name": "ampicillin",
+    "parent_code": "J01CA"
+  },
+  {
+    "id": 6,
+    "code": "J01DD04",
+    "level": 4,
+    "name": "ceftriaxone",
+    "parent_code": "J01DD"
+  },
+  {
+    "id": 7,
+    "code": "J01DD01",
+    "level": 4,
+    "name": "cefotaxime",
+    "parent_code": "J01DD"
+  },
+  {
+    "id": 8,
+    "code": "J01FA09",
+    "level": 4,
+    "name": "clarithromycin",
+    "parent_code": "J01FA"
+  },
+  {
+    "id": 9,
+    "code": "J01GB06",
+    "level": 4,
+    "name": "amikacin",
+    "parent_code": "J01GB"
+  },
+  {
+    "id": 10,
+    "code": "J01MA12",
+    "level": 4,
+    "name": "levofloxacin",
+    "parent_code": "J01MA"
+  },
+  {
+    "id": 11,
+    "code": "J01CF05",
+    "level": 4,
+    "name": "flucloxacillin",
+    "parent_code": "J01CF"
+  },
+  {
+    "id": 12,
+    "code": "J01CE02",
+    "level": 4,
+    "name": "phenoxymethylpenicillin",
+    "parent_code": "J01CE"
+  },
+  {
+    "id": 13,
+    "code": "J01CR05",
+    "level": 4,
+    "name": "piperacillin and beta-lactamase inhibitor",
+    "parent_code": "J01CR"
+  },
+  {
+    "id": 14,
+    "code": "J01DH02",
+    "level": 4,
+    "name": "meropenem",
+    "parent_code": "J01DH"
+  },
+  {
+    "id": 15,
+    "code": "J01DH51",
+    "level": 4,
+    "name": "imipenem and cilastatin",
+    "parent_code": "J01DH"
+  },
+  {
+    "id": 16,
+    "code": "J01XC01",
+    "level": 4,
+    "name": "fusidic acid",
+    "parent_code": "J01XC"
+  },
+  {
+    "id": 17,
+    "code": "J01XE01",
+    "level": 4,
+    "name": "nitrofurantoin",
+    "parent_code": "J01XE"
+  },
+  {
+    "id": 18,
+    "code": "J01XX01",
+    "level": 4,
+    "name": "fosfomycin",
+    "parent_code": "J01XX"
+  },
+  {
+    "id": 19,
+    "code": "J01EA01",
+    "level": 4,
+    "name": "trimethoprim",
+    "parent_code": "J01EA"
+  },
+  {
+    "id": 20,
+    "code": "J01EE01",
+    "level": 4,
+    "name": "sulfamethoxazole and trimethoprim",
+    "parent_code": "J01EE"
+  },
+  {
+    "id": 21,
+    "code": "J01MA14",
+    "level": 4,
+    "name": "moxifloxacin",
+    "parent_code": "J01MA"
+  },
+  {
+    "id": 22,
+    "code": "J01FF01",
+    "level": 4,
+    "name": "clindamycin",
+    "parent_code": "J01FF"
+  },
+  {
+    "id": 23,
+    "code": "J01FG01",
+    "level": 4,
+    "name": "pristinamycin",
+    "parent_code": "J01FG"
+  },
+  {
+    "id": 24,
+    "code": "J01MB04",
+    "level": 4,
+    "name": "nalidixic acid",
+    "parent_code": "J01MB"
+  },
+  {
+    "id": 25,
+    "code": "J01XA01",
+    "level": 4,
+    "name": "vancomycin",
+    "parent_code": "J01XA"
+  },
+  {
+    "id": 26,
+    "code": "J01XD01",
+    "level": 4,
+    "name": "metronidazole",
+    "parent_code": "J01XD"
+  },
+  {
+    "id": 27,
+    "code": "J01AA02",
+    "level": 4,
+    "name": "doxycycline",
+    "parent_code": "J01AA"
+  },
+  {
+    "id": 28,
+    "code": "N02BE01",
+    "level": 4,
+    "name": "paracetamol",
+    "parent_code": "N02BE"
+  },
+  {
+    "id": 29,
+    "code": "M01AE01",
+    "level": 4,
+    "name": "ibuprofen",
+    "parent_code": "M01AE"
+  },
+  {
+    "id": 30,
+    "code": "C10AA05",
+    "level": 4,
+    "name": "atorvastatin",
+    "parent_code": "C10AA"
+  },
+  {
+    "id": 31,
+    "code": "A02BC01",
+    "level": 4,
+    "name": "omeprazole",
+    "parent_code": "A02BC"
+  },
+  {
+    "id": 32,
+    "code": "A02BC02",
+    "level": 4,
+    "name": "pantoprazole",
+    "parent_code": "A02BC"
+  },
+  {
+    "id": 33,
+    "code": "A02BC04",
+    "level": 4,
+    "name": "rabeprazole",
+    "parent_code": "A02BC"
+  },
+  {
+    "id": 34,
+    "code": "A02BC05",
+    "level": 4,
+    "name": "esomeprazole",
+    "parent_code": "A02BC"
+  },
+  {
+    "id": 35,
+    "code": "N02BA01",
+    "level": 4,
+    "name": "acetylsalicylic acid",
+    "parent_code": "N02BA"
+  },
+  {
+    "id": 36,
+    "code": "N05BA01",
+    "level": 4,
+    "name": "diazepam",
+    "parent_code": "N05BA"
+  },
+  {
+    "id": 37,
+    "code": "N05BA06",
+    "level": 4,
+    "name": "lorazepam",
+    "parent_code": "N05BA"
+  },
+  {
+    "id": 38,
+    "code": "N05BA12",
+    "level": 4,
+    "name": "alprazolam",
+    "parent_code": "N05BA"
+  },
+  {
+    "id": 39,
+    "code": "N06AB04",
+    "level": 4,
+    "name": "citalopram",
+    "parent_code": "N06AB"
+  },
+  {
+    "id": 40,
+    "code": "N06AB06",
+    "level": 4,
+    "name": "sertraline",
+    "parent_code": "N06AB"
+  },
+  {
+    "id": 41,
+    "code": "N06AB05",
+    "level": 4,
+    "name": "paroxetine",
+    "parent_code": "N06AB"
+  },
+  {
+    "id": 42,
+    "code": "N06AB10",
+    "level": 4,
+    "name": "escitalopram",
+    "parent_code": "N06AB"
+  },
+  {
+    "id": 43,
+    "code": "N06AB03",
+    "level": 4,
+    "name": "fluoxetine",
+    "parent_code": "N06AB"
+  },
+  {
+    "id": 44,
+    "code": "N06DA02",
+    "level": 4,
+    "name": "donepezil",
+    "parent_code": "N06DA"
+  },
+  {
+    "id": 45,
+    "code": "A10BA02",
+    "level": 4,
+    "name": "metformin",
+    "parent_code": "A10BA"
+  },
+  {
+    "id": 46,
+    "code": "C09AA05",
+    "level": 4,
+    "name": "ramipril",
+    "parent_code": "C09AA"
+  },
+  {
+    "id": 47,
+    "code": "C09CA01",
+    "level": 4,
+    "name": "losartan",
+    "parent_code": "C09CA"
+  },
+  {
+    "id": 48,
+    "code": "C09CA06",
+    "level": 4,
+    "name": "candesartan",
+    "parent_code": "C09CA"
+  },
+  {
+    "id": 49,
+    "code": "R03AC02",
+    "level": 4,
+    "name": "salbutamol",
+    "parent_code": "R03AC"
+  },
+  {
+    "id": 50,
+    "code": "R03AK06",
+    "level": 4,
+    "name": "salmeterol and fluticasone",
+    "parent_code": "R03AK"
+  },
+  {
+    "id": 51,
+    "code": "C08CA01",
+    "level": 4,
+    "name": "amlodipine",
+    "parent_code": "C08CA"
+  },
+  {
+    "id": 52,
+    "code": "C07AB03",
+    "level": 4,
+    "name": "atenolol",
+    "parent_code": "C07AB"
+  },
+  {
+    "id": 53,
+    "code": "C07AB02",
+    "level": 4,
+    "name": "metoprolol",
+    "parent_code": "C07AB"
+  },
+  {
+    "id": 54,
     "code": "A02BC",
     "level": 4,
     "name": "Proton pump inhibitors",
     "parent_code": "A02B"
   },
   {
-    "id": 4,
+    "id": 55,
     "code": "C10AA",
     "level": 4,
     "name": "HMG CoA reductase inhibitors",
     "parent_code": "C10A"
   },
   {
-    "id": 5,
+    "id": 56,
     "code": "J01C",
     "level": 3,
     "name": "Beta-lactam antibacterials, penicillins",
     "parent_code": "J01"
   },
   {
-    "id": 6,
+    "id": 57,
     "code": "J01D",
     "level": 3,
     "name": "Other beta-lactam antibacterials",
     "parent_code": "J01"
   },
   {
-    "id": 7,
+    "id": 58,
     "code": "J01E",
     "level": 3,
     "name": "Sulfonamides and trimethoprim",
     "parent_code": "J01"
   },
   {
-    "id": 8,
+    "id": 59,
     "code": "J01F",
     "level": 3,
     "name": "Macrolides, lincosamides and streptogramins",
     "parent_code": "J01"
   },
   {
-    "id": 9,
+    "id": 60,
     "code": "J01G",
     "level": 3,
     "name": "Aminoglycoside antibacterials",
     "parent_code": "J01"
   },
   {
-    "id": 10,
+    "id": 61,
     "code": "J01M",
     "level": 3,
     "name": "Quinolone antibacterials",
     "parent_code": "J01"
   },
   {
-    "id": 11,
+    "id": 62,
     "code": "J01X",
     "level": 3,
     "name": "Other antibacterials",
     "parent_code": "J01"
   },
   {
-    "id": 12,
+    "id": 63,
+    "code": "J01CA",
+    "level": 4,
+    "name": "Penicillins with extended spectrum",
+    "parent_code": "J01C"
+  },
+  {
+    "id": 64,
     "code": "J01CR",
     "level": 4,
     "name": "Combinations of penicillins",
     "parent_code": "J01C"
   },
   {
-    "id": 13,
+    "id": 65,
     "code": "J01DD",
     "level": 4,
     "name": "Third-generation cephalosporins",
     "parent_code": "J01D"
   },
   {
-    "id": 14,
+    "id": 66,
     "code": "J01EE",
     "level": 4,
     "name": "Combinations of sulfonamides",
     "parent_code": "J01E"
   },
   {
-    "id": 15,
+    "id": 67,
     "code": "J01FA",
     "level": 4,
     "name": "Macrolides",
     "parent_code": "J01F"
   },
   {
-    "id": 16,
+    "id": 68,
     "code": "J01FF",
     "level": 4,
     "name": "Lincosamides",
     "parent_code": "J01F"
   },
   {
-    "id": 17,
+    "id": 69,
     "code": "J01GB",
     "level": 4,
     "name": "Other aminoglycosides",
     "parent_code": "J01G"
   },
   {
-    "id": 18,
+    "id": 70,
     "code": "J01MA",
     "level": 4,
     "name": "Fluoroquinolones",
     "parent_code": "J01M"
   },
   {
-    "id": 19,
+    "id": 71,
     "code": "J01XD",
     "level": 4,
     "name": "Imidazole derivatives",
     "parent_code": "J01X"
   },
   {
-    "id": 20,
+    "id": 72,
     "code": "J01XA",
     "level": 4,
     "name": "Glycopeptide antibacterials",
     "parent_code": "J01X"
   },
   {
-    "id": 21,
+    "id": 73,
     "code": "M01A",
     "level": 3,
     "name": "Antiinflammatory and antirheumatic products, non-steroids",
     "parent_code": "M01"
   },
   {
-    "id": 22,
+    "id": 74,
     "code": "N02B",
     "level": 3,
     "name": "Other analgesics and antipyretics",
     "parent_code": "N02"
   },
   {
-    "id": 23,
+    "id": 75,
     "code": "N02BE",
     "level": 4,
     "name": "Anilides",
     "parent_code": "N02B"
   },
   {
-    "id": 24,
+    "id": 76,
     "code": "N05B",
     "level": 3,
     "name": "Anxiolytics",
     "parent_code": "N05"
   },
   {
-    "id": 25,
+    "id": 77,
+    "code": "N05BA",
+    "level": 4,
+    "name": "Benzodiazepine derivatives",
+    "parent_code": "N05B"
+  },
+  {
+    "id": 78,
     "code": "N05C",
     "level": 3,
     "name": "Hypnotics and sedatives",
     "parent_code": "N05"
   },
   {
-    "id": 26,
+    "id": 79,
     "code": "N06A",
     "level": 3,
     "name": "Antidepressants",
     "parent_code": "N06"
   },
   {
-    "id": 27,
+    "id": 80,
     "code": "N06AB",
     "level": 4,
     "name": "Selective serotonin reuptake inhibitors",
     "parent_code": "N06A"
   },
   {
-    "id": 28,
+    "id": 81,
     "code": "R03A",
     "level": 3,
     "name": "Adrenergics, inhalants",
     "parent_code": "R03"
   },
   {
-    "id": 29,
+    "id": 82,
     "code": "R03AC",
     "level": 4,
     "name": "Selective beta-2-adrenoreceptor agonists",
     "parent_code": "R03A"
   },
   {
-    "id": 30,
+    "id": 83,
     "code": "A10B",
     "level": 3,
     "name": "Blood glucose lowering drugs, excl. insulins",
     "parent_code": "A10"
   },
   {
-    "id": 31,
+    "id": 84,
     "code": "A10BA",
     "level": 4,
     "name": "Biguanides",
     "parent_code": "A10B"
   },
   {
-    "id": 32,
+    "id": 85,
     "code": "C07A",
     "level": 3,
     "name": "Beta blocking agents",
     "parent_code": "C07"
   },
   {
-    "id": 33,
+    "id": 86,
     "code": "C08C",
     "level": 3,
     "name": "Selective calcium channel blockers with mainly vascular effect",
     "parent_code": "C08"
   },
   {
-    "id": 34,
+    "id": 87,
     "code": "C09A",
     "level": 3,
     "name": "ACE inhibitors, plain",
     "parent_code": "C09"
   },
   {
-    "id": 35,
+    "id": 88,
     "code": "C09C",
     "level": 3,
     "name": "Angiotensin II receptor blockers (ARBs), plain",

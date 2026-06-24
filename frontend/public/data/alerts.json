@@ -1,23 +1,7 @@
 [
   {
     "id": 1,
-    "source_id": 1,
-    "title": "Test safety note related to benzodiazepine risk minimization",
-    "date": "2021-06-15",
-    "url": "https://www.aemps.gob.es/comunicacion/notas-de-seguridad/test",
-    "organization": "AEMPS",
-    "alert_type": "Safety",
-    "summary": "Test alert used to validate relations and before/after views.",
-    "raw_text": "Test text mentioning diazepam and benzodiazepines.",
-    "source_name": null,
-    "source_url": null,
-    "accessed_at": null,
-    "raw_file_path": null,
-    "parser_version": null
-  },
-  {
-    "id": 2,
-    "source_id": 1,
+    "source_id": 268,
     "title": "Notas informativas de seguridad de medicamentos de uso humano",
     "date": "2026-03-18",
     "url": "https://www.aemps.gob.es/comunicacion/notas-de-seguridad/notas-informativas-de-seguridad-de-medicamentos-de-uso-humano/#medicamentos-de-uso-humano",
@@ -32,8 +16,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 3,
-    "source_id": 1,
+    "id": 2,
+    "source_id": 268,
     "title": "Publicaciones de medicamentos de uso humano",
     "date": null,
     "url": "https://www.aemps.gob.es/comunicacion/publicaciones-de-la-aemps/medicamentos-de-uso-humano/",
@@ -48,8 +32,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 4,
-    "source_id": 1,
+    "id": 3,
+    "source_id": 268,
     "title": "Farmacovigilancia de Medicamentos de Uso Humano",
     "date": "2025-03-03",
     "url": "https://www.aemps.gob.es/medicamentos-de-uso-humano/farmacovigilancia-de-medicamentos-de-uso-humano/",
@@ -64,8 +48,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 5,
-    "source_id": 1,
+    "id": 4,
+    "source_id": 268,
     "title": "Evaluaci\u00f3n de tecnolog\u00edas sanitarias",
     "date": "2026-06-05",
     "url": "https://www.aemps.gob.es/medicamentos-de-uso-humano/evaluacion-de-tecnologias-sanitarias/",
@@ -80,8 +64,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 6,
-    "source_id": 1,
+    "id": 5,
+    "source_id": 268,
     "title": "Investigaci\u00f3n con medicamentos de uso humano",
     "date": "2023-01-31",
     "url": "https://www.aemps.gob.es/medicamentos-de-uso-humano/investigacion_medicamentos/",
@@ -96,8 +80,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 7,
-    "source_id": 1,
+    "id": 6,
+    "source_id": 268,
     "title": "Oficina de apoyo a la innovaci\u00f3n y conocimiento sobre medicamentos",
     "date": "2026-03-30",
     "url": "https://www.aemps.gob.es/medicamentos-de-uso-humano/oficina-de-apoyo-a-la-innovacion-y-conocimiento-sobre-medicamentos/",
@@ -112,8 +96,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 8,
-    "source_id": 1,
+    "id": 7,
+    "source_id": 268,
     "title": "Observatorio de uso de medicamentos",
     "date": "2019-03-13",
     "url": "https://www.aemps.gob.es/medicamentos-de-uso-humano/observatorio-de-uso-de-medicamentos/",
@@ -128,8 +112,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 9,
-    "source_id": 1,
+    "id": 8,
+    "source_id": 268,
     "title": "Arbitrajes de la Uni\u00f3n Europea: Acuerdos del CMDh y Decisiones de la Comisi\u00f3n Europea relacionadas con el CHMP y el PRAC. Medicamentos de Uso Humano",
     "date": "2015-06-07",
     "url": "https://www.aemps.gob.es/medicamentos-de-uso-humano/arbitrajes-de-la-union-europea-de-medicamentos-de-uso-humano/",
@@ -144,8 +128,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 10,
-    "source_id": 1,
+    "id": 9,
+    "source_id": 268,
     "title": "Problemas de suministro de medicamentos",
     "date": "2025-12-19",
     "url": "https://www.aemps.gob.es/profesional-sanitario-2/problemas-de-suministro-de-medicamentos/",
@@ -160,8 +144,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 11,
-    "source_id": 1,
+    "id": 10,
+    "source_id": 268,
     "title": "Medicamentos en situaciones especiales",
     "date": "2023-01-06",
     "url": "https://www.aemps.gob.es/medicamentos-de-uso-humano/acceso-a-medicamentos-en-situaciones-especiales/",
@@ -176,8 +160,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 12,
-    "source_id": 1,
+    "id": 11,
+    "source_id": 268,
     "title": "Medicamentos no sustituibles",
     "date": null,
     "url": "https://www.aemps.gob.es/medicamentos-de-uso-humano/medicamentos-no-sustituibles/",
@@ -192,8 +176,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 13,
-    "source_id": 1,
+    "id": 12,
+    "source_id": 268,
     "title": "Medicamentos biol\u00f3gicos",
     "date": "2025-09-07",
     "url": "https://www.aemps.gob.es/medicamentos-de-uso-humano/medicamentos-biologicos/",
@@ -208,8 +192,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 14,
-    "source_id": 1,
+    "id": 13,
+    "source_id": 268,
     "title": "Estupefacientes y psic\u00f3tropos (de uso humano y veterinarios)",
     "date": "2026-05-27",
     "url": "https://www.aemps.gob.es/medicamentos-de-uso-humano/estupefacientes-y-psicotropos/",
@@ -224,8 +208,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 15,
-    "source_id": 1,
+    "id": 14,
+    "source_id": 268,
     "title": "Medicamentos ilegales",
     "date": "2025-04-22",
     "url": "https://www.aemps.gob.es/medicamentos-de-uso-humano/medicamentos-ilegales/",
@@ -240,8 +224,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 16,
-    "source_id": 1,
+    "id": 15,
+    "source_id": 268,
     "title": "Legislaci\u00f3n sobre medicamentos de uso humano",
     "date": "2026-06-05",
     "url": "https://www.aemps.gob.es/medicamentos-de-uso-humano/legislacion_espana_medicamentosusohumano/",
@@ -256,8 +240,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 17,
-    "source_id": 1,
+    "id": 16,
+    "source_id": 268,
     "title": "Medicamentos estrat\u00e9gicos",
     "date": "2026-02-20",
     "url": "https://www.aemps.gob.es/medicamentos-de-uso-humano/medicamentos-estrategicos/",
@@ -272,8 +256,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 18,
-    "source_id": 1,
+    "id": 17,
+    "source_id": 268,
     "title": "Medicamentos de fabricaci\u00f3n no industrial",
     "date": "2025-11-11",
     "url": "https://www.aemps.gob.es/medicamentos-de-uso-humano/medicamentos-de-fabricacion-no-industrial/",
@@ -288,8 +272,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 19,
-    "source_id": 1,
+    "id": 18,
+    "source_id": 268,
     "title": "Base de datos de biomarcadores farmacogen\u00f3micos",
     "date": "2025-07-18",
     "url": "https://www.aemps.gob.es/medicamentos-de-uso-humano/base-de-datos-de-biomarcadores-farmacogenomicos/",
@@ -304,8 +288,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 20,
-    "source_id": 1,
+    "id": 19,
+    "source_id": 268,
     "title": "Est\u00e1ndares ISO IDMP para la identificaci\u00f3n de medicamentos",
     "date": "2025-03-18",
     "url": "https://www.aemps.gob.es/medicamentos-de-uso-humano/estandares-iso-idmp-para-la-identificacion-de-medicamentos/",
@@ -320,8 +304,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 21,
-    "source_id": 1,
+    "id": 20,
+    "source_id": 268,
     "title": "Registro de medicamentos",
     "date": "2026-02-27",
     "url": "https://www.aemps.gob.es/medicamentos-de-uso-humano/registro-de-medicamentos/",
@@ -336,8 +320,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 22,
-    "source_id": 1,
+    "id": 21,
+    "source_id": 268,
     "title": "Publicaciones de medicamentos veterinarios",
     "date": "2026-03-16",
     "url": "https://www.aemps.gob.es/comunicacion/publicaciones-de-la-aemps/medicamentos-veterinarios/",
@@ -352,8 +336,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 23,
-    "source_id": 1,
+    "id": 22,
+    "source_id": 268,
     "title": "Investigaci\u00f3n cl\u00ednica con medicamentos veterinarios",
     "date": "2026-07-04",
     "url": "https://www.aemps.gob.es/medicamentos-veterinarios/investigacionclinica_medicamentos_vet/",
@@ -368,8 +352,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 24,
-    "source_id": 1,
+    "id": 23,
+    "source_id": 268,
     "title": "Fabricaci\u00f3n de medicamentos y principios activos",
     "date": "2017-03-23",
     "url": "https://www.aemps.gob.es/medicamentos-veterinarios/fabricacion-de-medicamentos-y-principios-activos/",
@@ -384,8 +368,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 25,
-    "source_id": 1,
+    "id": 24,
+    "source_id": 268,
     "title": "Venta a distancia de medicamentos veterinarios",
     "date": "2022-01-31",
     "url": "https://www.aemps.gob.es/medicamentos-veterinarios/venta-a-distancia-de-medicamentos-veterinarios/",
@@ -400,8 +384,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 26,
-    "source_id": 1,
+    "id": 25,
+    "source_id": 268,
     "title": "Medicamentos veterinarios ilegales",
     "date": "2025-04-22",
     "url": "https://www.aemps.gob.es/medicamentos-veterinarios/medicamentos-veterinarios-ilegales/",
@@ -416,8 +400,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 27,
-    "source_id": 1,
+    "id": 26,
+    "source_id": 268,
     "title": "Legislaci\u00f3n sobre medicamentos veterinarios",
     "date": "2026-04-21",
     "url": "https://www.aemps.gob.es/medicamentos-veterinarios/legislacion-sobre-medicamentos-veterinarios/",
@@ -432,8 +416,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 28,
-    "source_id": 1,
+    "id": 27,
+    "source_id": 268,
     "title": "Farmacovigilancia de medicamentos veterinarios",
     "date": "2025-09-04",
     "url": "https://www.aemps.gob.es/farmacovigilancia-de-medicamentos-veterinarios/",
@@ -448,8 +432,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 29,
-    "source_id": 1,
+    "id": 28,
+    "source_id": 268,
     "title": "Prescripci\u00f3n de Medicamentos Veterinarios",
     "date": "2025-05-13",
     "url": "https://www.aemps.gob.es/medicamentos-veterinarios/prescripcion-de-medicamentos-veterinarios/",
@@ -464,8 +448,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 30,
-    "source_id": 1,
+    "id": 29,
+    "source_id": 268,
     "title": "Medicamentos a base de al\u00e9rgenos",
     "date": "2025-11-11",
     "url": "https://www.aemps.gob.es/industria-farmaceutica/medicamentos-a-base-de-alergenos/",
@@ -480,8 +464,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 31,
-    "source_id": 1,
+    "id": 30,
+    "source_id": 268,
     "title": "Legislaci\u00f3n sobre Productos de Cuidado Personal",
     "date": "2022-02-14",
     "url": "https://www.aemps.gob.es/comunicacion/notas-informativas-cosmeticos-y-cuidado-personal/cosmeticos/legislacion/productos-de-cuidado-personal/",
@@ -496,8 +480,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 32,
-    "source_id": 1,
+    "id": 31,
+    "source_id": 268,
     "title": "Notas informativas",
     "date": null,
     "url": "https://www.aemps.gob.es/acciones-informativas/notas-informativas/",
@@ -512,8 +496,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 33,
-    "source_id": 1,
+    "id": 32,
+    "source_id": 268,
     "title": "Notas infomativas de seguridad",
     "date": null,
     "url": "https://www.aemps.gob.es/comunicacion/notas-de-seguridad/",
@@ -528,8 +512,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 34,
-    "source_id": 1,
+    "id": 33,
+    "source_id": 268,
     "title": "Seminario formativo \u201cClaves para el desarrollo de investigaci\u00f3n cl\u00ednica de medicamentos de uso humano en Espa\u00f1a\u201d",
     "date": "2025-03-06",
     "url": "https://www.aemps.gob.es/comunicacion/formacion-para-investigadores/claves-para-el-desarrollo-de-investigacion-clinica-de-medicamentos-de-uso-humano-en-espana/",
@@ -544,8 +528,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 35,
-    "source_id": 1,
+    "id": 34,
+    "source_id": 268,
     "title": "Principios activos: fabricaci\u00f3n, importaci\u00f3n, distribuci\u00f3n",
     "date": "2025-10-14",
     "url": "https://www.aemps.gob.es/distribucion-de-medicamentos/principios-activos-fabricacion-importacion-distribucion/",
@@ -560,8 +544,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 36,
-    "source_id": 1,
+    "id": 35,
+    "source_id": 268,
     "title": "Dispositivos de seguridad de medicamentos de uso humano",
     "date": "2025-05-13",
     "url": "https://www.aemps.gob.es/industria-farmaceutica/dispositivos-de-seguridad-de-medicamentos-de-uso-humano/",
@@ -576,8 +560,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 37,
-    "source_id": 1,
+    "id": 36,
+    "source_id": 268,
     "title": "Farmacovigilancia humana: industria farmac\u00e9utica",
     "date": "2023-10-10",
     "url": "https://www.aemps.gob.es/farmacovigilancia-humana-industria-farmaceutica/",
@@ -592,8 +576,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 38,
-    "source_id": 1,
+    "id": 37,
+    "source_id": 268,
     "title": "Comercializaci\u00f3n de medicamentos",
     "date": "2024-02-26",
     "url": "https://www.aemps.gob.es/industria-farmaceutica/comercializacion-de-medicamentos/",
@@ -608,8 +592,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 39,
-    "source_id": 1,
+    "id": 38,
+    "source_id": 268,
     "title": "Puntos de contacto medicaci\u00f3n extranjera en las comunidades aut\u00f3nomas",
     "date": null,
     "url": "https://www.aemps.gob.es/medicamentosUsoHumano/medSituacionesEspeciales/docs/puntos-contacto-med-extranjera-CCAA.pdf",
@@ -624,8 +608,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 40,
-    "source_id": 1,
+    "id": 39,
+    "source_id": 268,
     "title": "Incidencias de calidad de medicamentos y productos sanitarios",
     "date": "2021-06-29",
     "url": "https://www.aemps.gob.es/distribucion-de-medicamentos/incidencias-de-calidad-de-medicamentos/",
@@ -640,8 +624,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 41,
-    "source_id": 1,
+    "id": 40,
+    "source_id": 268,
     "title": "Medicamentos sujetos a seguimiento adicional",
     "date": "2016-01-26",
     "url": "https://www.aemps.gob.es/medicamentos-de-uso-humano/farmacovigilancia-de-medicamentos-de-uso-humano/medicamentos-sujetos-a-seguimiento-adicional/",
@@ -656,8 +640,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 42,
-    "source_id": 1,
+    "id": 41,
+    "source_id": 268,
     "title": "Medicamentos y conducci\u00f3n",
     "date": "2017-02-18",
     "url": "https://www.aemps.gob.es/ciudadania/medicamentos-y-conduccion/",
@@ -672,8 +656,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 43,
-    "source_id": 1,
+    "id": 42,
+    "source_id": 268,
     "title": "Medicamentos y calor",
     "date": "2025-11-07",
     "url": "https://www.aemps.gob.es/ciudadania/medicamentos-y-calor/",
@@ -688,8 +672,8 @@
     "parser_version": "aemps-safety-alerts-0.3"
   },
   {
-    "id": 44,
-    "source_id": 1,
+    "id": 43,
+    "source_id": 268,
     "title": "La AEMPS publica el Informe Anual del Sistema Espa\u00f1ol de Farmacovigilancia de Medicamentos de Uso Humano",
     "date": "2026-03-18",
     "url": "https://www.aemps.gob.es/informa/la-aemps-publica-el-informe-anual-del-sistema-espanol-de-farmacovigilancia-de-medicamentos-de-uso-humano-3/",
