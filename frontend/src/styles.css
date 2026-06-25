@@ -908,6 +908,66 @@ tr:last-child td {
   color: #1b5e50;
 }
 
+/* Relations grid */
+.relations-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 8px;
+  padding: 12px;
+}
+
+.relation-card {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 10px 12px;
+  background: #fff;
+  border: 1px solid #d9dfd9;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: left;
+  font-size: 13px;
+  transition: border-color 0.15s;
+}
+
+.relation-card:hover {
+  border-color: #2f8f83;
+  background: #f6faf6;
+}
+
+.relation-card.selected {
+  border-color: #2f8f83;
+  background: #e8f5e9;
+  box-shadow: 0 0 0 1px #2f8f83;
+}
+
+.relation-card strong {
+  color: #1d252c;
+  font-size: 14px;
+}
+
+.relation-card span {
+  color: #647179;
+  font-size: 12px;
+  line-height: 1.3;
+}
+
+/* Active section link */
+.section-link.active-link {
+  background: #2f8f83;
+  color: #fff;
+}
+
+.section-link.active-link:hover {
+  background: #257a6f;
+}
+
+/* Curve count */
+.curve-count {
+  padding: 0 12px 4px;
+  font-size: 11px;
+}
+
 @media (max-width: 980px) {
   .consumption-chart-row {
     grid-template-columns: 1fr;

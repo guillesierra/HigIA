@@ -128,9 +128,11 @@ export function AnalyticsPage() {
         <div className="panel legend-panel">
           <div className="panel-heading">
             <h2>Curvas</h2>
+            <button className="text-button" onClick={() => setTrendCurves(new Set(trendCurveNames.slice(0, 8)))}>Top 8</button>
             <button className="text-button" onClick={() => setTrendCurves(new Set(trendCurveNames))}>Todas</button>
             <button className="text-button" onClick={() => setTrendCurves(new Set())}>Ninguna</button>
           </div>
+          <p className="muted curve-count">{trendCurves.size} de {trendCurveNames.length} seleccionadas</p>
           <input className="curve-search" type="text" placeholder="Buscar curva…" value={trendSearch} onChange={e => setTrendSearch(e.target.value)} />
           <div className="curve-list">
             {trendCurveNames
