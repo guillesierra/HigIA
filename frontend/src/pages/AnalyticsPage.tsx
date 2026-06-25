@@ -18,6 +18,8 @@ export function AnalyticsPage() {
   const [loading, setLoading] = useState(true);
   const [expandedTrend, setExpandedTrend] = useState<string | null>(null);
   const [expandedCorr, setExpandedCorr] = useState<number | null>(null);
+  const [trendCurves, setTrendCurves] = useState<Set<string>>(new Set());
+  const [trendSearch, setTrendSearch] = useState("");
 
   useEffect(() => {
     Promise.all([api.consumption(), api.summary()]).then(([c, s]) => {
@@ -81,6 +83,19 @@ export function AnalyticsPage() {
   const strongPosCorr = correlations.filter(c => c.correlation > 0.7);
   const strongNegCorr = correlations.filter(c => c.correlation < -0.7);
 
+  // Curve names for trend chart
+  const trendCurveNames = useMemo(() => {
+    return trends.map(t => formatEntityKey(t.entity_key));
+  }, [trends]);
+
+  useEffect(() => {
+    setTrendCurves(new Set(trendCurveNames.slice(0, 8)));
+  }, [trendCurveNames]);
+
+  const filteredTrends = useMemo(() => {
+    return trends.filter(t => trendCurves.has(formatEntityKey(t.entity_key)));
+  }, [trends, trendCurves]);
+
   if (loading) return <LoadingState />;
 
   return (
@@ -102,13 +117,37 @@ export function AnalyticsPage() {
         ]}
       />
 
-      {/* TENDENCIAS - gráfico principal */}
-      <section className="panel">
-        <div className="panel-heading">
-          <h2>Tendencias de consumo por territorio y grupo ATC</h2>
-          <p className="muted">Cada línea = evolución temporal de DHD para un par (territorio, grupo ATC). Pendiente positiva = consumo creciente.</p>
+      {/* TENDENCIAS - gráfico principal con selector */}
+      <section className="consumption-chart-row">
+        <div className="panel chart-wide">
+          <div className="panel-heading">
+            <h2>Tendencias de consumo por territorio y grupo ATC</h2>
+            <p className="muted">Cada línea = evolución temporal de DHD. Pendiente positiva = consumo creciente.</p>
+          </div>
+          <TrendChart trends={filteredTrends} limit={12} />
         </div>
-        <TrendChart trends={trends} limit={8} title="Series con mayor cambio interanual" />
+        <div className="panel legend-panel">
+          <div className="panel-heading">
+            <h2>Curvas</h2>
+            <button className="text-button" onClick={() => setTrendCurves(new Set(trendCurveNames))}>Todas</button>
+            <button className="text-button" onClick={() => setTrendCurves(new Set())}>Ninguna</button>
+          </div>
+          <input className="curve-search" type="text" placeholder="Buscar curva…" value={trendSearch} onChange={e => setTrendSearch(e.target.value)} />
+          <div className="curve-list">
+            {trendCurveNames
+              .filter(n => !trendSearch || n.toLowerCase().includes(trendSearch.toLowerCase()))
+              .map((name) => (
+                <label key={name} className="curve-item">
+                  <input type="checkbox" checked={trendCurves.has(name)} onChange={() => {
+                    const next = new Set(trendCurves);
+                    next.has(name) ? next.delete(name) : next.add(name);
+                    setTrendCurves(next);
+                  }} />
+                  <span title={name}>{name.length > 40 ? name.slice(0, 40) + "…" : name}</span>
+                </label>
+              ))}
+          </div>
+        </div>
       </section>
 
       {/* TENDENCIAS - tablas expandibles */}

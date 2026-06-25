@@ -17,16 +17,11 @@ ACTIVE_INGREDIENT_CONTEXT_RE = re.compile(
 )
 PHARMA_SUFFIX_RE = re.compile(r"\b[a-záéíóúñ]{5,}(?:mab|nib|pril|sartan|olol|azol|cillin|micina|xaban|prazol)\b", re.IGNORECASE)
 ACTIVE_INGREDIENT_STOPWORDS = {
-    "medicamentos",
-    "pacientes",
-    "tratamiento",
-    "seguridad",
-    "riesgo",
-    "nueva",
-    "informacion",
-    "recomendaciones",
-    "autorizacion",
-    "administracion",
+    "medicamentos", "pacientes", "tratamiento", "seguridad", "riesgo", "nueva", "informacion",
+    "recomendaciones", "autorizacion", "administracion", "detectar", "el fin de prevenir",
+    "gestionar posibles escaseces", "problemas de suministro", "es biologico",
+    "los distintos medicamentos", "medicamentos ultima actualizacion",
+    "productos sanitarios", "ipt previo",
 }
 
 
@@ -168,8 +163,15 @@ class AempsSafetyAlertsScraper(BaseScraper):
         text = f"{url} {title}".casefold()
         if "aemps.gob.es" not in url:
             return False
-        terms = ["seguridad", "nota", "muh", "medicamento", "farmacovigilancia", "alerta"]
-        return len(title) > 12 and any(term in text for term in terms)
+        # Only capture actual safety notes (MUH), not general pages
+        must_have = {"seguridad", "nota informativa", "muh", "alerta farmacovigilancia"}
+        exclude = {"legislacion", "illegal", "estupefaciente", "no sustituible", "oficina de apoyo", 
+                   "evaluacion de tecnolog", "investigacion con medicamento", "publicaciones de medicamento",
+                   "cima", "problemas de suministro", "situaciones especiales", "observatorio",
+                   "arbitraje", "biologico"}
+        if any(w in text for w in exclude):
+            return False
+        return len(title) > 12 and any(term in text for term in must_have)
 
 
 def detect_possible_active_ingredients(text: str | None, max_items: int = 20) -> list[str]:
