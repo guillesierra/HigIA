@@ -10,7 +10,7 @@ import { api } from "../services/api";
 import { formatEntityKey } from "../services/labels";
 import type { ConsumptionRecord, CorrelationPair, ExportSummary, TrendResult } from "../types/domain";
 
-const MIN_ANALYTICS_YEARS = 8;
+const MIN_ANALYTICS_YEARS = 2;
 
 export function AnalyticsPage() {
   const [consumption, setConsumption] = useState<ConsumptionRecord[]>([]);
@@ -41,10 +41,9 @@ export function AnalyticsPage() {
   }, [annualAtcRecords]);
 
   const trends = useMemo(() => {
-    if (!communityAnnualAtcRecords.length) return [] as TrendResult[];
+    if (!annualAtcRecords.length) return [] as TrendResult[];
     const sm = new Map<string, Map<number, number>>();
-    communityAnnualAtcRecords.forEach((r) => {
-      // Group by ATC code + geographic level
+    annualAtcRecords.forEach((r) => {
       const key = r.atc_code
         ? `${r.geography}|${r.atc_code}`
         : `${r.geography}|total`;
@@ -89,7 +88,7 @@ export function AnalyticsPage() {
   }, [trends]);
 
   useEffect(() => {
-    setTrendCurves(new Set(trendCurveNames.slice(0, 8)));
+    setTrendCurves(new Set(trendCurveNames.slice(0, 20)));
   }, [trendCurveNames]);
 
   const filteredTrends = useMemo(() => {
