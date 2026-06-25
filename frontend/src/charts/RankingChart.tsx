@@ -18,14 +18,14 @@ export function RankingChart({ records }: { records: ConsumptionRecord[] }) {
     .slice(0, 10)
     .reverse();
   const option = {
-    title: { text: "DHD acumulado por grupo", left: "center", textStyle: { fontSize: 12, color: "#42505a" } },
+    title: { text: "Suma acumulada de DHD por grupo ATC (todos los territorios y años)", left: "center", textStyle: { fontSize: 12, color: "#42505a" } },
     tooltip: {
       trigger: "axis",
       axisPointer: { type: "shadow" },
-      formatter: (p: { data: { value: number }; axisValue: string }[]) => `${p[0]?.axisValue}: <b>${p[0]?.data?.value?.toFixed(2)} DHD</b>`,
+      formatter: (p: { data: { value: number }; axisValue: string }[]) => `${p[0]?.axisValue}: <b>${p[0]?.data?.value?.toFixed(2)} DHD acumulado</b>`,
     },
     grid: { left: 170, right: 40, top: 48, bottom: 35 },
-    xAxis: { type: "value", name: "DHD (Dosis por Habitante y Día)", nameLocation: "middle", nameGap: 28 },
+    xAxis: { type: "value", name: "DHD acumulado (suma de todos los registros)", nameLocation: "middle", nameGap: 28 },
     yAxis: {
       type: "category",
       data: entries.map(([label]) => label),

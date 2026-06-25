@@ -50,7 +50,8 @@ export function TimeSeriesChart({ records, metric = "dhd", maxSeries }: Props) {
         const name = params[0]?.seriesName;
         const val = params[0]?.data;
         const formatted = typeof val === "number" ? val.toFixed(2) : "N/D";
-        return `${name}<br/>Año ${params[0]?.axisValue}: <b>${formatted} ${unit}</b>`;
+        const qualifier = metric === "dhd" ? " (media)" : "";
+        return `${name}<br/>Año ${params[0]?.axisValue}: <b>${formatted} ${unit}${qualifier}</b>`;
       },
     },
     legend: { top: 0, type: "scroll", textStyle: { fontSize: 11 } },

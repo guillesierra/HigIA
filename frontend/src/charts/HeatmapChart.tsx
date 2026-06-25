@@ -71,6 +71,8 @@ export function HeatmapChart({ records, metric = "dhd" }: Props) {
   const minVal = ccaaVals.length ? Math.min(...ccaaVals) : 0;
   const maxVal = ccaaVals.length ? Math.max(...ccaaVals) : 100;
   const unit = METRIC_UNITS[metric] || metric;
+  const isPerCapita = metric === "dhd";
+  const legendSuffix = isPerCapita ? "/hab/día" : "";
 
   const option = {
     tooltip: {
@@ -81,9 +83,9 @@ export function HeatmapChart({ records, metric = "dhd" }: Props) {
         const yr = years[x];
         const label = isSpain(geo) ? "España" : geo;
         if (isSpain(geo)) {
-          return `<strong>${label}</strong><br/>Año ${yr}<br/>${v.toFixed(2)} ${unit}<br/><small>Escala independiente (nivel nacional)</small>`;
+          return `<strong>${label}</strong><br/>Año ${yr}<br/>${v.toFixed(2)} ${unit}${legendSuffix}<br/><small>Escala independiente (nivel nacional)</small>`;
         }
-        return `${label}<br/>Año ${yr}<br/><strong>${v.toFixed(2)} ${unit}</strong>`;
+        return `${label}<br/>Año ${yr}<br/><strong>${v.toFixed(2)} ${unit}${legendSuffix}</strong>`;
       },
     },
     grid: { left: 160, right: 30, top: 50, bottom: 80 },
@@ -99,7 +101,7 @@ export function HeatmapChart({ records, metric = "dhd" }: Props) {
       min: minVal, max: maxVal,
       calculable: true, orient: "horizontal",
       left: "center", bottom: 15,
-      text: [`Alto (${unit}/hab/día)`, `Bajo (${unit}/hab/día)`],
+      text: [`Alto (${unit}${legendSuffix})`, `Bajo (${unit}${legendSuffix})`],
       inRange: { color: ["#edf7ed", "#a5d6a7", "#66bb6a", "#2f8f83", "#1b5e50"] },
     },
     series: [{

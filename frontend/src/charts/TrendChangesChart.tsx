@@ -30,8 +30,8 @@ export function TrendChart({ trends, limit = 10, title }: Props) {
           Tendencia: <b>${t.trend_direction === "increasing" ? "AL ALZA" : "A LA BAJA"}</b><br/>
           Variación media anual: ${t.avg_yoy_change}%<br/>
           Cambio total: ${t.total_change}%<br/>
-          Valor inicial: ${t.start_value?.toFixed(2)} → final: ${t.end_value?.toFixed(2)}<br/>
-          Media: ${t.mean_value.toFixed(2)}`;
+          Valor inicial: ${t.start_value?.toFixed(2)} DHD → final: ${t.end_value?.toFixed(2)} DHD<br/>
+          Media: ${t.mean_value.toFixed(2)} DHD (media por año)`;
       },
     },
     legend: { top: title ? 30 : 0, type: "scroll", textStyle: { fontSize: 11 } },

@@ -145,7 +145,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
         <div className="panel">
           <div className="panel-heading">
             <h2>Ranking de consumo por DHD</h2>
-            <p className="muted">Grupos ATC con mayor Dosis por Habitante y Día</p>
+            <p className="muted">Suma de DHD por grupo ATC (todos los territorios y años)</p>
           </div>
           <RankingChart records={consumption} />
         </div>

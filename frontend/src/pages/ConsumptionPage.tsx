@@ -136,7 +136,7 @@ export function ConsumptionPage() {
       <section className="consumption-chart-row">
         <div className="panel chart-wide">
           <div className="panel-heading">
-            <h2>Evolución anual — {metricLabel}</h2>
+            <h2>Evolución anual — {metricLabel}{metric === "dhd" ? " (media por territorio y ATC)" : " (total por territorio y ATC)"}</h2>
           </div>
           <ConsumptionChart records={displayRecords} metric={metric} />
         </div>

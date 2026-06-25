@@ -93,7 +93,7 @@ export function AsturiasPage() {
       <section className="grid two">
         <div className="panel">
           <div className="panel-heading">
-            <h2>DHD — Dosis por Habitante y Día</h2>
+            <h2>DHD — Dosis por Habitante y Día (media anual)</h2>
             <p className="muted">Estimado desde datos ATC nacionales con factor regional</p>
           </div>
           {asturiasATCDHD.length ? <TimeSeriesChart records={asturiasATCDHD} metric="dhd" maxSeries={8} /> : <EmptyState message="Sin datos DHD para Asturias." />}
