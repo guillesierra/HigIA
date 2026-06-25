@@ -372,10 +372,10 @@ def _persist_normalized_consumption(db: Session, source: Source, record: dict[st
     category = _none(record.get("category"))
     atc_code = _none(record.get("atc_code"))
     drug_name = _none(record.get("drug_name"))
+    active_ingredient = _none(record.get("active_ingredient"))
     existing = db.scalar(
         select(ConsumptionRecord).where(
             ConsumptionRecord.source_url == source_url,
-            ConsumptionRecord.parser_version == parser_version,
             ConsumptionRecord.year == year,
             ConsumptionRecord.month == month,
             ConsumptionRecord.geography == geography,
@@ -383,9 +383,11 @@ def _persist_normalized_consumption(db: Session, source: Source, record: dict[st
             ConsumptionRecord.category == category,
             ConsumptionRecord.atc_code == atc_code,
             ConsumptionRecord.drug_name == drug_name,
+            ConsumptionRecord.active_ingredient == active_ingredient,
         )
     )
     if existing:
+        _update_existing_consumption(existing, source, record, parser_version)
         return False
     db.add(
         ConsumptionRecord(
@@ -404,7 +406,7 @@ def _persist_normalized_consumption(db: Session, source: Source, record: dict[st
             category=category,
             atc_code=atc_code,
             drug_name=drug_name,
-            active_ingredient=_none(record.get("active_ingredient")),
+            active_ingredient=active_ingredient,
             packages=_to_decimal(record.get("packages")),
             ddd=_to_decimal(record.get("ddd")),
             dhd=_to_decimal(record.get("dhd")),
@@ -414,6 +416,28 @@ def _persist_normalized_consumption(db: Session, source: Source, record: dict[st
         )
     )
     return True
+
+
+def _update_existing_consumption(
+    existing: ConsumptionRecord,
+    source: Source,
+    record: dict[str, Any],
+    parser_version: str | None,
+) -> None:
+    existing.source_id = source.id
+    existing.source_name = _none(record.get("source_name"))
+    existing.source_url = _none(record.get("source_url"))
+    existing.accessed_at = _parse_datetime(record.get("accessed_at"))
+    existing.raw_file_path = _none(record.get("raw_file_path"))
+    existing.parser_version = parser_version
+    existing.geography_type = str(record.get("geography_type") or existing.geography_type)
+    existing.population_group = _none(record.get("population_group"))
+    existing.packages = _to_decimal(record.get("packages"))
+    existing.ddd = _to_decimal(record.get("ddd"))
+    existing.dhd = _to_decimal(record.get("dhd"))
+    existing.amount_pvpiva = _to_decimal(record.get("amount_pvpiva"))
+    existing.unit = _none(record.get("unit"))
+    existing.notes = _none(record.get("notes") or record.get("therapeutic_group"))
 
 
 def _persist_normalized_study(db: Session, source: Source, record: dict[str, Any]) -> bool:

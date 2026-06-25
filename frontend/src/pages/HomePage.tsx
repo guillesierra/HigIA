@@ -31,9 +31,12 @@ export function HomePage({ onNavigate }: HomePageProps) {
   const trends = useMemo(() => {
     const sm = new Map<string, Map<number, number>>();
     consumption.forEach((r) => {
-      const key = `${r.geography}|${r.atc_code ?? "desconocido"}`;
+      const key = r.atc_code
+        ? `${r.geography}|${r.atc_code}`
+        : `${r.geography}|${r.sector ?? "total"}`;
       if (!sm.has(key)) sm.set(key, new Map());
-      sm.get(key)!.set(r.year, (sm.get(key)!.get(r.year) ?? 0) + (Number(r.dhd) || 0));
+      const dhd = Number(r.dhd ?? 0);
+      if (dhd > 0) sm.get(key)!.set(r.year, (sm.get(key)!.get(r.year) ?? 0) + dhd);
     });
     const results: TrendResult[] = [];
     sm.forEach((yv, key) => {
@@ -151,8 +154,8 @@ export function HomePage({ onNavigate }: HomePageProps) {
       <section className="grid two">
         <div className="panel">
           <div className="panel-heading">
-            <h2>Mapa de calor: Geografía × Año (DHD)</h2>
-            <p className="muted">Consumo de medicamentos por territorio y año</p>
+            <h2>Mapa de calor: CCAA × Año (DHD)</h2>
+            <p className="muted">Consumo por comunidad autónoma y año. España queda como referencia nacional fuera de escala.</p>
           </div>
           <HeatmapChart records={consumption} />
         </div>

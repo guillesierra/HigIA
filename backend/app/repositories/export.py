@@ -11,6 +11,9 @@ from app.analytics.correlations import compute_correlations
 from app.analytics.timeseries import compute_trend_analysis, detect_trend_changes
 from app.models.domain import ATCCode, AlertDrug, ConsumptionRecord, Drug, DrugATC, SafetyAlert, Source, StudyDocument, StudyDrug
 
+CORRELATION_SERIES_LIMIT = 250
+MIN_ANALYTICS_YEARS = 8
+
 
 EXPORT_MODELS = {
     "sources": Source,
@@ -64,24 +67,7 @@ def export_public_json(db: Session, output_dir: Path) -> list[Path]:
 
 
 def _compute_trends_export(db: Session) -> list[dict[str, Any]]:
-    rows = db.execute(
-        select(
-            ConsumptionRecord.atc_code,
-            ConsumptionRecord.geography,
-            ConsumptionRecord.year,
-            func.avg(ConsumptionRecord.dhd).label("avg_val"),
-        )
-        .where(ConsumptionRecord.atc_code.is_not(None), ConsumptionRecord.dhd.is_not(None))
-        .group_by(ConsumptionRecord.atc_code, ConsumptionRecord.geography, ConsumptionRecord.year)
-        .order_by(ConsumptionRecord.year)
-    ).all()
-    series_map: dict[str, dict[int, float]] = {}
-    for row in rows:
-        key = f"{row.geography}|{row.atc_code}"
-        if key not in series_map:
-            series_map[key] = {}
-        if row.avg_val:
-            series_map[key][row.year] = float(row.avg_val)
+    series_map = _annual_ccaa_atc_series_map(db)
     trends = compute_trend_analysis(series_map, "dhd")
     return [
         {
@@ -94,29 +80,12 @@ def _compute_trends_export(db: Session) -> list[dict[str, Any]]:
             "years": t.years,
             "values": t.values,
         }
-        for t in trends if t.trend_direction != "stable"
+        for t in trends if t.trend_direction != "stable" and len(t.years) >= MIN_ANALYTICS_YEARS
     ][:50]
 
 
 def _compute_correlations_export(db: Session) -> list[dict[str, Any]]:
-    rows = db.execute(
-        select(
-            ConsumptionRecord.atc_code,
-            ConsumptionRecord.geography,
-            ConsumptionRecord.year,
-            func.avg(ConsumptionRecord.dhd).label("avg_val"),
-        )
-        .where(ConsumptionRecord.atc_code.is_not(None), ConsumptionRecord.dhd.is_not(None))
-        .group_by(ConsumptionRecord.atc_code, ConsumptionRecord.geography, ConsumptionRecord.year)
-        .order_by(ConsumptionRecord.year)
-    ).all()
-    series_map: dict[str, dict[int, float]] = {}
-    for row in rows:
-        key = f"{row.geography}|{row.atc_code}"
-        if key not in series_map:
-            series_map[key] = {}
-        if row.avg_val:
-            series_map[key][row.year] = float(row.avg_val)
+    series_map = _limit_series_for_correlations(_annual_ccaa_atc_series_map(db))
     correlations = compute_correlations(series_map, min_common_years=3)
     return [
         {"entity_a": c.entity_a, "entity_b": c.entity_b, "correlation": c.correlation, "common_years": c.common_years}
@@ -125,6 +94,12 @@ def _compute_correlations_export(db: Session) -> list[dict[str, Any]]:
 
 
 def _compute_anomalies_export(db: Session) -> list[dict[str, Any]]:
+    series_map = _annual_ccaa_atc_series_map(db)
+    anomalies = detect_trend_changes(series_map, change_threshold=20.0)
+    return anomalies[:30]
+
+
+def _annual_ccaa_atc_series_map(db: Session) -> dict[str, dict[int, float]]:
     rows = db.execute(
         select(
             ConsumptionRecord.atc_code,
@@ -132,7 +107,13 @@ def _compute_anomalies_export(db: Session) -> list[dict[str, Any]]:
             ConsumptionRecord.year,
             func.avg(ConsumptionRecord.dhd).label("avg_val"),
         )
-        .where(ConsumptionRecord.atc_code.is_not(None), ConsumptionRecord.dhd.is_not(None))
+        .where(
+            ConsumptionRecord.atc_code.is_not(None),
+            ConsumptionRecord.dhd.is_not(None),
+            ConsumptionRecord.month.is_(None),
+            ConsumptionRecord.sector == "Recetas SNS ATC",
+            ConsumptionRecord.geography_type == "autonomous_community",
+        )
         .group_by(ConsumptionRecord.atc_code, ConsumptionRecord.geography, ConsumptionRecord.year)
         .order_by(ConsumptionRecord.year)
     ).all()
@@ -143,8 +124,19 @@ def _compute_anomalies_export(db: Session) -> list[dict[str, Any]]:
             series_map[key] = {}
         if row.avg_val:
             series_map[key][row.year] = float(row.avg_val)
-    anomalies = detect_trend_changes(series_map, change_threshold=20.0)
-    return anomalies[:30]
+    return series_map
+
+
+def _limit_series_for_correlations(series_map: dict[str, dict[int, float]]) -> dict[str, dict[int, float]]:
+    ranked = sorted(
+        ((key, values) for key, values in series_map.items() if len(values) >= MIN_ANALYTICS_YEARS),
+        key=lambda item: (
+            -len(item[1]),
+            -sum(item[1].values()) / max(len(item[1]), 1),
+            item[0],
+        ),
+    )
+    return dict(ranked[:CORRELATION_SERIES_LIMIT])
 
 
 def _compute_summary_export(db: Session) -> dict[str, Any]:

@@ -1,1 +1,182 @@
-[]
+[
+  {
+    "entity_a": "Extremadura|J01D",
+    "entity_b": "Castilla y Leon|J01D",
+    "correlation": 0.9916,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Aragon|J01D",
+    "entity_b": "Comunidad de Madrid|J01D",
+    "correlation": 0.9849,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Galicia|H05B",
+    "entity_b": "Asturias|H05B",
+    "correlation": 0.9849,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Castilla-La Mancha|H05B",
+    "entity_b": "Galicia|H05B",
+    "correlation": 0.963,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Extremadura|J01D",
+    "entity_b": "Aragon|J01D",
+    "correlation": 0.9626,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Castilla-La Mancha|H05B",
+    "entity_b": "Asturias|H05B",
+    "correlation": 0.9609,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Castilla y Leon|J01D",
+    "entity_b": "Aragon|J01D",
+    "correlation": 0.9598,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Castilla y Leon|J01D",
+    "entity_b": "Ceuta|J01D",
+    "correlation": 0.955,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Extremadura|J01D",
+    "entity_b": "Ceuta|J01D",
+    "correlation": 0.9504,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Region de Murcia|H05B",
+    "entity_b": "Asturias|H05B",
+    "correlation": 0.949,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Extremadura|J01D",
+    "entity_b": "Comunidad de Madrid|J01D",
+    "correlation": 0.9461,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Region de Murcia|H05B",
+    "entity_b": "Galicia|H05B",
+    "correlation": 0.9431,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Aragon|J01D",
+    "entity_b": "Ceuta|J01D",
+    "correlation": 0.9385,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Region de Murcia|H05B",
+    "entity_b": "Castilla-La Mancha|H05B",
+    "correlation": 0.9383,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Galicia|H05B",
+    "entity_b": "Melilla|H05B",
+    "correlation": 0.9361,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Comunidad de Madrid|J01D",
+    "entity_b": "Ceuta|J01D",
+    "correlation": 0.9279,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Castilla y Leon|J01D",
+    "entity_b": "Comunidad de Madrid|J01D",
+    "correlation": 0.9241,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Asturias|H05B",
+    "entity_b": "Melilla|H05B",
+    "correlation": 0.8923,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Castilla-La Mancha|H05B",
+    "entity_b": "Melilla|H05B",
+    "correlation": 0.8541,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Region de Murcia|H05B",
+    "entity_b": "Melilla|H05B",
+    "correlation": 0.8353,
+    "common_years": 8
+  },
+  {
+    "entity_a": "Castilla y Leon|J01D",
+    "entity_b": "Asturias|H05B",
+    "correlation": 0.4724,
+    "common_years": 5
+  },
+  {
+    "entity_a": "Extremadura|J01D",
+    "entity_b": "Asturias|H05B",
+    "correlation": 0.4207,
+    "common_years": 5
+  },
+  {
+    "entity_a": "Castilla y Leon|J01D",
+    "entity_b": "Melilla|H05B",
+    "correlation": 0.403,
+    "common_years": 5
+  },
+  {
+    "entity_a": "Castilla y Leon|J01D",
+    "entity_b": "Galicia|H05B",
+    "correlation": 0.3483,
+    "common_years": 5
+  },
+  {
+    "entity_a": "Extremadura|J01D",
+    "entity_b": "Melilla|H05B",
+    "correlation": 0.3252,
+    "common_years": 5
+  },
+  {
+    "entity_a": "Extremadura|J01D",
+    "entity_b": "Galicia|H05B",
+    "correlation": 0.2804,
+    "common_years": 5
+  },
+  {
+    "entity_a": "Castilla y Leon|J01D",
+    "entity_b": "Region de Murcia|H05B",
+    "correlation": 0.2762,
+    "common_years": 5
+  },
+  {
+    "entity_a": "Castilla y Leon|J01D",
+    "entity_b": "Castilla-La Mancha|H05B",
+    "correlation": 0.2529,
+    "common_years": 5
+  },
+  {
+    "entity_a": "Extremadura|J01D",
+    "entity_b": "Region de Murcia|H05B",
+    "correlation": 0.2305,
+    "common_years": 5
+  },
+  {
+    "entity_a": "Aragon|J01D",
+    "entity_b": "Asturias|H05B",
+    "correlation": 0.2245,
+    "common_years": 5
+  }
+]

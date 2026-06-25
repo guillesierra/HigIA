@@ -14,6 +14,7 @@ import type {
 } from "../types/domain";
 
 const DATA_BASE = `${import.meta.env.BASE_URL}data`;
+const MIN_ANALYTICS_YEARS = 8;
 
 async function fetchStatic<T>(name: string): Promise<T> {
   try {
@@ -63,7 +64,9 @@ function computeRealCorrelations(consumption: ConsumptionRecord[]): CorrelationP
   });
 
   // Build list of series with their year-value maps
-  const entries = [...seriesMap.entries()].filter(([, m]) => m.size >= 3);
+  const entries = [...seriesMap.entries()]
+    .filter(([, m]) => m.size >= MIN_ANALYTICS_YEARS)
+    .sort((a, b) => b[1].size - a[1].size || seriesMean(b[1]) - seriesMean(a[1]) || a[0].localeCompare(b[0]));
   const results: CorrelationPair[] = [];
 
   // Compare ALL pairs but limit to avoid explosion
@@ -82,6 +85,11 @@ function computeRealCorrelations(consumption: ConsumptionRecord[]): CorrelationP
     }
   }
   return results.sort((a, b) => Math.abs(b.correlation) - Math.abs(a.correlation)).slice(0, 40);
+}
+
+function seriesMean(series: Map<number, number>) {
+  const values = [...series.values()];
+  return values.reduce((sum, value) => sum + value, 0) / Math.max(values.length, 1);
 }
 
 export const api = {

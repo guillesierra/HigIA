@@ -126,6 +126,82 @@ def test_pran_powerbi_querydata_normalizes_dhd_rows() -> None:
     assert global_row["unit"] == "DHD"
 
 
+def test_pran_powerbi_ccaa_querydata_normalizes_dhd_rows() -> None:
+    scraper = PranAntibioticsScraper(delay_seconds=0, respect_robots=False)
+    querydata = """
+    {
+      "results": [{
+        "result": {
+          "data": {
+            "dsr": {
+              "DS": [{
+                "ValueDicts": {
+                  "D0": ["ASTURIAS", "CEUTA", "CATALUÑA"]
+                },
+                "PH": [{
+                  "DM0": [
+                    {
+                      "S": [
+                        {"N": "G0", "DN": "D0"}, {"N": "G1"},
+                        {"N": "M0"}, {"N": "M1"}, {"N": "M2"}, {"N": "M3"}, {"N": "M4"}
+                      ],
+                      "C": [0, 2014, "20.00", "14.00", "6.00", "1.00", "13.00"]
+                    },
+                    {
+                      "R": 1,
+                      "C": [2015, "21.00", "14.50", "6.50", "1.10", "13.40"]
+                    },
+                    {
+                      "C": [1, 2014, "17.00", "17.00", "4.00", "13.00"],
+                      "Ø": 16
+                    },
+                    {
+                      "R": 17,
+                      "C": [2015, "18.00", "18.00", "4.10", "13.90"]
+                    },
+                    {
+                      "C": [2, 2022, "30.00", "20.00", "10.00", "1.50", "18.50"]
+                    }
+                  ]
+                }]
+              }]
+            }
+          }
+        }
+      }]
+    }
+    """
+    resource = ScrapedResource(
+        source_name=scraper.source_name,
+        source_url="https://www.resistenciaantibioticos.es/pran-ccaa",
+        resource_type="powerbi_ccaa_querydata",
+        title="PRAN J01 community antibiotic consumption DHD by autonomous community",
+        url="https://wabi-north-europe-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+        accessed_at=datetime.utcnow(),
+        raw_path="raw/pran-query-ccaa.json",
+        content_text=querydata,
+        parser_version=scraper.parser_version,
+    )
+
+    rows = scraper.normalize([resource])
+
+    assert len(rows) == 18
+    global_rows = [row for row in rows if row["geography"] == "Asturias" and row["category"] == "Global comunitario"]
+    assert [row["year"] for row in global_rows] == [2014, 2015]
+    assert {row["geography"] for row in rows} == {"Asturias", "Ceuta"}
+    ceuta_rows = [row for row in rows if row["geography"] == "Ceuta"]
+    assert {row["category"] for row in ceuta_rows} == {
+        "Global comunitario",
+        "Receta Oficial+Mutuas",
+        "Mutuas",
+        "Receta Oficial",
+    }
+    assert [row["dhd"] for row in ceuta_rows if row["category"] == "Receta Oficial"] == ["13.00", "13.90"]
+    assert rows[0]["atc_code"] == "J01"
+    assert rows[0]["dhd"] == "20.00"
+    assert rows[0]["unit"] == "DHD"
+
+
 class TmpBaseScraper(BaseScraper):
     source_name = "Temporary test source"
     base_url = "https://broken.example"

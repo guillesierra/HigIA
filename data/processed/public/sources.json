@@ -1,2409 +1,6 @@
 [
   {
     "id": 1,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/enero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:25.887892",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 2,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/febrero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:26.015694",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 3,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/marzo.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:26.150210",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 4,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/abril.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:26.293266",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 5,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/mayo.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:26.455370",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 6,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/junio.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:26.603702",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 7,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/julio.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:26.750682",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 8,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/agosto.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:26.898137",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 9,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/septiembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:27.065211",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 10,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/octubre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:27.229556",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 11,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/noviembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:27.338189",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 12,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/diciembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:27.491426",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 13,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/enero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:27.668418",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 14,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/febrero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:27.811420",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 15,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/marzo.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:27.962424",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 16,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/abril.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:28.103662",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 17,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/mayo.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:28.290622",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 18,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/junio.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:28.425710",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 19,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/julio.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:28.795211",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 20,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/agosto.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:28.841776",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 21,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/septiembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:29.002179",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 22,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/octubre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:29.152054",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 23,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/noviembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:29.300529",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 24,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/diciembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:29.463734",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 25,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/enero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:29.655214",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 26,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/febrero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:29.757057",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 27,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/marzo.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:29.906710",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 28,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/abril.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:30.056210",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 29,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/mayo.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:30.204467",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 30,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/junio.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:30.353245",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 31,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/julio.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:30.505991",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 32,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/agosto.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:30.661966",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 33,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/septiembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:30.860466",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 34,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/octubre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:30.978561",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 35,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/noviembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:31.131776",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 36,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/diciembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:31.314001",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 37,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/enero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:31.428896",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 38,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/febrero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:31.570257",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 39,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/marzo.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:31.740762",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 40,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/abril.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:31.874967",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 41,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/mayo.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:32.025279",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 42,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/junio.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:32.275587",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 43,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/julio.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:32.342883",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 44,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/agosto.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:32.483857",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 45,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/septiembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:32.628826",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 46,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/octubre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:32.788674",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 47,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/noviembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:32.931734",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 48,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/diciembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:33.077921",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 49,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/enero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:33.224492",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 50,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/febrero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:33.368621",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 51,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/marzo.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:33.573007",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 52,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/abril.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:33.683512",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 53,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/mayo.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:33.843165",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 54,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/junio.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:34.001418",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 55,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/julio.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:34.124509",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 56,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/agosto.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:34.268274",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 57,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/septiembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:34.406117",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 58,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/octubre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:34.547220",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 59,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/noviembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:34.696321",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 60,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/diciembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:34.834443",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 61,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/enero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:34.990417",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 62,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/febrero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:35.152431",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 63,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/marzo.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:35.320306",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 64,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/abril.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:35.464496",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 65,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/mayo.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:35.618262",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 66,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/junio.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:35.772625",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 67,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/julio.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:35.931834",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 68,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/agosto.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:36.086134",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 69,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/septiembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:36.243220",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 70,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/octubre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:36.583312",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 71,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/noviembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:36.669945",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 72,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/diciembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:36.805441",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 73,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/enero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:36.963807",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 74,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/febrero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:37.120806",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 75,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/marzo.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:37.280720",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 76,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/abril.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:37.420300",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 77,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/mayo.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:37.536606",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 78,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/junio.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:37.689347",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 79,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/julio.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:37.829649",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 80,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/agosto.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:37.981990",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 81,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/septiembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:38.131449",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 82,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/octubre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:38.298391",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 83,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/noviembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:38.446469",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 84,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/diciembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:38.587012",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 85,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/enero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:38.741961",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 86,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/febrero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:38.884383",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 87,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/marzo.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:39.047597",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 88,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/abril.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:39.253041",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 89,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/mayo.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:39.340465",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 90,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/junio.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:39.478362",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 91,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/julio.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:39.638312",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 92,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/agosto.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:39.798509",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 93,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/septiembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:39.942845",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 94,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/octubre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:40.111221",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 95,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/noviembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:40.251800",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 96,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/diciembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:40.370806",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 97,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/enero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:40.540728",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 98,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/febrero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:40.684644",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 99,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/marzo.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:40.849142",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 100,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/abril.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:40.994492",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 101,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/mayo.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:41.146400",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 102,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/junio.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:41.306853",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 103,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/julio.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:41.464141",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 104,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/agosto.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:41.620944",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 105,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/septiembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:41.776641",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 106,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/octubre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:42.009319",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 107,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/noviembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:42.095660",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 108,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/diciembre.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:42.251008",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 109,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2026/enero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:42.396865",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 110,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2026/febrero.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:42.527309",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 111,
-    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2026/marzo.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:03:42.736709",
-    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
-  },
-  {
-    "id": 112,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ENERO_2024_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:48.692730",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 113,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/FEBRERO_2024_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:48.819355",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 114,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MARZO_2024_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:49.069579",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 115,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ABRIL_2024_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:49.395762",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 116,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MAYO_2024_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:49.696398",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 117,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JUNIO_2024_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:50.004858",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 118,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JULIO_2024_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:50.319511",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 119,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/AGOSTO_2024_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:50.827679",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 120,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/SEPTIEMBRE_2024_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:50.937172",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 121,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/OCTUBRE_2024_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:51.236823",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 122,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/NOVIEMBRE_2024_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:51.510219",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 123,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/DICIEMBRE_2024_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:52.851695",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 124,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/2024_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:52.985174",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 125,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ENERO_2024_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:53.340448",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 126,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/FEBRERO_2024_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:53.581725",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 127,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MARZO_2024_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:53.874338",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 128,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ABRIL_2024_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:54.191498",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 129,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MAYO_2024_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:54.505595",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 130,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JUNIO_2024_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:54.778509",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 131,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JULIO_2024_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:55.061862",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 132,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/AGOSTO_2024_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:55.380458",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 133,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/SEPTIEMBRE_2024_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:55.705044",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 134,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/OCTUBRE_2024_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:55.998775",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 135,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/NOVIEMBRE_2024_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:56.292796",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 136,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/DICIEMBRE_2024_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:56.593473",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 137,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/2024_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:56.886940",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 138,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ENERO_2024_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:57.240595",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 139,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/FEBRERO_2024_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:57.516076",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 140,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MARZO_2024_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:57.837167",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 141,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ABRIL_2024_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:58.116182",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 142,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MAYO_2024_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:58.421996",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 143,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JUNIO_2024_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:58.734301",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 144,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JULIO_2024_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:59.000993",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 145,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/AGOSTO_2024_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:59.336079",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 146,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/SEPTIEMBRE_2024_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:59.627109",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 147,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/OCTUBRE_2024_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:33:59.906426",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 148,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/NOVIEMBRE_2024_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:00.197980",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 149,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/DICIEMBRE_2024_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:00.491380",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 150,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/2024_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:00.790397",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 151,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ENERO_2024_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:01.195689",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 152,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/FEBRERO_2024_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:01.480303",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 153,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MARZO_2024_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:01.762542",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 154,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ABRIL_2024_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:02.063485",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 155,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MAYO_2024_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:02.368327",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 156,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JUNIO_2024_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:02.685271",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 157,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JULIO_2024_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:02.938169",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 158,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/AGOSTO_2024_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:03.235919",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 159,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/SEPTIEMBRE_2024_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:03.566508",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 160,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/OCTUBRE_2024_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:03.862465",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 161,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/NOVIEMBRE_2024_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:04.145782",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 162,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/DICIEMBRE_2024_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:04.434920",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 163,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/2024_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:04.800268",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 164,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ENERO_2023_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:05.266555",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 165,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/FEBRERO_2023_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:05.574145",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 166,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MARZO_2023_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:05.882102",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 167,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ABRIL_2023_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:06.169459",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 168,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MAYO_2023_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:06.467807",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 169,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JUNIO_2023_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:06.756629",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 170,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JULIO_2023_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:07.053990",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 171,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/AGOSTO_2023_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:07.369094",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 172,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/SEPTIEMBRE_2023_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:07.649943",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 173,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/OCTUBRE_2023_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:07.962319",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 174,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/NOVIEMBRE_2023_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:08.257598",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 175,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/DICIEMBRE_2023_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:08.545751",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 176,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/2023_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:08.866159",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 177,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ENERO_2023_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:09.150485",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 178,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/FEBRERO_2023_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:09.452997",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 179,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MARZO_2023_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:09.745964",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 180,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ABRIL_2023_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:10.079443",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 181,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MAYO_2023_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:10.368949",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 182,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JUNIO_2023_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:10.647963",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 183,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JULIO_2023_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:10.961821",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 184,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/AGOSTO_2023_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:11.264071",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 185,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/SEPTIEMBRE_2023_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:11.560133",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 186,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/OCTUBRE_2023_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:11.878290",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 187,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/NOVIEMBRE_2023_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:12.142990",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 188,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/DICIEMBRE_2023_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:12.440271",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 189,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/2023_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:12.765109",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 190,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ENERO_2023_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:13.075810",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 191,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/FEBRERO_2023_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:13.392870",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 192,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MARZO_2023_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:13.680846",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 193,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ABRIL_2023_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:13.987968",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 194,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MAYO_2023_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:14.268667",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 195,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JUNIO_2023_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:14.620457",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 196,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JULIO_2023_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:14.882986",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 197,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/AGOSTO_2023_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:15.176995",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 198,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/SEPTIEMBRE_2023_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:15.524136",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 199,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/OCTUBRE_2023_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:15.777861",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 200,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/NOVIEMBRE_2023_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:16.066201",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 201,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/DICIEMBRE_2023_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:16.397161",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 202,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/2023_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:16.720891",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 203,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ENERO_2023_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:17.052932",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 204,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/FEBRERO_2023_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:17.345796",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 205,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MARZO_2023_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:17.638118",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 206,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ABRIL_2023_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:17.996593",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 207,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MAYO_2023_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:18.248462",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 208,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JUNIO_2023_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:18.554261",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 209,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JULIO_2023_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:18.849539",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 210,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/AGOSTO_2023_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:19.213470",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 211,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/SEPTIEMBRE_2023_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:19.463113",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 212,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/OCTUBRE_2023_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:19.755809",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 213,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/NOVIEMBRE_2023_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:20.091116",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 214,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/DICIEMBRE_2023_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:20.374978",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 215,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/2023_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:20.650164",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 216,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ENERO_2022_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:21.250487",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 217,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/FEBRERO_2022_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:21.475924",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 218,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MARZO_2022_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:21.758975",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 219,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ABRIL_2022_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:22.062493",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 220,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MAYO_2022_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:22.362961",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 221,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JUNIO_2022_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:22.658210",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 222,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JULIO_2022_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:23.064407",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 223,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/AGOSTO_2022_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:23.269919",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 224,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/SEPTIEMBRE_2022_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:23.572463",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 225,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/OCTUBRE_2022_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:23.877938",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 226,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/NOVIEMBRE_2022_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:24.200659",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 227,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/DICIEMBRE_2022_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:24.493524",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 228,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/2022_ATC1.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:24.784938",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 229,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ENERO_2022_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:25.170487",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 230,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/FEBRERO_2022_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:25.403925",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 231,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MARZO_2022_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:25.733713",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 232,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ABRIL_2022_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:25.995108",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 233,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MAYO_2022_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:26.284483",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 234,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JUNIO_2022_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:26.599486",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 235,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JULIO_2022_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:26.888943",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 236,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/AGOSTO_2022_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:27.190480",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 237,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/SEPTIEMBRE_2022_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:27.502990",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 238,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/OCTUBRE_2022_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:27.800629",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 239,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/NOVIEMBRE_2022_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:28.121559",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 240,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/DICIEMBRE_2022_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:28.426118",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 241,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/2022_ATC2.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:28.725783",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 242,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ENERO_2022_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:29.062486",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 243,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/FEBRERO_2022_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:29.390616",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 244,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MARZO_2022_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:29.661307",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 245,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ABRIL_2022_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:29.939098",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 246,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MAYO_2022_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:30.276498",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 247,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JUNIO_2022_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:30.548950",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 248,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JULIO_2022_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:30.830651",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 249,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/AGOSTO_2022_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:31.123508",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 250,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/SEPTIEMBRE_2022_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:31.439045",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 251,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/OCTUBRE_2022_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:31.770723",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 252,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/NOVIEMBRE_2022_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:32.037534",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 253,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/DICIEMBRE_2022_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:32.358004",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 254,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/2022_ATC3.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:32.642860",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 255,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ENERO_2022_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:32.985274",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 256,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/FEBRERO_2022_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:33.596023",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 257,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MARZO_2022_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:33.826452",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 258,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/ABRIL_2022_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:34.117309",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 259,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/MAYO_2022_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:34.647205",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 260,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JUNIO_2022_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:34.887447",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 261,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/JULIO_2022_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:35.194331",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 262,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/AGOSTO_2022_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:35.468448",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 263,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/SEPTIEMBRE_2022_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:35.762020",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 264,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/OCTUBRE_2022_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:36.095380",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 265,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/NOVIEMBRE_2022_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:36.348242",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 266,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/DICIEMBRE_2022_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:36.649866",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 267,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/docs/2022_ATC4.xlsx",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-24T08:34:36.972351",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-real-0.7"
-  },
-  {
-    "id": 268,
     "name": "AEMPS medicine safety notes",
     "url": "https://www.aemps.gob.es/comunicacion/notas-de-seguridad/notas-informativas-de-seguridad-de-medicamentos-de-uso-humano/",
     "source_type": "official_web",
@@ -2412,7 +9,7 @@
     "notes": "Created from normalized scraper output. Parser: aemps-safety-alerts-0.3"
   },
   {
-    "id": 269,
+    "id": 2,
     "name": "Spanish university public medicine-related publications",
     "url": "https://digibuo.uniovi.es/dspace/handle/10651/45002",
     "source_type": "official_web",
@@ -2421,7 +18,7 @@
     "notes": "Created from normalized scraper output. Parser: spanish-university-publications-0.1"
   },
   {
-    "id": 270,
+    "id": 3,
     "name": "Spanish university public medicine-related publications",
     "url": "https://portalinvestigacion.uniovi.es/documentos/667c517a6de8e7265d987072?lang=en",
     "source_type": "official_web",
@@ -2430,7 +27,7 @@
     "notes": "Created from normalized scraper output. Parser: spanish-university-publications-0.1"
   },
   {
-    "id": 271,
+    "id": 4,
     "name": "Spanish university public medicine-related publications",
     "url": "https://digibuo.uniovi.es/dspace/handle/10651/16740",
     "source_type": "official_web",
@@ -2439,7 +36,7 @@
     "notes": "Created from normalized scraper output. Parser: spanish-university-publications-0.1"
   },
   {
-    "id": 272,
+    "id": 5,
     "name": "Spanish university public medicine-related publications",
     "url": "https://digibuo.uniovi.es/dspace/bitstream/10651/34879/1/TD_CristinaMariaSuarezCastanon.pdf",
     "source_type": "official_web",
@@ -2448,7 +45,7 @@
     "notes": "Created from normalized scraper output. Parser: spanish-university-publications-0.1"
   },
   {
-    "id": 273,
+    "id": 6,
     "name": "Spanish university public medicine-related publications",
     "url": "https://digibuo.uniovi.es/dspace/bitstream/handle/10651/50389/TD_DiegoParraRuiz.pdf",
     "source_type": "official_web",
@@ -2457,7 +54,7 @@
     "notes": "Created from normalized scraper output. Parser: spanish-university-publications-0.1"
   },
   {
-    "id": 274,
+    "id": 7,
     "name": "Spanish university public medicine-related publications",
     "url": "https://digibuo.uniovi.es/dspace/bitstream/handle/10651/13462/TD_pedrojavierguerrero.pdf?isAllowed=y&sequence=2",
     "source_type": "official_web",
@@ -2466,7 +63,7 @@
     "notes": "Created from normalized scraper output. Parser: spanish-university-publications-0.1"
   },
   {
-    "id": 275,
+    "id": 8,
     "name": "Spanish university public medicine-related publications",
     "url": "https://digibuo.uniovi.es/dspace/bitstream/handle/10651/72580/2024_025_TD_PilarLumbrerasIglesias.pdf?isAllowed=y&sequence=1",
     "source_type": "official_web",
@@ -2475,7 +72,7 @@
     "notes": "Created from normalized scraper output. Parser: spanish-university-publications-0.1"
   },
   {
-    "id": 276,
+    "id": 9,
     "name": "Spanish university public medicine-related publications",
     "url": "https://eprints.ucm.es/51527/",
     "source_type": "official_web",
@@ -2484,7 +81,7 @@
     "notes": "Created from normalized scraper output. Parser: spanish-university-publications-0.1"
   },
   {
-    "id": 277,
+    "id": 10,
     "name": "Spanish university public medicine-related publications",
     "url": "https://ddd.uab.cat/",
     "source_type": "official_web",
@@ -2493,7 +90,7 @@
     "notes": "Created from normalized scraper output. Parser: spanish-university-publications-0.1"
   },
   {
-    "id": 278,
+    "id": 11,
     "name": "Spanish university public medicine-related publications",
     "url": "https://repositori.upf.edu/",
     "source_type": "official_web",
@@ -2502,7 +99,7 @@
     "notes": "Created from normalized scraper output. Parser: spanish-university-publications-0.1"
   },
   {
-    "id": 279,
+    "id": 12,
     "name": "Spanish university public medicine-related publications",
     "url": "https://upcommons.upc.edu/",
     "source_type": "official_web",
@@ -2511,7 +108,7 @@
     "notes": "Created from normalized scraper output. Parser: spanish-university-publications-0.1"
   },
   {
-    "id": 280,
+    "id": 13,
     "name": "Spanish university public medicine-related publications",
     "url": "https://addi.ehu.es/",
     "source_type": "official_web",
@@ -2520,7 +117,7 @@
     "notes": "Created from normalized scraper output. Parser: spanish-university-publications-0.1"
   },
   {
-    "id": 281,
+    "id": 14,
     "name": "Spanish university public medicine-related publications",
     "url": "https://digitum.um.es/",
     "source_type": "official_web",
@@ -2529,7 +126,7 @@
     "notes": "Created from normalized scraper output. Parser: spanish-university-publications-0.1"
   },
   {
-    "id": 282,
+    "id": 15,
     "name": "Spanish university public medicine-related publications",
     "url": "https://digibuo.uniovi.es/dspace/",
     "source_type": "official_web",
@@ -2538,7 +135,7 @@
     "notes": "Created from normalized scraper output. Parser: spanish-university-publications-0.1"
   },
   {
-    "id": 283,
+    "id": 16,
     "name": "Asturias public medicine-related documents",
     "url": "https://huca.sespa.es/huca/web/contenidos/servicios/farmacia/GFT_HUCA.pdf",
     "source_type": "official_web",
@@ -2547,7 +144,7 @@
     "notes": "Created from normalized scraper output. Parser: asturias-public-docs-0.3"
   },
   {
-    "id": 284,
+    "id": 17,
     "name": "Ministry of Health medicine consumption by ATC",
     "url": "https://www.sanidad.gob.es/areas/farmacia/home.htm",
     "source_type": "official_web",
@@ -2556,7 +153,7 @@
     "notes": "Created from normalized scraper output. Parser: sanidad-consumption-0.3"
   },
   {
-    "id": 285,
+    "id": 18,
     "name": "Ministry of Health medicine consumption by ATC",
     "url": "https://www.sanidad.gob.es/areas/farmacia/publicaciones/home.htm",
     "source_type": "official_web",
@@ -2565,7 +162,7 @@
     "notes": "Created from normalized scraper output. Parser: sanidad-consumption-0.3"
   },
   {
-    "id": 286,
+    "id": 19,
     "name": "Ministry of Health medicine consumption by ATC",
     "url": "https://pestadistico.inteligenciadegestion.sanidad.gob.es/publicoSNS/D/consumo-farmaceutico-en-el-sns/consumo-en-recetas-medicas-sns/consumo-medicamentos-por-atc/nota-metodologica",
     "source_type": "official_web",
@@ -2574,75 +171,1173 @@
     "notes": "Created from normalized scraper output. Parser: sanidad-consumption-0.3"
   },
   {
-    "id": 287,
+    "id": 20,
     "name": "PRAN human antibiotic consumption",
     "url": "https://www.resistenciaantibioticos.es/es/lineas-de-accion/vigilancia/mapas-de-consumo/consumos-antibioticos-humana",
     "source_type": "official_web",
     "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:26:26.563634",
-    "notes": "Created from normalized scraper output. Parser: pran-antibiotics-0.3"
+    "accessed_at": "2026-06-25T07:32:20.079274",
+    "notes": "Created from normalized scraper output. Parser: pran-antibiotics-0.4"
   },
   {
-    "id": 288,
+    "id": 21,
     "name": "PRAN human antibiotic consumption",
     "url": "https://www.resistenciaantibioticos.es/es/lineas-de-accion/vigilancia/mapas-de-consumo/consumo-antibioticos-humana/consumos-antibioticos-extrahospitalarios-por-comunidades",
     "source_type": "official_web",
     "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:26:27.711607",
-    "notes": "Created from normalized scraper output. Parser: pran-antibiotics-0.3"
+    "accessed_at": "2026-06-25T07:32:26.814396",
+    "notes": "Created from normalized scraper output. Parser: pran-antibiotics-0.4"
   },
   {
-    "id": 289,
+    "id": 22,
     "name": "PRAN human antibiotic consumption",
     "url": "https://www.resistenciaantibioticos.es/es/lineas-de-accion/vigilancia/mapas-de-consumo/consumo-antibioticos-humana/consumos-antibioticos-en-atencion-primaria",
     "source_type": "official_web",
     "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:26:31.668135",
-    "notes": "Created from normalized scraper output. Parser: pran-antibiotics-0.3"
+    "accessed_at": "2026-06-25T07:32:31.459962",
+    "notes": "Created from normalized scraper output. Parser: pran-antibiotics-0.4"
   },
   {
-    "id": 290,
+    "id": 23,
     "name": "PRAN human antibiotic consumption",
     "url": "https://www.resistenciaantibioticos.es/es/lineas-de-accion/vigilancia/mapas-de-consumo/consumo-antibioticos-humana/consumos-antibioticos-en-hospitales",
     "source_type": "official_web",
     "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:26:31.684135",
-    "notes": "Created from normalized scraper output. Parser: pran-antibiotics-0.3"
+    "accessed_at": "2026-06-25T07:32:31.472532",
+    "notes": "Created from normalized scraper output. Parser: pran-antibiotics-0.4"
   },
   {
-    "id": 291,
+    "id": 24,
     "name": "PRAN human antibiotic consumption",
     "url": "https://www.resistenciaantibioticos.es/es/lineas-de-accion/vigilancia/mapas-de-consumo/consumo-antibioticos-humana/consumos-antibioticos-hospitalarios-por-comunidades",
     "source_type": "official_web",
     "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:26:32.710347",
-    "notes": "Created from normalized scraper output. Parser: pran-antibiotics-0.3"
+    "accessed_at": "2026-06-25T07:32:31.648023",
+    "notes": "Created from normalized scraper output. Parser: pran-antibiotics-0.4"
   },
   {
-    "id": 292,
+    "id": 25,
     "name": "PRAN human antibiotic consumption",
     "url": "https://www.resistenciaantibioticos.es/es/lineas-de-accion/vigilancia/mapas-de-consumo/consumo-antibioticos-humana/consumo-categorias-aware",
     "source_type": "official_web",
     "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:26:33.680249",
-    "notes": "Created from normalized scraper output. Parser: pran-antibiotics-0.3"
+    "accessed_at": "2026-06-25T07:32:32.637915",
+    "notes": "Created from normalized scraper output. Parser: pran-antibiotics-0.4"
   },
   {
-    "id": 293,
+    "id": 26,
     "name": "PRAN human antibiotic consumption",
     "url": "https://www.resistenciaantibioticos.es/es/lineas-de-accion/vigilancia/mapas-de-consumo/consumo-antibioticos-humana/consumo-categorias-aware-spain",
     "source_type": "official_web",
     "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:26:34.709094",
-    "notes": "Created from normalized scraper output. Parser: pran-antibiotics-0.3"
+    "accessed_at": "2026-06-25T07:32:33.621544",
+    "notes": "Created from normalized scraper output. Parser: pran-antibiotics-0.4"
   },
   {
-    "id": 294,
+    "id": 27,
     "name": "PRAN human antibiotic consumption",
     "url": "https://www.resistenciaantibioticos.es/es/lineas-de-accion/vigilancia/mapas-de-consumo/consumo-antibioticos-humana/ecdc",
     "source_type": "official_web",
     "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-23T20:26:35.713039",
-    "notes": "Created from normalized scraper output. Parser: pran-antibiotics-0.3"
+    "accessed_at": "2026-06-25T07:32:34.615253",
+    "notes": "Created from normalized scraper output. Parser: pran-antibiotics-0.4"
+  },
+  {
+    "id": 28,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/enero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:25.887892",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 29,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/febrero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:26.015694",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 30,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/marzo.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:26.150210",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 31,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/abril.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:26.293266",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 32,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/mayo.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:26.455370",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 33,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/junio.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:26.603702",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 34,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/julio.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:26.750682",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 35,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/agosto.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:26.898137",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 36,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/septiembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:27.065211",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 37,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/octubre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:27.229556",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 38,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/noviembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:27.338189",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 39,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2017/diciembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:27.491426",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 40,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/enero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:27.668418",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 41,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/febrero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:27.811420",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 42,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/marzo.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:27.962424",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 43,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/abril.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:28.103662",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 44,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/mayo.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:28.290622",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 45,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/junio.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:28.425710",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 46,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/julio.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:28.795211",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 47,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/agosto.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:28.841776",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 48,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/septiembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:29.002179",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 49,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/octubre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:29.152054",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 50,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/noviembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:29.300529",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 51,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2018/diciembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:29.463734",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 52,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/enero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:29.655214",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 53,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/febrero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:29.757057",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 54,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/marzo.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:29.906710",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 55,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/abril.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:30.056210",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 56,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/mayo.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:30.204467",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 57,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/junio.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:30.353245",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 58,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/julio.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:30.505991",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 59,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/agosto.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:30.661966",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 60,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/septiembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:30.860466",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 61,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/octubre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:30.978561",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 62,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/noviembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:31.131776",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 63,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2019/diciembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:31.314001",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 64,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/enero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:31.428896",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 65,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/febrero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:31.570257",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 66,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/marzo.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:31.740762",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 67,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/abril.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:31.874967",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 68,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/mayo.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:32.025279",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 69,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/junio.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:32.275587",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 70,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/julio.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:32.342883",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 71,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/agosto.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:32.483857",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 72,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/septiembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:32.628826",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 73,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/octubre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:32.788674",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 74,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/noviembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:32.931734",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 75,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2020/diciembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:33.077921",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 76,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/enero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:33.224492",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 77,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/febrero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:33.368621",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 78,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/marzo.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:33.573007",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 79,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/abril.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:33.683512",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 80,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/mayo.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:33.843165",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 81,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/junio.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:34.001418",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 82,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/julio.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:34.124509",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 83,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/agosto.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:34.268274",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 84,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/septiembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:34.406117",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 85,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/octubre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:34.547220",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 86,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/noviembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:34.696321",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 87,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2021/diciembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:34.834443",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 88,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/enero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:34.990417",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 89,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/febrero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:35.152431",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 90,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/marzo.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:35.320306",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 91,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/abril.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:35.464496",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 92,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/mayo.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:35.618262",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 93,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/junio.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:35.772625",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 94,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/julio.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:35.931834",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 95,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/agosto.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:36.086134",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 96,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/septiembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:36.243220",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 97,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/octubre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:36.583312",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 98,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/noviembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:36.669945",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 99,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2022/diciembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:36.805441",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 100,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/enero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:36.963807",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 101,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/febrero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:37.120806",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 102,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/marzo.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:37.280720",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 103,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/abril.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:37.420300",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 104,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/mayo.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:37.536606",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 105,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/junio.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:37.689347",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 106,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/julio.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:37.829649",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 107,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/agosto.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:37.981990",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 108,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/septiembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:38.131449",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 109,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/octubre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:38.298391",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 110,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/noviembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:38.446469",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 111,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2023/diciembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:38.587012",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 112,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/enero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:38.741961",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 113,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/febrero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:38.884383",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 114,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/marzo.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:39.047597",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 115,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/abril.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:39.253041",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 116,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/mayo.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:39.340465",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 117,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/junio.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:39.478362",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 118,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/julio.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:39.638312",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 119,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/agosto.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:39.798509",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 120,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/septiembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:39.942845",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 121,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/octubre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:40.111221",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 122,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/noviembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:40.251800",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 123,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2024/diciembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:40.370806",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 124,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/enero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:40.540728",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 125,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/febrero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:40.684644",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 126,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/marzo.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:40.849142",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 127,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/abril.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:40.994492",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 128,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/mayo.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:41.146400",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 129,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/junio.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:41.306853",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 130,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/julio.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:41.464141",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 131,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/agosto.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:41.620944",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 132,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/septiembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:41.776641",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 133,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/octubre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:42.009319",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 134,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/noviembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:42.095660",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 135,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2025/diciembre.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:42.251008",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 136,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2026/enero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:42.396865",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 137,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2026/febrero.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:42.527309",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 138,
+    "name": "Ministerio de Sanidad - Consumo hospitalario SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/hospitalario/2026/marzo.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-23T20:03:42.736709",
+    "notes": "Created from normalized scraper output. Parser: sanidad-hospital-0.6"
+  },
+  {
+    "id": 139,
+    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2014.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-25T08:36:04.801363",
+    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
+  },
+  {
+    "id": 140,
+    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2015.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-25T08:36:05.194116",
+    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
+  },
+  {
+    "id": 141,
+    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2016.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-25T08:36:05.558340",
+    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
+  },
+  {
+    "id": 142,
+    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2017.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-25T08:36:05.903917",
+    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
+  },
+  {
+    "id": 143,
+    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2018.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-25T08:36:06.240266",
+    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
+  },
+  {
+    "id": 144,
+    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2019.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-25T08:36:07.319344",
+    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
+  },
+  {
+    "id": 145,
+    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2020.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-25T08:36:07.915661",
+    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
+  },
+  {
+    "id": 146,
+    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2021.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-25T08:36:10.870499",
+    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
+  },
+  {
+    "id": 147,
+    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2022.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-25T08:36:14.045572",
+    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
+  },
+  {
+    "id": 148,
+    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2023.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-25T08:36:17.160444",
+    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
+  },
+  {
+    "id": 149,
+    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2024.htm",
+    "source_type": "official_web",
+    "license": "Check source terms before redistribution",
+    "accessed_at": "2026-06-25T08:36:19.928801",
+    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
   }
 ]

@@ -5,6 +5,8 @@ import { SourceTable } from "../components/SourceTable";
 import { api } from "../services/api";
 import type { Source } from "../types/domain";
 
+type SourceGroup = Source & { urlCount: number };
+
 export function SourcesPage() {
   const [sources, setSources] = useState<Source[]>([]);
   const [query, setQuery] = useState("");
@@ -15,14 +17,40 @@ export function SourcesPage() {
     api.sources().then(setSources).finally(() => setLoading(false));
   }, []);
 
-  const types = Array.from(new Set(sources.map((source) => source.source_type))).sort();
+  const sourceGroups = useMemo(() => {
+    const grouped = new Map<string, SourceGroup>();
+    sources.forEach((source) => {
+      const key = [
+        source.name,
+        source.source_type,
+        source.license ?? "",
+        source.notes ?? "",
+        source.status ?? "",
+      ].join("|");
+      const current = grouped.get(key);
+      if (!current) {
+        grouped.set(key, { ...source, urlCount: 1 });
+        return;
+      }
+      current.urlCount += 1;
+      if (new Date(source.accessed_at).getTime() > new Date(current.accessed_at).getTime()) {
+        current.accessed_at = source.accessed_at;
+        current.url = source.url;
+        current.status = source.status;
+      }
+    });
+    return [...grouped.values()].sort((a, b) => b.urlCount - a.urlCount || a.name.localeCompare(b.name));
+  }, [sources]);
+
+  const types = Array.from(new Set(sourceGroups.map((source) => source.source_type))).sort();
   const rows = useMemo(
     () =>
-      sources.filter((source) => {
-        const haystack = `${source.name} ${source.url} ${source.source_type} ${source.license ?? ""} ${source.notes ?? ""}`.toLowerCase();
+      sourceGroups.filter((source) => {
+        const haystack =
+          `${source.name} ${source.url} ${source.source_type} ${source.license ?? ""} ${source.notes ?? ""}`.toLowerCase();
         return haystack.includes(query.toLowerCase()) && (!type || source.source_type === type);
       }),
-    [sources, query, type]
+    [sourceGroups, query, type]
   );
 
   if (loading) return <LoadingState />;
@@ -33,6 +61,9 @@ export function SourcesPage() {
         <div>
           <p className="eyebrow">Provenance</p>
           <h1>Fuentes</h1>
+          <p className="muted">
+            {rows.length} fuentes agrupadas | {sources.length} URLs trazadas
+          </p>
         </div>
       </header>
 
@@ -52,4 +83,3 @@ export function SourcesPage() {
     </div>
   );
 }
-

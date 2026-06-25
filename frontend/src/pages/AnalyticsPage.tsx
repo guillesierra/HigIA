@@ -1,5 +1,5 @@
 import { ChevronDown, ChevronUp, TrendingDown, TrendingUp } from "lucide-react";
-import { useEffect, useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { HeatmapChart } from "../charts/HeatmapChart";
 import { RankingChart } from "../charts/RankingChart";
 import { TimeSeriesChart } from "../charts/TimeSeriesChart";
@@ -7,8 +7,10 @@ import { TrendChart } from "../charts/TrendChangesChart";
 import { MetricStrip } from "../components/MetricStrip";
 import { LoadingState } from "../components/Status";
 import { api } from "../services/api";
-import { formatEntityKey, getAtcName, getMetricLabel } from "../services/labels";
+import { formatEntityKey } from "../services/labels";
 import type { ConsumptionRecord, CorrelationPair, ExportSummary, TrendResult } from "../types/domain";
+
+const MIN_ANALYTICS_YEARS = 8;
 
 export function AnalyticsPage() {
   const [consumption, setConsumption] = useState<ConsumptionRecord[]>([]);
@@ -24,18 +26,34 @@ export function AnalyticsPage() {
     }).finally(() => setLoading(false));
   }, []);
 
+  const annualAtcRecords = useMemo(() => {
+    return consumption.filter((record) => {
+      if (record.sector !== "Recetas SNS ATC") return false;
+      if (!record.atc_code) return false;
+      return record.geography_type === "autonomous_community" || isSpain(record.geography);
+    });
+  }, [consumption]);
+
+  const communityAnnualAtcRecords = useMemo(() => {
+    return annualAtcRecords.filter((record) => record.geography_type === "autonomous_community");
+  }, [annualAtcRecords]);
+
   const trends = useMemo(() => {
-    if (!consumption.length) return [] as TrendResult[];
+    if (!communityAnnualAtcRecords.length) return [] as TrendResult[];
     const sm = new Map<string, Map<number, number>>();
-    consumption.forEach((r) => {
-      const key = `${r.geography}|${r.atc_code ?? "total"}`;
+    communityAnnualAtcRecords.forEach((r) => {
+      // Group by ATC code + geographic level
+      const key = r.atc_code
+        ? `${r.geography}|${r.atc_code}`
+        : `${r.geography}|total`;
       if (!sm.has(key)) sm.set(key, new Map());
-      sm.get(key)!.set(r.year, (sm.get(key)!.get(r.year) ?? 0) + Number(r.dhd || 0));
+      const dhd = Number(r.dhd ?? 0);
+      if (dhd > 0) sm.get(key)!.set(r.year, (sm.get(key)!.get(r.year) ?? 0) + dhd);
     });
     const results: TrendResult[] = [];
     sm.forEach((yv, key) => {
       const sorted = [...yv.entries()].sort((a, b) => a[0] - b[0]);
-      if (sorted.length < 2) return;
+      if (sorted.length < MIN_ANALYTICS_YEARS) return;
       const years = sorted.map(([y]) => y); const values = sorted.map(([, v]) => v);
       const n = years.length; const xm = years.reduce((a, b) => a + b, 0) / n; const ym = values.reduce((a, b) => a + b, 0) / n;
       let num = 0; let den = 0;
@@ -54,9 +72,9 @@ export function AnalyticsPage() {
       });
     });
     return results.sort((a, b) => Math.abs(b.avg_yoy_change) - Math.abs(a.avg_yoy_change));
-  }, [consumption]);
+  }, [communityAnnualAtcRecords]);
 
-  const correlations = useMemo(() => api.correlationsCompute(consumption), [consumption]);
+  const correlations = useMemo(() => api.correlationsCompute(communityAnnualAtcRecords), [communityAnnualAtcRecords]);
 
   const increasingTrends = trends.filter(t => t.trend_direction === "increasing");
   const decreasingTrends = trends.filter(t => t.trend_direction === "decreasing");
@@ -105,8 +123,8 @@ export function AnalyticsPage() {
               <thead><tr><th>Territorio &gt; Grupo ATC</th><th>Variación anual</th><th>Inicio</th><th>Fin</th><th></th></tr></thead>
               <tbody>
                 {increasingTrends.slice(0, 20).map((t) => (
-                  <>
-                    <tr key={t.entity_key} className="clickable" onClick={() => setExpandedTrend(expandedTrend === t.entity_key ? null : t.entity_key)} style={{ cursor: "pointer" }}>
+                  <React.Fragment key={t.entity_key}>
+                    <tr className="clickable" onClick={() => setExpandedTrend(expandedTrend === t.entity_key ? null : t.entity_key)} style={{ cursor: "pointer" }}>
                       <td title={formatEntityKey(t.entity_key)}>{formatEntityKey(t.entity_key)}</td>
                       <td><span className="badge badge-rust"><TrendingUp size={10} /> +{t.avg_yoy_change}%/año</span></td>
                       <td>{t.start_value?.toFixed(2)}</td>
@@ -129,7 +147,7 @@ export function AnalyticsPage() {
                         </td>
                       </tr>
                     )}
-                  </>
+                  </React.Fragment>
                 ))}
               </tbody>
             </table>
@@ -146,8 +164,8 @@ export function AnalyticsPage() {
               <thead><tr><th>Territorio &gt; Grupo ATC</th><th>Variación anual</th><th>Inicio</th><th>Fin</th><th></th></tr></thead>
               <tbody>
                 {decreasingTrends.slice(0, 20).map((t) => (
-                  <>
-                    <tr key={t.entity_key} className="clickable" onClick={() => setExpandedTrend(expandedTrend === t.entity_key ? null : t.entity_key)} style={{ cursor: "pointer" }}>
+                  <React.Fragment key={t.entity_key}>
+                    <tr className="clickable" onClick={() => setExpandedTrend(expandedTrend === t.entity_key ? null : t.entity_key)} style={{ cursor: "pointer" }}>
                       <td title={formatEntityKey(t.entity_key)}>{formatEntityKey(t.entity_key)}</td>
                       <td><span className="badge badge-teal"><TrendingDown size={10} /> {t.avg_yoy_change}%/año</span></td>
                       <td>{t.start_value?.toFixed(2)}</td>
@@ -170,7 +188,7 @@ export function AnalyticsPage() {
                         </td>
                       </tr>
                     )}
-                  </>
+                  </React.Fragment>
                 ))}
               </tbody>
             </table>
@@ -194,8 +212,8 @@ export function AnalyticsPage() {
             </thead>
             <tbody>
               {correlations.slice(0, 30).map((c, i) => (
-                <>
-                  <tr key={i} className="clickable" onClick={() => setExpandedCorr(expandedCorr === i ? null : i)} style={{ cursor: "pointer" }}>
+                <React.Fragment key={`corr-${i}`}>
+                  <tr className="clickable" onClick={() => setExpandedCorr(expandedCorr === i ? null : i)} style={{ cursor: "pointer" }}>
                     <td title={c.entity_a}>{formatEntityKey(c.entity_a)}</td>
                     <td title={c.entity_b}>{formatEntityKey(c.entity_b)}</td>
                     <td><span className={`badge ${c.correlation > 0.5 ? "badge-teal" : c.correlation < -0.5 ? "badge-rust" : "badge-ink"}`}>{c.correlation}</span></td>
@@ -224,7 +242,7 @@ export function AnalyticsPage() {
                       </td>
                     </tr>
                   )}
-                </>
+                </React.Fragment>
               ))}
             </tbody>
           </table>
@@ -234,10 +252,10 @@ export function AnalyticsPage() {
       {/* HEATMAP */}
       <section className="panel">
         <div className="panel-heading">
-          <h2>Mapa de calor: DHD por territorio y año</h2>
-          <p className="muted">Cada celda coloreada según su valor de DHD. Celdas sin datos (valor 0 o sin registro) no se muestran.</p>
+          <h2>Mapa de calor: DHD por CCAA y año</h2>
+          <p className="muted">Cada celda coloreada corresponde a una comunidad autónoma. España se muestra en gris como referencia fuera de escala.</p>
         </div>
-        <HeatmapChart records={consumption} />
+        <HeatmapChart records={annualAtcRecords} />
       </section>
 
       {/* ESTADÍSTICAS GLOBALES */}
@@ -255,4 +273,9 @@ export function AnalyticsPage() {
       )}
     </div>
   );
+}
+
+function isSpain(geography: string) {
+  const normalized = geography.trim().toLowerCase();
+  return normalized === "spain" || normalized === "españa";
 }

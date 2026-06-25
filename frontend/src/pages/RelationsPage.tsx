@@ -67,7 +67,7 @@ export function RelationsPage() {
               <div className="panel-heading">
                 <h2>Consumo relacionado</h2>
               </div>
-              <ConsumptionChart records={result.consumption} />
+              <ConsumptionChart records={result.consumption} maxSeries={8} />
             </div>
             <div className="panel">
               <div className="panel-heading">

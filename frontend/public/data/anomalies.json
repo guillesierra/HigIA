@@ -1,11 +1,272 @@
 [
   {
-    "entity_key": "Spain|J01",
-    "year": 2020,
+    "entity_key": "Comunidad de Madrid|G02",
+    "year": 2023,
     "previous_year": 2019,
-    "value": 9.7923,
-    "previous_value": 12.6163,
-    "change_pct": 22.38,
-    "direction": "drop"
+    "value": 2.3486,
+    "previous_value": 0.0651,
+    "change_pct": 3507.68,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Extremadura|G02",
+    "year": 2023,
+    "previous_year": 2019,
+    "value": 2.9526,
+    "previous_value": 0.0821,
+    "change_pct": 3496.35,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Ceuta|G02",
+    "year": 2023,
+    "previous_year": 2019,
+    "value": 1.6899,
+    "previous_value": 0.0472,
+    "change_pct": 3480.3,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Castilla y Leon|G02",
+    "year": 2023,
+    "previous_year": 2019,
+    "value": 2.6813,
+    "previous_value": 0.0751,
+    "change_pct": 3470.31,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Aragon|G02",
+    "year": 2023,
+    "previous_year": 2019,
+    "value": 2.4732,
+    "previous_value": 0.0698,
+    "change_pct": 3443.27,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Castilla-La Mancha|G02",
+    "year": 2021,
+    "previous_year": 2018,
+    "value": 1.8818,
+    "previous_value": 0.0822,
+    "change_pct": 2189.29,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Asturias|G02",
+    "year": 2021,
+    "previous_year": 2018,
+    "value": 1.81,
+    "previous_value": 0.0823,
+    "change_pct": 2099.27,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Region de Murcia|G02",
+    "year": 2021,
+    "previous_year": 2018,
+    "value": 1.9218,
+    "previous_value": 0.0895,
+    "change_pct": 2047.26,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Galicia|G02",
+    "year": 2021,
+    "previous_year": 2018,
+    "value": 1.8069,
+    "previous_value": 0.0842,
+    "change_pct": 2045.96,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Melilla|G02",
+    "year": 2021,
+    "previous_year": 2018,
+    "value": 1.2849,
+    "previous_value": 0.0609,
+    "change_pct": 2009.85,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Comunidad de Madrid|H01CC",
+    "year": 2024,
+    "previous_year": 2022,
+    "value": 0.1295,
+    "previous_value": 0.0092,
+    "change_pct": 1307.61,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Aragon|H01CC",
+    "year": 2024,
+    "previous_year": 2022,
+    "value": 0.1363,
+    "previous_value": 0.0097,
+    "change_pct": 1305.15,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Extremadura|H01CC",
+    "year": 2024,
+    "previous_year": 2022,
+    "value": 0.1627,
+    "previous_value": 0.0116,
+    "change_pct": 1302.59,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Castilla y Leon|H01CC",
+    "year": 2024,
+    "previous_year": 2022,
+    "value": 0.1478,
+    "previous_value": 0.0106,
+    "change_pct": 1294.34,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Ceuta|H01CC",
+    "year": 2024,
+    "previous_year": 2022,
+    "value": 0.0931,
+    "previous_value": 0.0067,
+    "change_pct": 1289.55,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Melilla|N04BX",
+    "year": 2023,
+    "previous_year": 2014,
+    "value": 0.1524,
+    "previous_value": 0.0132,
+    "change_pct": 1054.55,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Asturias|N04BX",
+    "year": 2023,
+    "previous_year": 2014,
+    "value": 0.2147,
+    "previous_value": 0.0194,
+    "change_pct": 1006.7,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Castilla-La Mancha|N04BX",
+    "year": 2023,
+    "previous_year": 2014,
+    "value": 0.2233,
+    "previous_value": 0.021,
+    "change_pct": 963.33,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Galicia|N04BX",
+    "year": 2023,
+    "previous_year": 2014,
+    "value": 0.2144,
+    "previous_value": 0.0206,
+    "change_pct": 940.78,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Region de Murcia|N04BX",
+    "year": 2023,
+    "previous_year": 2014,
+    "value": 0.228,
+    "previous_value": 0.0231,
+    "change_pct": 887.01,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Canarias|A11CC",
+    "year": 2019,
+    "previous_year": 2014,
+    "value": 16.6285,
+    "previous_value": 1.814,
+    "change_pct": 816.68,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Illes Balears|A11CC",
+    "year": 2019,
+    "previous_year": 2014,
+    "value": 14.5532,
+    "previous_value": 1.6279,
+    "change_pct": 793.99,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Cataluna|A11CC",
+    "year": 2019,
+    "previous_year": 2014,
+    "value": 16.703,
+    "previous_value": 1.8842,
+    "change_pct": 786.48,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Navarra|A11CC",
+    "year": 2019,
+    "previous_year": 2014,
+    "value": 15.0652,
+    "previous_value": 1.7218,
+    "change_pct": 774.97,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Canarias|C10B",
+    "year": 2023,
+    "previous_year": 2014,
+    "value": 17.722,
+    "previous_value": 2.0558,
+    "change_pct": 762.05,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Illes Balears|C10B",
+    "year": 2023,
+    "previous_year": 2014,
+    "value": 15.8409,
+    "previous_value": 1.8449,
+    "change_pct": 758.63,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Cataluna|C10B",
+    "year": 2023,
+    "previous_year": 2014,
+    "value": 17.8878,
+    "previous_value": 2.1355,
+    "change_pct": 737.64,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Navarra|C10B",
+    "year": 2023,
+    "previous_year": 2014,
+    "value": 15.1298,
+    "previous_value": 1.9514,
+    "change_pct": 675.33,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Comunitat Valenciana|A11",
+    "year": 2022,
+    "previous_year": 2014,
+    "value": 38.9023,
+    "previous_value": 5.2527,
+    "change_pct": 640.62,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Andalucia|A11",
+    "year": 2022,
+    "previous_year": 2014,
+    "value": 36.9539,
+    "previous_value": 5.1023,
+    "change_pct": 624.26,
+    "direction": "spike"
   }
 ]

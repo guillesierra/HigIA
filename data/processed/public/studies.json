@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "source_id": 269,
+    "source_id": 2,
     "title": "Repositorio Institucional de la Universidad de Oviedo",
     "authors": "Iglesias Carbajo, Ana Isabel",
     "year": 2003,
@@ -22,7 +22,7 @@
   },
   {
     "id": 2,
-    "source_id": 269,
+    "source_id": 2,
     "title": "TD_AnaIsabelIglesias.PDF (9.098Mb)",
     "authors": null,
     "year": 2003,
@@ -43,7 +43,7 @@
   },
   {
     "id": 3,
-    "source_id": 270,
+    "source_id": 3,
     "title": "Evoluci\u00f3n del consumo de antibi\u00f3ticos a nivel extrahospitalario en Asturias, Espa\u00f1a (2005-2018)",
     "authors": "Laura Calle-Miguel; Ana Isabel Iglesias Carbajo; Gracia Modro\u00f1o Ria\u00f1o; Carlos P\u00e9rez M\u00e9ndez; Elisa Garc\u00eda Garc\u00eda; Soledad Rodr\u00edguez Nebreda; Gonzalo Sol\u00eds S\u00e1nchez",
     "year": 2005,
@@ -64,7 +64,7 @@
   },
   {
     "id": 4,
-    "source_id": 272,
+    "source_id": 5,
     "title": "TD_CristinaMariaSuarezCastanon.pdf",
     "authors": null,
     "year": null,
@@ -85,7 +85,7 @@
   },
   {
     "id": 5,
-    "source_id": 273,
+    "source_id": 6,
     "title": "TD_DiegoParraRuiz.pdf",
     "authors": null,
     "year": 2018,
@@ -106,7 +106,7 @@
   },
   {
     "id": 6,
-    "source_id": 274,
+    "source_id": 7,
     "title": "TD_pedrojavierguerrero.pdf",
     "authors": null,
     "year": 2012,
@@ -127,7 +127,7 @@
   },
   {
     "id": 7,
-    "source_id": 275,
+    "source_id": 8,
     "title": "2024_025_TD_PilarLumbrerasIglesias.pdf",
     "authors": null,
     "year": 2023,
@@ -148,7 +148,7 @@
   },
   {
     "id": 8,
-    "source_id": 276,
+    "source_id": 9,
     "title": "Medicamentos de alto riesgo en pacientes pedi\u00e1tricos cr\u00edticos",
     "authors": "Castellanos Serrano, Roc\u00edo; Oliva S\u00e1nchez, Ana; Vidal Bello, Beatriz",
     "year": 2017,
@@ -169,7 +169,7 @@
   },
   {
     "id": 9,
-    "source_id": 277,
+    "source_id": 10,
     "title": "Dip\u00f2sit Digital de Documents de la UAB",
     "authors": null,
     "year": 2026,
@@ -190,7 +190,7 @@
   },
   {
     "id": 10,
-    "source_id": 278,
+    "source_id": 11,
     "title": "Repositori Digital de la UPF",
     "authors": null,
     "year": 2025,
@@ -211,7 +211,7 @@
   },
   {
     "id": 11,
-    "source_id": 279,
+    "source_id": 12,
     "title": "Portal del coneixement obert de la UPC",
     "authors": null,
     "year": 2026,
@@ -232,7 +232,7 @@
   },
   {
     "id": 12,
-    "source_id": 280,
+    "source_id": 13,
     "title": "ADDI",
     "authors": null,
     "year": 2026,
@@ -253,7 +253,7 @@
   },
   {
     "id": 13,
-    "source_id": 281,
+    "source_id": 14,
     "title": "DigitalUM :: Home",
     "authors": null,
     "year": 1976,
@@ -274,7 +274,7 @@
   },
   {
     "id": 14,
-    "source_id": 283,
+    "source_id": 16,
     "title": "Asturias public PDF",
     "authors": null,
     "year": 2026,
@@ -295,7 +295,7 @@
   },
   {
     "id": 15,
-    "source_id": 284,
+    "source_id": 17,
     "title": "Sanidad consumption source page",
     "authors": null,
     "year": null,
@@ -316,7 +316,7 @@
   },
   {
     "id": 16,
-    "source_id": 287,
+    "source_id": 20,
     "title": "PRAN HTML tables",
     "authors": null,
     "year": null,
@@ -330,9 +330,9 @@
     "pending_work": "Review extraction quality before structured use.",
     "source_name": "PRAN human antibiotic consumption",
     "source_url": "https://www.resistenciaantibioticos.es/es/lineas-de-accion/vigilancia/mapas-de-consumo/consumos-antibioticos-humana",
-    "accessed_at": "2026-06-23T20:26:26.563634",
-    "raw_file_path": "C:\\Users\\gjsierramaillo\\OneDrive - Indra\\Escritorio\\Personal\\Ana\\HigIA\\data\\raw\\pran\\20260623202627668566_consumos-antibioticos-humana.html",
-    "parser_version": "pran-antibiotics-0.3",
+    "accessed_at": "2026-06-25T07:32:20.079274",
+    "raw_file_path": "C:\\Users\\gjsierramaillo\\OneDrive - Indra\\Escritorio\\Personal\\Ana\\HigIA\\data\\raw\\pran\\20260625073221207701_consumos-antibioticos-humana.html",
+    "parser_version": "pran-antibiotics-0.4",
     "therapeutic_group": null
   }
 ]

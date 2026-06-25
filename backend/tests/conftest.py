@@ -1,12 +1,19 @@
+# ruff: noqa: E402
 from collections.abc import Generator
 from datetime import date, datetime
 from decimal import Decimal
+import os
+from pathlib import Path
+
+TEST_DB_PATH = Path(__file__).resolve().parent / ".test_higia.sqlite"
+# DATABASE_URL must be set before importing app.db modules.
+os.environ["DATABASE_URL"] = f"sqlite:///{TEST_DB_PATH.as_posix()}"
 
 import pytest
 from fastapi.testclient import TestClient
 
 from app.db.init_db import reset_db
-from app.db.session import SessionLocal
+from app.db.session import SessionLocal, engine
 from app.main import app
 from app.models.domain import ATCCode, AlertDrug, ConsumptionRecord, Drug, DrugATC, SafetyAlert, Source
 from app.normalizers.text import normalize_name
@@ -18,6 +25,8 @@ def seeded_database() -> Generator[None, None, None]:
     with SessionLocal() as db:
         seed_test_data(db)
     yield
+    engine.dispose()
+    TEST_DB_PATH.unlink(missing_ok=True)
 
 
 @pytest.fixture()

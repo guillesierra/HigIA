@@ -22,7 +22,7 @@ export function RankingChart({ records }: { records: ConsumptionRecord[] }) {
     tooltip: {
       trigger: "axis",
       axisPointer: { type: "shadow" },
-      formatter: (p: { data: number; axisValue: string }[]) => `${p[0]?.axisValue}: <b>${p[0]?.data?.toFixed(2)} DHD</b>`,
+      formatter: (p: { data: { value: number }; axisValue: string }[]) => `${p[0]?.axisValue}: <b>${p[0]?.data?.value?.toFixed(2)} DHD</b>`,
     },
     grid: { left: 170, right: 40, top: 48, bottom: 35 },
     xAxis: { type: "value", name: "DHD (Dosis por Habitante y Día)", nameLocation: "middle", nameGap: 28 },

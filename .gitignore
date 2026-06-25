@@ -45,3 +45,8 @@ Thumbs.db
 # Environment
 .env
 .env.*
+data/processed/public/consumption.json
+frontend/public/data/consumption.json
+data/processed/public/consumption.json
+frontend/public/data/consumption.json
+frontend/dist/
