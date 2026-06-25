@@ -42,7 +42,7 @@ export function AnalyticsPage() {
 
   const trends = useMemo(() => {
     if (!annualAtcRecords.length) return [] as TrendResult[];
-    // Use average DHD per (geo, atc_code, year) for consistent scale
+    // Filter: only ATC records with meaningful DHD (>0.1 avg) to avoid noise
     const sm = new Map<string, Map<number, { sum: number; count: number }>>();
     annualAtcRecords.forEach((r) => {
       const key = r.atc_code
@@ -51,15 +51,24 @@ export function AnalyticsPage() {
       if (!sm.has(key)) sm.set(key, new Map());
       const ym = sm.get(key)!;
       const dhd = Number(r.dhd ?? 0);
-      if (dhd > 0) {
+      if (dhd > 0.05) {
         const prev = ym.get(r.year) ?? { sum: 0, count: 0 };
         prev.sum += dhd;
         prev.count += 1;
         ym.set(r.year, prev);
       }
     });
-    const results: TrendResult[] = [];
+
+    // Remove series where the average DHD across all years is too low
+    const meaningful = new Map<string, Map<number, { sum: number; count: number }>>();
     sm.forEach((yv, key) => {
+      const allVals = Array.from(yv.values()).map((v: { sum: number; count: number }) => v.sum / v.count);
+      const avgDHD = allVals.reduce((a: number, b: number) => a + b, 0) / allVals.length;
+      if (avgDHD >= 0.2) meaningful.set(key, yv);
+    });
+
+    const results: TrendResult[] = [];
+    meaningful.forEach((yv, key) => {
       const sorted = [...yv.entries()].sort((a, b) => a[0] - b[0]);
       if (sorted.length < MIN_ANALYTICS_YEARS) return;
       const years = sorted.map(([y]) => y);
