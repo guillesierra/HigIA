@@ -87,6 +87,18 @@ export function AnalyticsPage() {
     return trends.map(t => formatEntityKey(t.entity_key));
   }, [trends]);
 
+  const trendCCAA = useMemo(() => {
+    const names = new Set<string>();
+    trendCurveNames.forEach((n) => { const geo = n.split(" > ")[0]; if (geo) names.add(geo); });
+    return Array.from(names).sort();
+  }, [trendCurveNames]);
+
+  const trendSelectCCAA = (ccaa: string) => {
+    const next = new Set(trendCurves);
+    trendCurveNames.forEach((n) => { if (n.startsWith(ccaa + " > ")) next.add(n); });
+    setTrendCurves(next);
+  };
+
   useEffect(() => {
     setTrendCurves(new Set(trendCurveNames.slice(0, 20)));
   }, [trendCurveNames]);
@@ -132,7 +144,11 @@ export function AnalyticsPage() {
             <button className="text-button" onClick={() => setTrendCurves(new Set(trendCurveNames))}>Todas</button>
             <button className="text-button" onClick={() => setTrendCurves(new Set())}>Ninguna</button>
           </div>
-          <p className="muted curve-count">{trendCurves.size} de {trendCurveNames.length} seleccionadas</p>
+          <p className="muted curve-count">{trendCurves.size} de {trendCurveNames.length}</p>
+          <select className="curve-search" value="" onChange={(e) => { if (e.target.value) { trendSelectCCAA(e.target.value); e.target.value = ""; } }} style={{ marginBottom: 4, fontSize: 11 }}>
+            <option value="">+ Filtrar por CCAA…</option>
+            {trendCCAA.map((c) => <option key={c} value={c}>{c}</option>)}
+          </select>
           <input className="curve-search" type="text" placeholder="Buscar curva…" value={trendSearch} onChange={e => setTrendSearch(e.target.value)} />
           <div className="curve-list">
             {trendCurveNames

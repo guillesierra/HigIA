@@ -50,6 +50,20 @@ export function ConsumptionPage() {
   }, [filtered, metric]);
 
   const curveNames = useMemo(() => curveStats.map(([name]) => name).sort(), [curveStats]);
+
+  // Extract unique CCAA from curve names
+  const ccaaNames = useMemo(() => {
+    const names = new Set<string>();
+    curveNames.forEach((n) => { const geo = n.split(" | ")[0]; if (geo) names.add(geo); });
+    return Array.from(names).sort();
+  }, [curveNames]);
+
+  const selectByCCAA = (ccaa: string) => {
+    const next = new Set(selectedCurves);
+    curveNames.forEach((n) => { if (n.startsWith(ccaa + " | ")) next.add(n); });
+    setSelectedCurves(next);
+  };
+
   const defaultCurves = useMemo(() => curveStats.slice(0, DEFAULT_CURVE_LIMIT).map(([name]) => name), [curveStats]);
 
   useEffect(() => {
@@ -130,7 +144,16 @@ export function ConsumptionPage() {
             <button className="text-button" onClick={() => setSelectedCurves(new Set(curveNames))}>Todas</button>
             <button className="text-button" onClick={() => setSelectedCurves(new Set())}>Ninguna</button>
           </div>
-          <p className="muted curve-count">{selectedCurves.size} de {curveNames.length} seleccionadas</p>
+          <p className="muted curve-count">{selectedCurves.size} de {curveNames.length}</p>
+          <select
+            className="curve-search"
+            value=""
+            onChange={(e) => { if (e.target.value) selectByCCAA(e.target.value); e.target.value = ""; }}
+            style={{ marginBottom: 4, fontSize: 11 }}
+          >
+            <option value="">+ Filtrar por CCAA…</option>
+            {ccaaNames.map((c) => <option key={c} value={c}>{c}</option>)}
+          </select>
           <input
             className="curve-search"
             type="text"
