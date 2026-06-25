@@ -9,8 +9,6 @@ import { api } from "../services/api";
 import { getAtcName } from "../services/labels";
 import type { ATCCode, Drug, RelationshipResponse, SafetyAlert } from "../types/domain";
 
-const TOP_COUNT = 12;
-
 export function RelationsPage() {
   const [kind, setKind] = useState<"atc" | "drug" | "alert">("atc");
   const [drugs, setDrugs] = useState<Drug[]>([]);
@@ -21,6 +19,7 @@ export function RelationsPage() {
   const [loading, setLoading] = useState(true);
   const [searchLoading, setSearchLoading] = useState(false);
   const [selectedQuery, setSelectedQuery] = useState("");
+  const [searchFilter, setSearchFilter] = useState("");
 
   useEffect(() => {
     Promise.all([api.drugs(), api.atc(), api.alerts()])
@@ -32,10 +31,10 @@ export function RelationsPage() {
     if (kind === "atc") {
       const unique = new Map<string, ATCCode>();
       atcCodes.forEach(a => { if (!unique.has(a.code)) unique.set(a.code, a); });
-      return Array.from(unique.values()).slice(0, TOP_COUNT);
+      return Array.from(unique.values());
     }
-    if (kind === "drug") return drugs.filter(d => d.active_ingredient).slice(0, TOP_COUNT);
-    if (kind === "alert") return alerts.filter(a => a.date).sort((a, b) => (b.date ?? "").localeCompare(a.date ?? "")).slice(0, TOP_COUNT);
+    if (kind === "drug") return drugs.filter(d => d.active_ingredient);
+    if (kind === "alert") return alerts.filter(a => a.date).sort((a, b) => (b.date ?? "").localeCompare(a.date ?? ""));
     return [];
   }, [kind, atcCodes, drugs, alerts]);
 
@@ -78,25 +77,39 @@ export function RelationsPage() {
       {!result && (
         <section className="panel">
           <div className="panel-heading">
-            <h2>{kind === "atc" ? "Códigos ATC disponibles" : kind === "drug" ? "Medicamentos disponibles" : "Alertas recientes"}</h2>
-            <p className="muted">Haz clic para ver relaciones</p>
+            <h2>{kind === "atc" ? `${atcCodes.length} códigos ATC` : kind === "drug" ? `${drugs.length} medicamentos` : `${alerts.length} alertas`}</h2>
+            <p className="muted">Haz clic para ver relaciones. Escribe para filtrar.</p>
           </div>
-          <div className="relations-grid">
-            {kind === "atc" && (topItems as ATCCode[]).map((item) => (
+          <input
+            className="curve-search"
+            type="text"
+            placeholder="Filtrar…"
+            value={searchFilter}
+            onChange={(e) => setSearchFilter(e.target.value)}
+            style={{ margin: "0 12px 8px", width: "calc(100% - 24px)", minHeight: 34 }}
+          />
+          <div className="relations-grid" style={{ maxHeight: 500, overflow: "auto" }}>
+            {kind === "atc" && (topItems as ATCCode[])
+              .filter(item => !searchFilter || item.code.toLowerCase().includes(searchFilter.toLowerCase()) || item.name.toLowerCase().includes(searchFilter.toLowerCase()))
+              .slice(0, 200).map((item) => (
               <button key={item.code} className={`relation-card ${selectedQuery === item.code ? "selected" : ""}`}
                 onClick={() => search(item.code)}>
                 <strong>{item.code}</strong>
                 <span>{item.name}</span>
               </button>
             ))}
-            {kind === "drug" && (topItems as Drug[]).map((item) => (
+            {kind === "drug" && (topItems as Drug[])
+              .filter(item => !searchFilter || item.name.toLowerCase().includes(searchFilter.toLowerCase()) || (item.active_ingredient || "").toLowerCase().includes(searchFilter.toLowerCase()))
+              .slice(0, 200).map((item) => (
               <button key={item.id} className={`relation-card ${selectedQuery === item.name ? "selected" : ""}`}
                 onClick={() => search(item.name)}>
                 <strong>{item.name}</strong>
                 <span>{item.active_ingredient || item.normalized_name}</span>
               </button>
             ))}
-            {kind === "alert" && (topItems as SafetyAlert[]).map((item) => (
+            {kind === "alert" && (topItems as SafetyAlert[])
+              .filter(item => !searchFilter || item.title.toLowerCase().includes(searchFilter.toLowerCase()))
+              .slice(0, 200).map((item) => (
               <button key={item.id} className={`relation-card ${selectedQuery === String(item.id) ? "selected" : ""}`}
                 onClick={() => search(String(item.id))}>
                 <strong>{item.date?.slice(0, 10) ?? "—"}</strong>
