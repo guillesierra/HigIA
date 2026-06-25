@@ -96,8 +96,6 @@ export function AnalyticsPage() {
 
   const correlations = useMemo(() => api.correlationsCompute(communityAnnualAtcRecords), [communityAnnualAtcRecords]);
 
-  const increasingTrends = trends.filter(t => t.trend_direction === "increasing");
-  const decreasingTrends = trends.filter(t => t.trend_direction === "decreasing");
   const strongPosCorr = correlations.filter(c => c.correlation > 0.7);
   const strongNegCorr = correlations.filter(c => c.correlation < -0.7);
 
@@ -125,6 +123,9 @@ export function AnalyticsPage() {
   const filteredTrends = useMemo(() => {
     return trends.filter(t => trendCurves.has(formatEntityKey(t.entity_key)));
   }, [trends, trendCurves]);
+
+  const increasingTrends = filteredTrends.filter(t => t.trend_direction === "increasing");
+  const decreasingTrends = filteredTrends.filter(t => t.trend_direction === "decreasing");
 
   if (loading) return <LoadingState />;
 
