@@ -42,21 +42,31 @@ export function AnalyticsPage() {
 
   const trends = useMemo(() => {
     if (!annualAtcRecords.length) return [] as TrendResult[];
-    const sm = new Map<string, Map<number, number>>();
+    // Use average DHD per (geo, atc_code, year) for consistent scale
+    const sm = new Map<string, Map<number, { sum: number; count: number }>>();
     annualAtcRecords.forEach((r) => {
       const key = r.atc_code
         ? `${r.geography}|${r.atc_code}`
         : `${r.geography}|total`;
       if (!sm.has(key)) sm.set(key, new Map());
+      const ym = sm.get(key)!;
       const dhd = Number(r.dhd ?? 0);
-      if (dhd > 0) sm.get(key)!.set(r.year, (sm.get(key)!.get(r.year) ?? 0) + dhd);
+      if (dhd > 0) {
+        const prev = ym.get(r.year) ?? { sum: 0, count: 0 };
+        prev.sum += dhd;
+        prev.count += 1;
+        ym.set(r.year, prev);
+      }
     });
     const results: TrendResult[] = [];
     sm.forEach((yv, key) => {
       const sorted = [...yv.entries()].sort((a, b) => a[0] - b[0]);
       if (sorted.length < MIN_ANALYTICS_YEARS) return;
-      const years = sorted.map(([y]) => y); const values = sorted.map(([, v]) => v);
-      const n = years.length; const xm = years.reduce((a, b) => a + b, 0) / n; const ym = values.reduce((a, b) => a + b, 0) / n;
+      const years = sorted.map(([y]) => y);
+      const values = sorted.map(([, v]) => v.sum / v.count);
+      const n = years.length;
+      const xm = years.reduce((a, b) => a + b, 0) / n;
+      const ym = values.reduce((a, b) => a + b, 0) / n;
       let num = 0; let den = 0;
       for (let i = 0; i < n; i++) { num += (years[i] - xm) * (values[i] - ym); den += (years[i] - xm) ** 2; }
       const slope = den ? num / den : 0;
