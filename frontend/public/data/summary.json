@@ -2,7 +2,7 @@
   "counts": {
     "sources": 139,
     "alerts": 29,
-    "consumption_records": 32771,
+    "consumption_records": 105323,
     "studies": 16,
     "drugs": 118,
     "atc_codes": 88
@@ -13,44 +13,44 @@
   },
   "top_geographies": [
     {
-      "name": "Spain",
-      "records": 5148
-    },
-    {
-      "name": "Canarias",
-      "records": 1538
-    },
-    {
-      "name": "Galicia",
-      "records": 1537
+      "name": "La Rioja",
+      "records": 5362
     },
     {
       "name": "Cantabria",
-      "records": 1536
-    },
-    {
-      "name": "La Rioja",
-      "records": 1536
+      "records": 5360
     },
     {
       "name": "Asturias",
-      "records": 1535
+      "records": 5359
     },
     {
-      "name": "Region de Murcia",
-      "records": 1533
+      "name": "Canarias",
+      "records": 5357
+    },
+    {
+      "name": "Galicia",
+      "records": 5352
     },
     {
       "name": "Extremadura",
-      "records": 1532
+      "records": 5344
+    },
+    {
+      "name": "Region de Murcia",
+      "records": 5344
     },
     {
       "name": "Ceuta",
-      "records": 1524
+      "records": 5335
     },
     {
       "name": "Melilla",
-      "records": 1524
+      "records": 5334
+    },
+    {
+      "name": "Navarra",
+      "records": 5316
     }
   ],
   "alerts_timeline": [
@@ -147,5 +147,5 @@
       "count": 1
     }
   ],
-  "generated_at": "2026-06-25T10:56:36.357139"
+  "generated_at": "2026-06-25T11:29:32.273755"
 }

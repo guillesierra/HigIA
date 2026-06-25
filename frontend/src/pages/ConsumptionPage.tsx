@@ -23,7 +23,10 @@ export function ConsumptionPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    api.consumption().then(setRecords).finally(() => setLoading(false));
+    api.consumption().then((spainData) => {
+      setRecords(spainData);
+      setLoading(false);
+    });
   }, []);
 
   const filtered = useMemo(() =>

@@ -14,7 +14,6 @@ import type {
 } from "../types/domain";
 
 const DATA_BASE = `${import.meta.env.BASE_URL}data`;
-const MIN_ANALYTICS_YEARS = 8;
 
 async function fetchStatic<T>(name: string): Promise<T> {
   try {
@@ -23,6 +22,21 @@ async function fetchStatic<T>(name: string): Promise<T> {
     return response.json();
   } catch {
     return [] as unknown as T;
+  }
+}
+
+// Lazy-load CCAA data
+const ccaaCache = new Map<string, ConsumptionRecord[]>();
+
+async function loadCCAAData(ccaa: string): Promise<ConsumptionRecord[]> {
+  if (ccaaCache.has(ccaa)) return ccaaCache.get(ccaa)!;
+  const safe = ccaa.replace(/\s+/g, "_");
+  try {
+    const data = await fetchStatic<ConsumptionRecord[]>(`consumption_${safe}`);
+    ccaaCache.set(ccaa, data);
+    return data;
+  } catch {
+    return [];
   }
 }
 
@@ -65,7 +79,7 @@ function computeRealCorrelations(consumption: ConsumptionRecord[]): CorrelationP
 
   // Build list of series with their year-value maps
   const entries = [...seriesMap.entries()]
-    .filter(([, m]) => m.size >= MIN_ANALYTICS_YEARS)
+    .filter(([, m]) => m.size >= 3)
     .sort((a, b) => b[1].size - a[1].size || seriesMean(b[1]) - seriesMean(a[1]) || a[0].localeCompare(b[0]));
   const results: CorrelationPair[] = [];
 
@@ -104,6 +118,7 @@ export const api = {
   correlations: () => fetchStatic<CorrelationPair[]>("correlations"),
   anomalies: () => fetchStatic<AnomalyRecord[]>("anomalies"),
   summary: () => fetchStatic<ExportSummary>("summary"),
+  loadCCAA: loadCCAAData,
   correlationsCompute: (consumption: ConsumptionRecord[]) => computeRealCorrelations(consumption),
   all: loadAll,
   relationship: async (kind: "drug" | "atc" | "alert", query: string): Promise<RelationshipResponse> => {

@@ -62,11 +62,9 @@ if len(consumption_data) > 50000:
     atc_spain = [r for r in consumption_data if r.get("sector") == "Recetas SNS ATC" and r.get("geography") == "Spain"]
     atc_ccaa = [r for r in consumption_data if r.get("sector") == "Recetas SNS ATC" and r.get("geography") != "Spain"]
     
-    # Sample: take every Nth record for CCAA data to fit in 20K
-    step = max(1, len(atc_ccaa) // 20000)
-    sampled_ccaa = atc_ccaa[::step]
-    consumption_data = hospital + atc_spain + sampled_ccaa
-    print(f"   Sampled: {len(hospital)} hosp + {len(atc_spain)} spain + {len(sampled_ccaa)} ccaa = {len(consumption_data)}")
+    # Keep all ATC records for complete trend data
+    consumption_data = hospital + atc_spain + atc_ccaa
+    print(f"   Kept: {len(hospital)} hosp + {len(atc_spain)} spain + {len(atc_ccaa)} ccaa = {len(consumption_data)}")
 
 # Ingest to SQLite (just for source tracking)
 with SessionLocal() as db:

@@ -1,1 +1,182 @@
-[]
+[
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Melilla|A02B",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Ceuta|A02",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Ceuta|A02B",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Extremadura|A02",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Extremadura|A02B",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Comunitat Valenciana|A02",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Comunitat Valenciana|A02B",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Region de Murcia|A02",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Region de Murcia|A02B",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Andalucia|A02",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Andalucia|A02B",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Castilla-La Mancha|A02",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Castilla-La Mancha|A02B",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Galicia|A02",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Galicia|A02B",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Aragon|A02",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Aragon|A02B",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Illes Balears|A02",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Illes Balears|A02B",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Canarias|A02",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Canarias|A02B",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Cataluna|A02",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Cataluna|A02B",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Asturias|A02",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Asturias|A02B",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Castilla y Leon|A02",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Castilla y Leon|A02B",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Comunidad de Madrid|A02",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Comunidad de Madrid|A02B",
+    "correlation": 1.0,
+    "common_years": 11
+  },
+  {
+    "entity_a": "Melilla|A02",
+    "entity_b": "Cantabria|A02",
+    "correlation": 1.0,
+    "common_years": 11
+  }
+]

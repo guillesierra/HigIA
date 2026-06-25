@@ -1,272 +1,272 @@
 [
   {
-    "entity_key": "Melilla|A10BK",
-    "year": 2023,
+    "entity_key": "Andalucia|A10BK",
+    "year": 2020,
     "previous_year": 2019,
-    "value": 18.4317,
-    "previous_value": 0.0135,
-    "change_pct": 136431.11,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Castilla-La Mancha|A10BK",
-    "year": 2023,
-    "previous_year": 2019,
-    "value": 14.7453,
-    "previous_value": 0.0108,
-    "change_pct": 136430.56,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Galicia|A10BK",
-    "year": 2023,
-    "previous_year": 2019,
-    "value": 14.3357,
-    "previous_value": 0.0105,
-    "change_pct": 136430.48,
+    "value": 0.9753,
+    "previous_value": 0.0112,
+    "change_pct": 8608.04,
     "direction": "spike"
   },
   {
     "entity_key": "Region de Murcia|A10BK",
-    "year": 2023,
+    "year": 2020,
     "previous_year": 2019,
-    "value": 15.701,
+    "value": 1.0014,
     "previous_value": 0.0115,
-    "change_pct": 136430.43,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Asturias|A10BK",
-    "year": 2023,
-    "previous_year": 2019,
-    "value": 11.6051,
-    "previous_value": 0.01,
-    "change_pct": 115951.0,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Illes Balears|C10B",
-    "year": 2021,
-    "previous_year": 2017,
-    "value": 11.2907,
-    "previous_value": 0.01,
-    "change_pct": 112807.0,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Canarias|C10B",
-    "year": 2021,
-    "previous_year": 2017,
-    "value": 10.6965,
-    "previous_value": 0.01,
-    "change_pct": 106865.0,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Cataluna|C10B",
-    "year": 2021,
-    "previous_year": 2017,
-    "value": 10.6965,
-    "previous_value": 0.01,
-    "change_pct": 106865.0,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Comunitat Valenciana|C10BA",
-    "year": 2021,
-    "previous_year": 2017,
-    "value": 12.4032,
-    "previous_value": 0.0118,
-    "change_pct": 105011.86,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Andalucia|C10BA",
-    "year": 2021,
-    "previous_year": 2017,
-    "value": 11.7725,
-    "previous_value": 0.0112,
-    "change_pct": 105011.61,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Extremadura|A10BK",
-    "year": 2022,
-    "previous_year": 2018,
-    "value": 11.6745,
-    "previous_value": 0.0122,
-    "change_pct": 95592.62,
+    "change_pct": 8607.83,
     "direction": "spike"
   },
   {
     "entity_key": "Ceuta|A10BK",
-    "year": 2022,
-    "previous_year": 2018,
-    "value": 12.44,
+    "year": 2020,
+    "previous_year": 2019,
+    "value": 1.132,
     "previous_value": 0.013,
-    "change_pct": 95592.31,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Aragon|A10BK",
-    "year": 2022,
-    "previous_year": 2018,
-    "value": 9.0908,
-    "previous_value": 0.01,
-    "change_pct": 90808.0,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Navarra|C10B",
-    "year": 2021,
-    "previous_year": 2017,
-    "value": 8.5572,
-    "previous_value": 0.01,
-    "change_pct": 85472.0,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Cantabria|C10BA",
-    "year": 2021,
-    "previous_year": 2017,
-    "value": 8.4089,
-    "previous_value": 0.01,
-    "change_pct": 83989.0,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Region de Murcia|C10B",
-    "year": 2020,
-    "previous_year": 2016,
-    "value": 9.4424,
-    "previous_value": 0.0115,
-    "change_pct": 82007.83,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Galicia|C10B",
-    "year": 2020,
-    "previous_year": 2016,
-    "value": 8.6213,
-    "previous_value": 0.0105,
-    "change_pct": 82007.62,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Castilla-La Mancha|C10B",
-    "year": 2020,
-    "previous_year": 2016,
-    "value": 8.8676,
-    "previous_value": 0.0108,
-    "change_pct": 82007.41,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Melilla|C10B",
-    "year": 2020,
-    "previous_year": 2016,
-    "value": 11.0845,
-    "previous_value": 0.0135,
-    "change_pct": 82007.41,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Pais Vasco|C10BA",
-    "year": 2021,
-    "previous_year": 2017,
-    "value": 8.1987,
-    "previous_value": 0.01,
-    "change_pct": 81887.0,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Castilla y Leon|A10BK",
-    "year": 2022,
-    "previous_year": 2018,
-    "value": 8.1338,
-    "previous_value": 0.01,
-    "change_pct": 81238.0,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "La Rioja|C10BA",
-    "year": 2021,
-    "previous_year": 2017,
-    "value": 7.8834,
-    "previous_value": 0.01,
-    "change_pct": 78734.0,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Comunidad de Madrid|A10BK",
-    "year": 2022,
-    "previous_year": 2018,
-    "value": 7.8468,
-    "previous_value": 0.01,
-    "change_pct": 78368.0,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Asturias|C10B",
-    "year": 2020,
-    "previous_year": 2016,
-    "value": 6.9792,
-    "previous_value": 0.01,
-    "change_pct": 69692.0,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Illes Balears|C10BA",
-    "year": 2020,
-    "previous_year": 2016,
-    "value": 6.6829,
-    "previous_value": 0.01,
-    "change_pct": 66729.0,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Canarias|C10BA",
-    "year": 2020,
-    "previous_year": 2016,
-    "value": 6.3312,
-    "previous_value": 0.01,
-    "change_pct": 63212.0,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Cataluna|C10BA",
-    "year": 2020,
-    "previous_year": 2016,
-    "value": 6.3312,
-    "previous_value": 0.01,
-    "change_pct": 63212.0,
-    "direction": "spike"
-  },
-  {
-    "entity_key": "Andalucia|A10BK",
-    "year": 2021,
-    "previous_year": 2017,
-    "value": 5.8464,
-    "previous_value": 0.0112,
-    "change_pct": 52100.0,
+    "change_pct": 8607.69,
     "direction": "spike"
   },
   {
     "entity_key": "Comunitat Valenciana|A10BK",
-    "year": 2021,
-    "previous_year": 2017,
-    "value": 6.1596,
+    "year": 2020,
+    "previous_year": 2019,
+    "value": 1.0275,
     "previous_value": 0.0118,
-    "change_pct": 52100.0,
+    "change_pct": 8607.63,
     "direction": "spike"
   },
   {
-    "entity_key": "Navarra|C10BA",
+    "entity_key": "Galicia|A10BK",
     "year": 2020,
-    "previous_year": 2016,
-    "value": 5.0649,
+    "previous_year": 2019,
+    "value": 0.9143,
+    "previous_value": 0.0105,
+    "change_pct": 8607.62,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Castilla-La Mancha|A10BK",
+    "year": 2020,
+    "previous_year": 2019,
+    "value": 0.9404,
+    "previous_value": 0.0108,
+    "change_pct": 8607.41,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Melilla|A10BK",
+    "year": 2020,
+    "previous_year": 2019,
+    "value": 1.1755,
+    "previous_value": 0.0135,
+    "change_pct": 8607.41,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Extremadura|A10BK",
+    "year": 2020,
+    "previous_year": 2019,
+    "value": 1.0623,
+    "previous_value": 0.0122,
+    "change_pct": 8607.38,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Region de Murcia|C10B",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 0.9917,
+    "previous_value": 0.0115,
+    "change_pct": 8523.48,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Andalucia|C10B",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 0.9658,
+    "previous_value": 0.0112,
+    "change_pct": 8523.21,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Castilla-La Mancha|C10B",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 0.9313,
+    "previous_value": 0.0108,
+    "change_pct": 8523.15,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Ceuta|C10B",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 1.121,
+    "previous_value": 0.013,
+    "change_pct": 8523.08,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Melilla|C10B",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 1.1641,
+    "previous_value": 0.0135,
+    "change_pct": 8522.96,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Extremadura|C10B",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 1.052,
+    "previous_value": 0.0122,
+    "change_pct": 8522.95,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Comunitat Valenciana|C10B",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 1.0175,
+    "previous_value": 0.0118,
+    "change_pct": 8522.88,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Galicia|C10B",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 0.9054,
+    "previous_value": 0.0105,
+    "change_pct": 8522.86,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Extremadura|A10BJ",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 1.0361,
+    "previous_value": 0.0122,
+    "change_pct": 8392.62,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Castilla-La Mancha|A10BJ",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 0.9172,
+    "previous_value": 0.0108,
+    "change_pct": 8392.59,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Melilla|A10BJ",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 1.1465,
+    "previous_value": 0.0135,
+    "change_pct": 8392.59,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Galicia|A10BJ",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 0.8917,
+    "previous_value": 0.0105,
+    "change_pct": 8392.38,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Comunitat Valenciana|A10BJ",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 1.0021,
+    "previous_value": 0.0118,
+    "change_pct": 8392.37,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Ceuta|A10BJ",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 1.104,
+    "previous_value": 0.013,
+    "change_pct": 8392.31,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Region de Murcia|A10BJ",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 0.9766,
+    "previous_value": 0.0115,
+    "change_pct": 8392.17,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Andalucia|A10BJ",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 0.9511,
+    "previous_value": 0.0112,
+    "change_pct": 8391.96,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Aragon|A10BK",
+    "year": 2020,
+    "previous_year": 2019,
+    "value": 0.8272,
     "previous_value": 0.01,
-    "change_pct": 50549.0,
+    "change_pct": 8172.0,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Illes Balears|A10BK",
+    "year": 2020,
+    "previous_year": 2019,
+    "value": 0.8272,
+    "previous_value": 0.01,
+    "change_pct": 8172.0,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Aragon|C10B",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 0.8192,
+    "previous_value": 0.01,
+    "change_pct": 8092.0,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Illes Balears|C10B",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 0.8192,
+    "previous_value": 0.01,
+    "change_pct": 8092.0,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Aragon|A10BJ",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 0.8068,
+    "previous_value": 0.01,
+    "change_pct": 7968.0,
+    "direction": "spike"
+  },
+  {
+    "entity_key": "Illes Balears|A10BJ",
+    "year": 2018,
+    "previous_year": 2017,
+    "value": 0.8068,
+    "previous_value": 0.01,
+    "change_pct": 7968.0,
     "direction": "spike"
   }
 ]
