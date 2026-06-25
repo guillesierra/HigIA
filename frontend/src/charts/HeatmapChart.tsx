@@ -14,22 +14,25 @@ const METRIC_UNITS: Record<string, string> = {
 };
 
 export function HeatmapChart({ records, metric = "dhd" }: Props) {
-  const aggregated = new Map<string, number>();
+  const aggregated = new Map<string, { sum: number; count: number }>();
   records.forEach((r) => {
     const val = r[metric];
     if (val == null || val === 0) return;
     const key = `${r.geography}|${r.year}`;
-    aggregated.set(key, (aggregated.get(key) ?? 0) + Number(val));
+    const prev = aggregated.get(key) ?? { sum: 0, count: 0 };
+    prev.sum += Number(val);
+    prev.count += 1;
+    aggregated.set(key, prev);
   });
 
   if (aggregated.size === 0) return <p className="muted">Sin datos para mostrar en el heatmap.</p>;
 
   const rawData: { geo: string; year: number; val: number }[] = [];
-  aggregated.forEach((val, key) => {
+  aggregated.forEach(({ sum, count }, key) => {
     const [geo, yearStr] = key.split("|");
     const year = Number(yearStr);
-    if (!geo || isNaN(year)) return;
-    rawData.push({ geo, year, val: Number(val.toFixed(2)) });
+    if (!geo || isNaN(year) || count === 0) return;
+    rawData.push({ geo, year, val: Number((sum / count).toFixed(2)) });
   });
 
   const isSpain = (g: string) => g.trim().toLowerCase() === "spain";

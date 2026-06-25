@@ -163,15 +163,16 @@ class AempsSafetyAlertsScraper(BaseScraper):
         text = f"{url} {title}".casefold()
         if "aemps.gob.es" not in url:
             return False
-        # Only capture actual safety notes (MUH), not general pages
-        must_have = {"seguridad", "nota informativa", "muh", "alerta farmacovigilancia"}
-        exclude = {"legislacion", "illegal", "estupefaciente", "no sustituible", "oficina de apoyo", 
-                   "evaluacion de tecnolog", "investigacion con medicamento", "publicaciones de medicamento",
-                   "cima", "problemas de suministro", "situaciones especiales", "observatorio",
-                   "arbitraje", "biologico"}
+        # Exclude clearly non-alert pages (general info, legislation, etc.)
+        exclude = {"legislacion", "ilegal", "medicamento ilegal", "estupefaciente", "no sustituible",
+                   "evaluacion de tecnologia", "investigacion con medicamento", "cima",
+                   "problemas de suministro", "situaciones especiales", "arbitraje",
+                   "oficina de apoyo", "observatorio", "publicaciones de medicamento"}
         if any(w in text for w in exclude):
             return False
-        return len(title) > 12 and any(term in text for term in must_have)
+        # Accept anything security/pharmacovigilance related
+        terms = ["seguridad", "nota", "muh", "medicamento", "farmacovigilancia", "alerta", "riesgo", "retirada"]
+        return len(title) > 12 and any(term in text for term in terms)
 
 
 def detect_possible_active_ingredients(text: str | None, max_items: int = 20) -> list[str]:

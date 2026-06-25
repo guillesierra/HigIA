@@ -1,8 +1,8 @@
 {
   "counts": {
-    "sources": 149,
-    "alerts": 3,
-    "consumption_records": 63610,
+    "sources": 139,
+    "alerts": 29,
+    "consumption_records": 32771,
     "studies": 16,
     "drugs": 118,
     "atc_codes": 88
@@ -14,48 +14,132 @@
   "top_geographies": [
     {
       "name": "Spain",
-      "records": 36331
-    },
-    {
-      "name": "Asturias",
-      "records": 1517
-    },
-    {
-      "name": "Cantabria",
-      "records": 1517
-    },
-    {
-      "name": "Extremadura",
-      "records": 1517
-    },
-    {
-      "name": "Galicia",
-      "records": 1517
-    },
-    {
-      "name": "La Rioja",
-      "records": 1517
-    },
-    {
-      "name": "Region de Murcia",
-      "records": 1517
+      "records": 5148
     },
     {
       "name": "Canarias",
-      "records": 1516
+      "records": 1538
+    },
+    {
+      "name": "Galicia",
+      "records": 1537
+    },
+    {
+      "name": "Cantabria",
+      "records": 1536
+    },
+    {
+      "name": "La Rioja",
+      "records": 1536
+    },
+    {
+      "name": "Asturias",
+      "records": 1535
+    },
+    {
+      "name": "Region de Murcia",
+      "records": 1533
+    },
+    {
+      "name": "Extremadura",
+      "records": 1532
     },
     {
       "name": "Ceuta",
-      "records": 1509
+      "records": 1524
     },
     {
       "name": "Melilla",
-      "records": 1509
+      "records": 1524
     }
   ],
   "alerts_timeline": [
     {
+      "year": 2016,
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "year": 2017,
+      "count": 1
+    },
+    {
+      "year": 2021,
+      "count": 1
+    },
+    {
+      "year": 2022,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "year": 2023,
+      "count": 1
+    },
+    {
+      "year": 2024,
+      "count": 1
+    },
+    {
       "year": 2025,
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "count": 2
+    },
+    {
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "count": 1
+    },
+    {
+      "year": 2025,
+      "count": 2
+    },
+    {
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "count": 1
+    },
+    {
+      "year": 2026,
+      "count": 2
+    },
+    {
+      "year": 2026,
       "count": 1
     },
     {
@@ -63,5 +147,5 @@
       "count": 1
     }
   ],
-  "generated_at": "2026-06-25T09:35:44.542404"
+  "generated_at": "2026-06-25T10:56:36.357139"
 }

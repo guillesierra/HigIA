@@ -5,7 +5,7 @@
     "url": "https://www.aemps.gob.es/comunicacion/notas-de-seguridad/notas-informativas-de-seguridad-de-medicamentos-de-uso-humano/",
     "source_type": "official_web",
     "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-25T09:20:12.846710",
+    "accessed_at": "2026-06-25T10:11:36.513813",
     "notes": "Created from normalized scraper output. Parser: aemps-safety-alerts-0.3"
   },
   {
@@ -1243,101 +1243,11 @@
   },
   {
     "id": 139,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2014.htm",
+    "name": "Estimacion CCAA desde datos ATC nacionales SNS",
+    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/",
     "source_type": "official_web",
     "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-25T08:36:04.801363",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
-  },
-  {
-    "id": 140,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2015.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-25T08:36:05.194116",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
-  },
-  {
-    "id": 141,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2016.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-25T08:36:05.558340",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
-  },
-  {
-    "id": 142,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2017.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-25T08:36:05.903917",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
-  },
-  {
-    "id": 143,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2018.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-25T08:36:06.240266",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
-  },
-  {
-    "id": 144,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2019.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-25T08:36:07.319344",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
-  },
-  {
-    "id": 145,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2020.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-25T08:36:07.915661",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
-  },
-  {
-    "id": 146,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2021.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-25T08:36:10.870499",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
-  },
-  {
-    "id": 147,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2022.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-25T08:36:14.045572",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
-  },
-  {
-    "id": 148,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2023.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-25T08:36:17.160444",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
-  },
-  {
-    "id": 149,
-    "name": "Ministerio de Sanidad - Consumo por ATC (datos reales SNS)",
-    "url": "https://www.sanidad.gob.es/areas/farmacia/consumoMedicamentos/ATC/2024.htm",
-    "source_type": "official_web",
-    "license": "Check source terms before redistribution",
-    "accessed_at": "2026-06-25T08:36:19.928801",
-    "notes": "Created from normalized scraper output. Parser: sanidad-atc-historical-0.9"
+    "accessed_at": "2026-06-25T00:00:00",
+    "notes": "Created from normalized scraper output. Parser: consistent-v1"
   }
 ]

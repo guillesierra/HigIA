@@ -123,7 +123,7 @@ export function AnalyticsPage() {
             <h2>Tendencias de consumo por territorio y grupo ATC</h2>
             <p className="muted">Cada línea = evolución temporal de DHD. Pendiente positiva = consumo creciente.</p>
           </div>
-          <TrendChart trends={filteredTrends} limit={12} />
+          <TrendChart trends={filteredTrends} limit={Math.min(filteredTrends.length, 30)} />
         </div>
         <div className="panel legend-panel">
           <div className="panel-heading">
