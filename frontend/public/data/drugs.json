@@ -1,710 +1,1088 @@
 [
   {
     "id": 1,
-    "name": "acetylsalicylic acid",
-    "active_ingredient": "acetylsalicylic acid",
-    "normalized_name": "acetylsalicylic acid"
+    "name": "acenocumarol",
+    "active_ingredient": "acenocumarol",
+    "normalized_name": "acenocumarol"
   },
   {
     "id": 2,
+    "name": "acetilcisteína",
+    "active_ingredient": "acetilcisteína",
+    "normalized_name": "acetilcisteína"
+  },
+  {
+    "id": 3,
+    "name": "aciclovir",
+    "active_ingredient": "aciclovir",
+    "normalized_name": "aciclovir"
+  },
+  {
+    "id": 4,
+    "name": "alendronato",
+    "active_ingredient": "alendronato",
+    "normalized_name": "alendronato"
+  },
+  {
+    "id": 5,
+    "name": "alfuzosina",
+    "active_ingredient": "alfuzosina",
+    "normalized_name": "alfuzosina"
+  },
+  {
+    "id": 6,
+    "name": "alopurinol",
+    "active_ingredient": "alopurinol",
+    "normalized_name": "alopurinol"
+  },
+  {
+    "id": 7,
     "name": "alprazolam",
     "active_ingredient": "alprazolam",
     "normalized_name": "alprazolam"
   },
   {
-    "id": 3,
-    "name": "amikacin",
-    "active_ingredient": "amikacin",
-    "normalized_name": "amikacin"
-  },
-  {
-    "id": 4,
-    "name": "amlodipine",
-    "active_ingredient": "amlodipine",
-    "normalized_name": "amlodipine"
-  },
-  {
-    "id": 5,
-    "name": "amoxicillin",
-    "active_ingredient": "amoxicillin",
-    "normalized_name": "amoxicillin"
-  },
-  {
-    "id": 6,
-    "name": "amoxicillin and beta-lactamase inhibitor",
-    "active_ingredient": "amoxicillin and beta-lactamase inhibitor",
-    "normalized_name": "amoxicillin and beta lactamase inhibitor"
-  },
-  {
-    "id": 7,
-    "name": "ampicillin",
-    "active_ingredient": "ampicillin",
-    "normalized_name": "ampicillin"
-  },
-  {
     "id": 8,
+    "name": "amlodipino",
+    "active_ingredient": "amlodipino",
+    "normalized_name": "amlodipino"
+  },
+  {
+    "id": 9,
+    "name": "amoxicilina",
+    "active_ingredient": "amoxicilina",
+    "normalized_name": "amoxicilina"
+  },
+  {
+    "id": 10,
+    "name": "amoxicilina-clavulánico",
+    "active_ingredient": "amoxicilina-clavulánico",
+    "normalized_name": "amoxicilina-clavulánico"
+  },
+  {
+    "id": 11,
+    "name": "amoxicilina/ácido clavulánico",
+    "active_ingredient": "amoxicilina/ácido clavulánico",
+    "normalized_name": "amoxicilina/ácidoclavulánico"
+  },
+  {
+    "id": 12,
+    "name": "ampicilina",
+    "active_ingredient": "ampicilina",
+    "normalized_name": "ampicilina"
+  },
+  {
+    "id": 13,
+    "name": "anastrozol",
+    "active_ingredient": "anastrozol",
+    "normalized_name": "anastrozol"
+  },
+  {
+    "id": 14,
+    "name": "apixabán",
+    "active_ingredient": "apixabán",
+    "normalized_name": "apixabán"
+  },
+  {
+    "id": 15,
+    "name": "aripiprazol",
+    "active_ingredient": "aripiprazol",
+    "normalized_name": "aripiprazol"
+  },
+  {
+    "id": 16,
     "name": "atenolol",
     "active_ingredient": "atenolol",
     "normalized_name": "atenolol"
   },
   {
-    "id": 9,
-    "name": "atorvastatin",
-    "active_ingredient": "atorvastatin",
-    "normalized_name": "atorvastatin"
+    "id": 17,
+    "name": "atorvastatina",
+    "active_ingredient": "atorvastatina",
+    "normalized_name": "atorvastatina"
   },
   {
-    "id": 10,
-    "name": "azithromycin",
-    "active_ingredient": "azithromycin",
-    "normalized_name": "azithromycin"
+    "id": 18,
+    "name": "azatioprina",
+    "active_ingredient": "azatioprina",
+    "normalized_name": "azatioprina"
   },
   {
-    "id": 11,
-    "name": "candesartan",
-    "active_ingredient": "candesartan",
-    "normalized_name": "candesartan"
+    "id": 19,
+    "name": "azitromicina",
+    "active_ingredient": "azitromicina",
+    "normalized_name": "azitromicina"
   },
   {
-    "id": 12,
-    "name": "cefotaxime",
-    "active_ingredient": "cefotaxime",
-    "normalized_name": "cefotaxime"
+    "id": 20,
+    "name": "beclometasona",
+    "active_ingredient": "beclometasona",
+    "normalized_name": "beclometasona"
   },
   {
-    "id": 13,
-    "name": "ceftriaxone",
-    "active_ingredient": "ceftriaxone",
-    "normalized_name": "ceftriaxone"
+    "id": 21,
+    "name": "bilastina",
+    "active_ingredient": "bilastina",
+    "normalized_name": "bilastina"
   },
   {
-    "id": 14,
-    "name": "ciprofloxacin",
-    "active_ingredient": "ciprofloxacin",
-    "normalized_name": "ciprofloxacin"
+    "id": 22,
+    "name": "bimatoprost",
+    "active_ingredient": "bimatoprost",
+    "normalized_name": "bimatoprost"
   },
   {
-    "id": 15,
+    "id": 23,
+    "name": "bisoprolol",
+    "active_ingredient": "bisoprolol",
+    "normalized_name": "bisoprolol"
+  },
+  {
+    "id": 24,
+    "name": "brinzolamida",
+    "active_ingredient": "brinzolamida",
+    "normalized_name": "brinzolamida"
+  },
+  {
+    "id": 25,
+    "name": "bromazepam",
+    "active_ingredient": "bromazepam",
+    "normalized_name": "bromazepam"
+  },
+  {
+    "id": 26,
+    "name": "budesonida",
+    "active_ingredient": "budesonida",
+    "normalized_name": "budesonida"
+  },
+  {
+    "id": 27,
+    "name": "calcitriol",
+    "active_ingredient": "calcitriol",
+    "normalized_name": "calcitriol"
+  },
+  {
+    "id": 28,
+    "name": "canagliflozina",
+    "active_ingredient": "canagliflozina",
+    "normalized_name": "canagliflozina"
+  },
+  {
+    "id": 29,
+    "name": "candesartán",
+    "active_ingredient": "candesartán",
+    "normalized_name": "candesartán"
+  },
+  {
+    "id": 30,
+    "name": "captopril",
+    "active_ingredient": "captopril",
+    "normalized_name": "captopril"
+  },
+  {
+    "id": 31,
+    "name": "carvedilol",
+    "active_ingredient": "carvedilol",
+    "normalized_name": "carvedilol"
+  },
+  {
+    "id": 32,
+    "name": "cefixima",
+    "active_ingredient": "cefixima",
+    "normalized_name": "cefixima"
+  },
+  {
+    "id": 33,
+    "name": "cefotaxima",
+    "active_ingredient": "cefotaxima",
+    "normalized_name": "cefotaxima"
+  },
+  {
+    "id": 34,
+    "name": "ceftriaxona",
+    "active_ingredient": "ceftriaxona",
+    "normalized_name": "ceftriaxona"
+  },
+  {
+    "id": 35,
+    "name": "celecoxib",
+    "active_ingredient": "celecoxib",
+    "normalized_name": "celecoxib"
+  },
+  {
+    "id": 36,
+    "name": "cetirizina",
+    "active_ingredient": "cetirizina",
+    "normalized_name": "cetirizina"
+  },
+  {
+    "id": 37,
+    "name": "ciprofloxacino",
+    "active_ingredient": "ciprofloxacino",
+    "normalized_name": "ciprofloxacino"
+  },
+  {
+    "id": 38,
     "name": "citalopram",
     "active_ingredient": "citalopram",
     "normalized_name": "citalopram"
   },
   {
-    "id": 16,
-    "name": "clarithromycin",
-    "active_ingredient": "clarithromycin",
-    "normalized_name": "clarithromycin"
+    "id": 39,
+    "name": "claritromicina",
+    "active_ingredient": "claritromicina",
+    "normalized_name": "claritromicina"
   },
   {
-    "id": 17,
-    "name": "clindamycin",
-    "active_ingredient": "clindamycin",
-    "normalized_name": "clindamycin"
+    "id": 40,
+    "name": "clindamicina",
+    "active_ingredient": "clindamicina",
+    "normalized_name": "clindamicina"
   },
   {
-    "id": 18,
+    "id": 41,
+    "name": "clonazepam",
+    "active_ingredient": "clonazepam",
+    "normalized_name": "clonazepam"
+  },
+  {
+    "id": 42,
+    "name": "clopidogrel",
+    "active_ingredient": "clopidogrel",
+    "normalized_name": "clopidogrel"
+  },
+  {
+    "id": 43,
+    "name": "clozapina",
+    "active_ingredient": "clozapina",
+    "normalized_name": "clozapina"
+  },
+  {
+    "id": 44,
+    "name": "colecalciferol",
+    "active_ingredient": "colecalciferol",
+    "normalized_name": "colecalciferol"
+  },
+  {
+    "id": 45,
+    "name": "dabigatrán",
+    "active_ingredient": "dabigatrán",
+    "normalized_name": "dabigatrán"
+  },
+  {
+    "id": 46,
+    "name": "dapagliflozina",
+    "active_ingredient": "dapagliflozina",
+    "normalized_name": "dapagliflozina"
+  },
+  {
+    "id": 47,
+    "name": "dexametasona",
+    "active_ingredient": "dexametasona",
+    "normalized_name": "dexametasona"
+  },
+  {
+    "id": 48,
+    "name": "dexketoprofeno",
+    "active_ingredient": "dexketoprofeno",
+    "normalized_name": "dexketoprofeno"
+  },
+  {
+    "id": 49,
     "name": "diazepam",
     "active_ingredient": "diazepam",
     "normalized_name": "diazepam"
   },
   {
-    "id": 19,
-    "name": "donepezil",
-    "active_ingredient": "donepezil",
-    "normalized_name": "donepezil"
+    "id": 50,
+    "name": "diclofenaco",
+    "active_ingredient": "diclofenaco",
+    "normalized_name": "diclofenaco"
   },
   {
-    "id": 20,
-    "name": "doxycycline",
-    "active_ingredient": "doxycycline",
-    "normalized_name": "doxycycline"
+    "id": 51,
+    "name": "digoxina",
+    "active_ingredient": "digoxina",
+    "normalized_name": "digoxina"
   },
   {
-    "id": 21,
+    "id": 52,
+    "name": "donepezilo",
+    "active_ingredient": "donepezilo",
+    "normalized_name": "donepezilo"
+  },
+  {
+    "id": 53,
+    "name": "dorzolamida",
+    "active_ingredient": "dorzolamida",
+    "normalized_name": "dorzolamida"
+  },
+  {
+    "id": 54,
+    "name": "dulaglutida",
+    "active_ingredient": "dulaglutida",
+    "normalized_name": "dulaglutida"
+  },
+  {
+    "id": 55,
+    "name": "duloxetina",
+    "active_ingredient": "duloxetina",
+    "normalized_name": "duloxetina"
+  },
+  {
+    "id": 56,
+    "name": "dutasterida",
+    "active_ingredient": "dutasterida",
+    "normalized_name": "dutasterida"
+  },
+  {
+    "id": 57,
+    "name": "ebastina",
+    "active_ingredient": "ebastina",
+    "normalized_name": "ebastina"
+  },
+  {
+    "id": 58,
+    "name": "edoxabán",
+    "active_ingredient": "edoxabán",
+    "normalized_name": "edoxabán"
+  },
+  {
+    "id": 59,
+    "name": "empagliflozina",
+    "active_ingredient": "empagliflozina",
+    "normalized_name": "empagliflozina"
+  },
+  {
+    "id": 60,
+    "name": "enalapril",
+    "active_ingredient": "enalapril",
+    "normalized_name": "enalapril"
+  },
+  {
+    "id": 61,
+    "name": "eplerenona",
+    "active_ingredient": "eplerenona",
+    "normalized_name": "eplerenona"
+  },
+  {
+    "id": 62,
+    "name": "eritromicina",
+    "active_ingredient": "eritromicina",
+    "normalized_name": "eritromicina"
+  },
+  {
+    "id": 63,
     "name": "escitalopram",
     "active_ingredient": "escitalopram",
     "normalized_name": "escitalopram"
   },
   {
-    "id": 22,
-    "name": "esomeprazole",
-    "active_ingredient": "esomeprazole",
-    "normalized_name": "esomeprazole"
+    "id": 64,
+    "name": "esomeprazol",
+    "active_ingredient": "esomeprazol",
+    "normalized_name": "esomeprazol"
   },
   {
-    "id": 23,
-    "name": "flucloxacillin",
-    "active_ingredient": "flucloxacillin",
-    "normalized_name": "flucloxacillin"
+    "id": 65,
+    "name": "espironolactona",
+    "active_ingredient": "espironolactona",
+    "normalized_name": "espironolactona"
   },
   {
-    "id": 24,
-    "name": "fluoxetine",
-    "active_ingredient": "fluoxetine",
-    "normalized_name": "fluoxetine"
+    "id": 66,
+    "name": "etoricoxib",
+    "active_ingredient": "etoricoxib",
+    "normalized_name": "etoricoxib"
   },
   {
-    "id": 25,
-    "name": "fosfomycin",
-    "active_ingredient": "fosfomycin",
-    "normalized_name": "fosfomycin"
+    "id": 67,
+    "name": "exemestano",
+    "active_ingredient": "exemestano",
+    "normalized_name": "exemestano"
   },
   {
-    "id": 26,
-    "name": "fusidic acid",
-    "active_ingredient": "fusidic acid",
-    "normalized_name": "fusidic acid"
+    "id": 68,
+    "name": "febuxostat",
+    "active_ingredient": "febuxostat",
+    "normalized_name": "febuxostat"
   },
   {
-    "id": 27,
-    "name": "ibuprofen",
-    "active_ingredient": "ibuprofen",
-    "normalized_name": "ibuprofen"
+    "id": 69,
+    "name": "fenofibrato",
+    "active_ingredient": "fenofibrato",
+    "normalized_name": "fenofibrato"
   },
   {
-    "id": 28,
-    "name": "imipenem and cilastatin",
-    "active_ingredient": "imipenem and cilastatin",
-    "normalized_name": "imipenem and cilastatin"
+    "id": 70,
+    "name": "fenoximetilpenicilina",
+    "active_ingredient": "fenoximetilpenicilina",
+    "normalized_name": "fenoximetilpenicilina"
   },
   {
-    "id": 29,
-    "name": "levofloxacin",
-    "active_ingredient": "levofloxacin",
-    "normalized_name": "levofloxacin"
+    "id": 71,
+    "name": "fentanilo",
+    "active_ingredient": "fentanilo",
+    "normalized_name": "fentanilo"
   },
   {
-    "id": 30,
+    "id": 72,
+    "name": "finasterida",
+    "active_ingredient": "finasterida",
+    "normalized_name": "finasterida"
+  },
+  {
+    "id": 73,
+    "name": "fluconazol",
+    "active_ingredient": "fluconazol",
+    "normalized_name": "fluconazol"
+  },
+  {
+    "id": 74,
+    "name": "fluoxetina",
+    "active_ingredient": "fluoxetina",
+    "normalized_name": "fluoxetina"
+  },
+  {
+    "id": 75,
+    "name": "fluticasona",
+    "active_ingredient": "fluticasona",
+    "normalized_name": "fluticasona"
+  },
+  {
+    "id": 76,
+    "name": "fosfomicina",
+    "active_ingredient": "fosfomicina",
+    "normalized_name": "fosfomicina"
+  },
+  {
+    "id": 77,
+    "name": "furosemida",
+    "active_ingredient": "furosemida",
+    "normalized_name": "furosemida"
+  },
+  {
+    "id": 78,
+    "name": "gabapentina",
+    "active_ingredient": "gabapentina",
+    "normalized_name": "gabapentina"
+  },
+  {
+    "id": 79,
+    "name": "galantamina",
+    "active_ingredient": "galantamina",
+    "normalized_name": "galantamina"
+  },
+  {
+    "id": 80,
+    "name": "gemfibrozilo",
+    "active_ingredient": "gemfibrozilo",
+    "normalized_name": "gemfibrozilo"
+  },
+  {
+    "id": 81,
+    "name": "glibenclamida",
+    "active_ingredient": "glibenclamida",
+    "normalized_name": "glibenclamida"
+  },
+  {
+    "id": 82,
+    "name": "gliclazida",
+    "active_ingredient": "gliclazida",
+    "normalized_name": "gliclazida"
+  },
+  {
+    "id": 83,
+    "name": "glimepirida",
+    "active_ingredient": "glimepirida",
+    "normalized_name": "glimepirida"
+  },
+  {
+    "id": 84,
+    "name": "hidrocortisona",
+    "active_ingredient": "hidrocortisona",
+    "normalized_name": "hidrocortisona"
+  },
+  {
+    "id": 85,
+    "name": "ibuprofeno",
+    "active_ingredient": "ibuprofeno",
+    "normalized_name": "ibuprofeno"
+  },
+  {
+    "id": 86,
+    "name": "ipratropio",
+    "active_ingredient": "ipratropio",
+    "normalized_name": "ipratropio"
+  },
+  {
+    "id": 87,
+    "name": "irbesartán",
+    "active_ingredient": "irbesartán",
+    "normalized_name": "irbesartán"
+  },
+  {
+    "id": 88,
+    "name": "isotretinoína",
+    "active_ingredient": "isotretinoína",
+    "normalized_name": "isotretinoína"
+  },
+  {
+    "id": 89,
+    "name": "itraconazol",
+    "active_ingredient": "itraconazol",
+    "normalized_name": "itraconazol"
+  },
+  {
+    "id": 90,
+    "name": "lactulosa",
+    "active_ingredient": "lactulosa",
+    "normalized_name": "lactulosa"
+  },
+  {
+    "id": 91,
+    "name": "lamotrigina",
+    "active_ingredient": "lamotrigina",
+    "normalized_name": "lamotrigina"
+  },
+  {
+    "id": 92,
+    "name": "lansoprazol",
+    "active_ingredient": "lansoprazol",
+    "normalized_name": "lansoprazol"
+  },
+  {
+    "id": 93,
+    "name": "latanoprost",
+    "active_ingredient": "latanoprost",
+    "normalized_name": "latanoprost"
+  },
+  {
+    "id": 94,
+    "name": "lercanidipino",
+    "active_ingredient": "lercanidipino",
+    "normalized_name": "lercanidipino"
+  },
+  {
+    "id": 95,
+    "name": "letrozol",
+    "active_ingredient": "letrozol",
+    "normalized_name": "letrozol"
+  },
+  {
+    "id": 96,
+    "name": "levetiracetam",
+    "active_ingredient": "levetiracetam",
+    "normalized_name": "levetiracetam"
+  },
+  {
+    "id": 97,
+    "name": "levocetirizina",
+    "active_ingredient": "levocetirizina",
+    "normalized_name": "levocetirizina"
+  },
+  {
+    "id": 98,
+    "name": "levodopa-carbidopa",
+    "active_ingredient": "levodopa-carbidopa",
+    "normalized_name": "levodopa-carbidopa"
+  },
+  {
+    "id": 99,
+    "name": "levofloxacino",
+    "active_ingredient": "levofloxacino",
+    "normalized_name": "levofloxacino"
+  },
+  {
+    "id": 100,
+    "name": "levotiroxina",
+    "active_ingredient": "levotiroxina",
+    "normalized_name": "levotiroxina"
+  },
+  {
+    "id": 101,
+    "name": "linagliptina",
+    "active_ingredient": "linagliptina",
+    "normalized_name": "linagliptina"
+  },
+  {
+    "id": 102,
+    "name": "linezolid",
+    "active_ingredient": "linezolid",
+    "normalized_name": "linezolid"
+  },
+  {
+    "id": 103,
+    "name": "liraglutida",
+    "active_ingredient": "liraglutida",
+    "normalized_name": "liraglutida"
+  },
+  {
+    "id": 104,
+    "name": "lisinopril",
+    "active_ingredient": "lisinopril",
+    "normalized_name": "lisinopril"
+  },
+  {
+    "id": 105,
+    "name": "loratadina",
+    "active_ingredient": "loratadina",
+    "normalized_name": "loratadina"
+  },
+  {
+    "id": 106,
     "name": "lorazepam",
     "active_ingredient": "lorazepam",
     "normalized_name": "lorazepam"
   },
   {
-    "id": 31,
-    "name": "losartan",
-    "active_ingredient": "losartan",
-    "normalized_name": "losartan"
+    "id": 107,
+    "name": "lormetazepam",
+    "active_ingredient": "lormetazepam",
+    "normalized_name": "lormetazepam"
   },
   {
-    "id": 32,
-    "name": "meropenem",
-    "active_ingredient": "meropenem",
-    "normalized_name": "meropenem"
+    "id": 108,
+    "name": "losartán",
+    "active_ingredient": "losartán",
+    "normalized_name": "losartán"
   },
   {
-    "id": 33,
-    "name": "metformin",
-    "active_ingredient": "metformin",
-    "normalized_name": "metformin"
+    "id": 109,
+    "name": "macrogol",
+    "active_ingredient": "macrogol",
+    "normalized_name": "macrogol"
   },
   {
-    "id": 34,
+    "id": 110,
+    "name": "mesalazina",
+    "active_ingredient": "mesalazina",
+    "normalized_name": "mesalazina"
+  },
+  {
+    "id": 111,
+    "name": "metamizol",
+    "active_ingredient": "metamizol",
+    "normalized_name": "metamizol"
+  },
+  {
+    "id": 112,
+    "name": "metformina",
+    "active_ingredient": "metformina",
+    "normalized_name": "metformina"
+  },
+  {
+    "id": 113,
+    "name": "metilprednisolona",
+    "active_ingredient": "metilprednisolona",
+    "normalized_name": "metilprednisolona"
+  },
+  {
+    "id": 114,
     "name": "metoprolol",
     "active_ingredient": "metoprolol",
     "normalized_name": "metoprolol"
   },
   {
-    "id": 35,
-    "name": "metronidazole",
-    "active_ingredient": "metronidazole",
-    "normalized_name": "metronidazole"
+    "id": 115,
+    "name": "metotrexato",
+    "active_ingredient": "metotrexato",
+    "normalized_name": "metotrexato"
   },
   {
-    "id": 36,
-    "name": "moxifloxacin",
-    "active_ingredient": "moxifloxacin",
-    "normalized_name": "moxifloxacin"
+    "id": 116,
+    "name": "metronidazol (antiparasitario)",
+    "active_ingredient": "metronidazol (antiparasitario)",
+    "normalized_name": "metronidazol(antiparasitario)"
   },
   {
-    "id": 37,
-    "name": "nalidixic acid",
-    "active_ingredient": "nalidixic acid",
-    "normalized_name": "nalidixic acid"
+    "id": 117,
+    "name": "micofenolato",
+    "active_ingredient": "micofenolato",
+    "normalized_name": "micofenolato"
   },
   {
-    "id": 38,
-    "name": "nitrofurantoin",
-    "active_ingredient": "nitrofurantoin",
-    "normalized_name": "nitrofurantoin"
+    "id": 118,
+    "name": "mirtazapina",
+    "active_ingredient": "mirtazapina",
+    "normalized_name": "mirtazapina"
   },
   {
-    "id": 39,
-    "name": "omeprazole",
-    "active_ingredient": "omeprazole",
-    "normalized_name": "omeprazole"
+    "id": 119,
+    "name": "montelukast",
+    "active_ingredient": "montelukast",
+    "normalized_name": "montelukast"
   },
   {
-    "id": 40,
-    "name": "pantoprazole",
-    "active_ingredient": "pantoprazole",
-    "normalized_name": "pantoprazole"
+    "id": 120,
+    "name": "morfina",
+    "active_ingredient": "morfina",
+    "normalized_name": "morfina"
   },
   {
-    "id": 41,
+    "id": 121,
+    "name": "movicol",
+    "active_ingredient": "movicol",
+    "normalized_name": "movicol"
+  },
+  {
+    "id": 122,
+    "name": "moxifloxacino",
+    "active_ingredient": "moxifloxacino",
+    "normalized_name": "moxifloxacino"
+  },
+  {
+    "id": 123,
+    "name": "naproxeno",
+    "active_ingredient": "naproxeno",
+    "normalized_name": "naproxeno"
+  },
+  {
+    "id": 124,
+    "name": "nifedipino",
+    "active_ingredient": "nifedipino",
+    "normalized_name": "nifedipino"
+  },
+  {
+    "id": 125,
+    "name": "nitrofurantoína",
+    "active_ingredient": "nitrofurantoína",
+    "normalized_name": "nitrofurantoína"
+  },
+  {
+    "id": 126,
+    "name": "olanzapina",
+    "active_ingredient": "olanzapina",
+    "normalized_name": "olanzapina"
+  },
+  {
+    "id": 127,
+    "name": "omeprazol",
+    "active_ingredient": "omeprazol",
+    "normalized_name": "omeprazol"
+  },
+  {
+    "id": 128,
+    "name": "oxicodona",
+    "active_ingredient": "oxicodona",
+    "normalized_name": "oxicodona"
+  },
+  {
+    "id": 129,
+    "name": "paliperidona",
+    "active_ingredient": "paliperidona",
+    "normalized_name": "paliperidona"
+  },
+  {
+    "id": 130,
+    "name": "pantoprazol",
+    "active_ingredient": "pantoprazol",
+    "normalized_name": "pantoprazol"
+  },
+  {
+    "id": 131,
     "name": "paracetamol",
     "active_ingredient": "paracetamol",
     "normalized_name": "paracetamol"
   },
   {
-    "id": 42,
-    "name": "paroxetine",
-    "active_ingredient": "paroxetine",
-    "normalized_name": "paroxetine"
+    "id": 132,
+    "name": "paroxetina",
+    "active_ingredient": "paroxetina",
+    "normalized_name": "paroxetina"
   },
   {
-    "id": 43,
-    "name": "phenoxymethylpenicillin",
-    "active_ingredient": "phenoxymethylpenicillin",
-    "normalized_name": "phenoxymethylpenicillin"
+    "id": 133,
+    "name": "penicilamina",
+    "active_ingredient": "penicilamina",
+    "normalized_name": "penicilamina"
   },
   {
-    "id": 44,
-    "name": "piperacillin and beta-lactamase inhibitor",
-    "active_ingredient": "piperacillin and beta-lactamase inhibitor",
-    "normalized_name": "piperacillin and beta lactamase inhibitor"
+    "id": 134,
+    "name": "prasugrel",
+    "active_ingredient": "prasugrel",
+    "normalized_name": "prasugrel"
   },
   {
-    "id": 45,
-    "name": "pristinamycin",
-    "active_ingredient": "pristinamycin",
-    "normalized_name": "pristinamycin"
+    "id": 135,
+    "name": "pravastatina",
+    "active_ingredient": "pravastatina",
+    "normalized_name": "pravastatina"
   },
   {
-    "id": 46,
-    "name": "rabeprazole",
-    "active_ingredient": "rabeprazole",
-    "normalized_name": "rabeprazole"
+    "id": 136,
+    "name": "prednisona",
+    "active_ingredient": "prednisona",
+    "normalized_name": "prednisona"
   },
   {
-    "id": 47,
+    "id": 137,
+    "name": "pregabalina",
+    "active_ingredient": "pregabalina",
+    "normalized_name": "pregabalina"
+  },
+  {
+    "id": 138,
+    "name": "propranolol",
+    "active_ingredient": "propranolol",
+    "normalized_name": "propranolol"
+  },
+  {
+    "id": 139,
+    "name": "quetiapina",
+    "active_ingredient": "quetiapina",
+    "normalized_name": "quetiapina"
+  },
+  {
+    "id": 140,
+    "name": "rabeprazol",
+    "active_ingredient": "rabeprazol",
+    "normalized_name": "rabeprazol"
+  },
+  {
+    "id": 141,
     "name": "ramipril",
     "active_ingredient": "ramipril",
     "normalized_name": "ramipril"
   },
   {
-    "id": 48,
+    "id": 142,
+    "name": "risedronato",
+    "active_ingredient": "risedronato",
+    "normalized_name": "risedronato"
+  },
+  {
+    "id": 143,
+    "name": "risperidona",
+    "active_ingredient": "risperidona",
+    "normalized_name": "risperidona"
+  },
+  {
+    "id": 144,
+    "name": "rivaroxabán",
+    "active_ingredient": "rivaroxabán",
+    "normalized_name": "rivaroxabán"
+  },
+  {
+    "id": 145,
+    "name": "rivastigmina",
+    "active_ingredient": "rivastigmina",
+    "normalized_name": "rivastigmina"
+  },
+  {
+    "id": 146,
+    "name": "rosuvastatina",
+    "active_ingredient": "rosuvastatina",
+    "normalized_name": "rosuvastatina"
+  },
+  {
+    "id": 147,
     "name": "salbutamol",
     "active_ingredient": "salbutamol",
     "normalized_name": "salbutamol"
   },
   {
-    "id": 49,
-    "name": "salmeterol and fluticasone",
-    "active_ingredient": "salmeterol and fluticasone",
-    "normalized_name": "salmeterol and fluticasone"
+    "id": 148,
+    "name": "salmeterol-fluticasona",
+    "active_ingredient": "salmeterol-fluticasona",
+    "normalized_name": "salmeterol-fluticasona"
   },
   {
-    "id": 50,
-    "name": "sertraline",
-    "active_ingredient": "sertraline",
-    "normalized_name": "sertraline"
+    "id": 149,
+    "name": "semaglutida",
+    "active_ingredient": "semaglutida",
+    "normalized_name": "semaglutida"
   },
   {
-    "id": 51,
-    "name": "sulfamethoxazole and trimethoprim",
-    "active_ingredient": "sulfamethoxazole and trimethoprim",
-    "normalized_name": "sulfamethoxazole and trimethoprim"
+    "id": 150,
+    "name": "sertralina",
+    "active_ingredient": "sertralina",
+    "normalized_name": "sertralina"
   },
   {
-    "id": 52,
-    "name": "trimethoprim",
-    "active_ingredient": "trimethoprim",
-    "normalized_name": "trimethoprim"
+    "id": 151,
+    "name": "sildenafilo",
+    "active_ingredient": "sildenafilo",
+    "normalized_name": "sildenafilo"
   },
   {
-    "id": 53,
-    "name": "vancomycin",
-    "active_ingredient": "vancomycin",
-    "normalized_name": "vancomycin"
+    "id": 152,
+    "name": "silodosina",
+    "active_ingredient": "silodosina",
+    "normalized_name": "silodosina"
   },
   {
-    "id": 54,
-    "name": "Augmentine",
-    "active_ingredient": null,
-    "normalized_name": "augmentine"
+    "id": 153,
+    "name": "simvastatina",
+    "active_ingredient": "simvastatina",
+    "normalized_name": "simvastatina"
   },
   {
-    "id": 55,
-    "name": "Clamoxyl",
-    "active_ingredient": null,
-    "normalized_name": "clamoxyl"
+    "id": 154,
+    "name": "sitagliptina",
+    "active_ingredient": "sitagliptina",
+    "normalized_name": "sitagliptina"
   },
   {
-    "id": 56,
-    "name": "Zithromax",
-    "active_ingredient": null,
-    "normalized_name": "zithromax"
+    "id": 155,
+    "name": "sulfasalazina",
+    "active_ingredient": "sulfasalazina",
+    "normalized_name": "sulfasalazina"
   },
   {
-    "id": 57,
-    "name": "Baycip",
-    "active_ingredient": null,
-    "normalized_name": "baycip"
+    "id": 156,
+    "name": "tadalafilo",
+    "active_ingredient": "tadalafilo",
+    "normalized_name": "tadalafilo"
   },
   {
-    "id": 58,
-    "name": "Cipro",
-    "active_ingredient": null,
-    "normalized_name": "cipro"
+    "id": 157,
+    "name": "tamoxifeno",
+    "active_ingredient": "tamoxifeno",
+    "normalized_name": "tamoxifeno"
   },
   {
-    "id": 59,
-    "name": "Cleocin",
-    "active_ingredient": null,
-    "normalized_name": "cleocin"
+    "id": 158,
+    "name": "tamsulosina",
+    "active_ingredient": "tamsulosina",
+    "normalized_name": "tamsulosina"
   },
   {
-    "id": 60,
-    "name": "Flagyl",
-    "active_ingredient": null,
-    "normalized_name": "flagyl"
+    "id": 159,
+    "name": "tapentadol",
+    "active_ingredient": "tapentadol",
+    "normalized_name": "tapentadol"
   },
   {
-    "id": 61,
-    "name": "Dalacin",
-    "active_ingredient": null,
-    "normalized_name": "dalacin"
+    "id": 160,
+    "name": "telmisartán",
+    "active_ingredient": "telmisartán",
+    "normalized_name": "telmisartán"
   },
   {
-    "id": 62,
-    "name": "Rocephin",
-    "active_ingredient": null,
-    "normalized_name": "rocephin"
+    "id": 161,
+    "name": "terbutalina",
+    "active_ingredient": "terbutalina",
+    "normalized_name": "terbutalina"
   },
   {
-    "id": 63,
-    "name": "Vibracina",
-    "active_ingredient": null,
-    "normalized_name": "vibracina"
+    "id": 162,
+    "name": "ticagrelor",
+    "active_ingredient": "ticagrelor",
+    "normalized_name": "ticagrelor"
   },
   {
-    "id": 64,
-    "name": "Dalsy",
-    "active_ingredient": null,
-    "normalized_name": "dalsy"
+    "id": 163,
+    "name": "timolol",
+    "active_ingredient": "timolol",
+    "normalized_name": "timolol"
   },
   {
-    "id": 65,
-    "name": "Espidifen",
-    "active_ingredient": null,
-    "normalized_name": "espidifen"
+    "id": 164,
+    "name": "tiotropio",
+    "active_ingredient": "tiotropio",
+    "normalized_name": "tiotropio"
   },
   {
-    "id": 66,
-    "name": "Termalgin",
-    "active_ingredient": null,
-    "normalized_name": "termalgin"
+    "id": 165,
+    "name": "topiramato",
+    "active_ingredient": "topiramato",
+    "normalized_name": "topiramato"
   },
   {
-    "id": 67,
-    "name": "Gelocatil",
-    "active_ingredient": null,
-    "normalized_name": "gelocatil"
+    "id": 166,
+    "name": "torasemida",
+    "active_ingredient": "torasemida",
+    "normalized_name": "torasemida"
   },
   {
-    "id": 68,
-    "name": "Efferalgan",
-    "active_ingredient": null,
-    "normalized_name": "efferalgan"
-  },
-  {
-    "id": 69,
-    "name": "Nolotil",
-    "active_ingredient": null,
-    "normalized_name": "nolotil"
-  },
-  {
-    "id": 70,
-    "name": "Enantyum",
-    "active_ingredient": null,
-    "normalized_name": "enantyum"
-  },
-  {
-    "id": 71,
-    "name": "Trankimazin",
-    "active_ingredient": null,
-    "normalized_name": "trankimazin"
-  },
-  {
-    "id": 72,
-    "name": "Valium",
-    "active_ingredient": null,
-    "normalized_name": "valium"
-  },
-  {
-    "id": 73,
-    "name": "Orfidal",
-    "active_ingredient": null,
-    "normalized_name": "orfidal"
-  },
-  {
-    "id": 74,
-    "name": "Prozac",
-    "active_ingredient": null,
-    "normalized_name": "prozac"
-  },
-  {
-    "id": 75,
-    "name": "Celexa",
-    "active_ingredient": null,
-    "normalized_name": "celexa"
-  },
-  {
-    "id": 76,
-    "name": "Seroxat",
-    "active_ingredient": null,
-    "normalized_name": "seroxat"
-  },
-  {
-    "id": 77,
-    "name": "Prisdal",
-    "active_ingredient": null,
-    "normalized_name": "prisdal"
-  },
-  {
-    "id": 78,
-    "name": "Zoloft",
-    "active_ingredient": null,
-    "normalized_name": "zoloft"
-  },
-  {
-    "id": 79,
-    "name": "Omeprazol",
-    "active_ingredient": null,
-    "normalized_name": "omeprazol"
-  },
-  {
-    "id": 80,
-    "name": "Pantoprazol",
-    "active_ingredient": null,
-    "normalized_name": "pantoprazol"
-  },
-  {
-    "id": 81,
-    "name": "Esomeprazol",
-    "active_ingredient": null,
-    "normalized_name": "esomeprazol"
-  },
-  {
-    "id": 82,
-    "name": "Losec",
-    "active_ingredient": null,
-    "normalized_name": "losec"
-  },
-  {
-    "id": 83,
-    "name": "Nexium",
-    "active_ingredient": null,
-    "normalized_name": "nexium"
-  },
-  {
-    "id": 84,
-    "name": "Lipitor",
-    "active_ingredient": null,
-    "normalized_name": "lipitor"
-  },
-  {
-    "id": 85,
-    "name": "Zarator",
-    "active_ingredient": null,
-    "normalized_name": "zarator"
-  },
-  {
-    "id": 86,
-    "name": "Cardyl",
-    "active_ingredient": null,
-    "normalized_name": "cardyl"
-  },
-  {
-    "id": 87,
-    "name": "Norvas",
-    "active_ingredient": null,
-    "normalized_name": "norvas"
-  },
-  {
-    "id": 88,
-    "name": "Amlodipino",
-    "active_ingredient": null,
-    "normalized_name": "amlodipino"
-  },
-  {
-    "id": 89,
-    "name": "Sintrom",
-    "active_ingredient": null,
-    "normalized_name": "sintrom"
-  },
-  {
-    "id": 90,
-    "name": "Adiro",
-    "active_ingredient": null,
-    "normalized_name": "adiro"
-  },
-  {
-    "id": 91,
-    "name": "Tromalyt",
-    "active_ingredient": null,
-    "normalized_name": "tromalyt"
-  },
-  {
-    "id": 92,
-    "name": "Plavix",
-    "active_ingredient": null,
-    "normalized_name": "plavix"
-  },
-  {
-    "id": 93,
-    "name": "Iscover",
-    "active_ingredient": null,
-    "normalized_name": "iscover"
-  },
-  {
-    "id": 94,
-    "name": "Ventolin",
-    "active_ingredient": null,
-    "normalized_name": "ventolin"
-  },
-  {
-    "id": 95,
-    "name": "Pulmicort",
-    "active_ingredient": null,
-    "normalized_name": "pulmicort"
-  },
-  {
-    "id": 96,
-    "name": "Seretide",
-    "active_ingredient": null,
-    "normalized_name": "seretide"
-  },
-  {
-    "id": 97,
-    "name": "Symbicort",
-    "active_ingredient": null,
-    "normalized_name": "symbicort"
-  },
-  {
-    "id": 98,
-    "name": "Metformina",
-    "active_ingredient": null,
-    "normalized_name": "metformina"
-  },
-  {
-    "id": 99,
-    "name": "Dianben",
-    "active_ingredient": null,
-    "normalized_name": "dianben"
-  },
-  {
-    "id": 100,
-    "name": "Glucophage",
-    "active_ingredient": null,
-    "normalized_name": "glucophage"
-  },
-  {
-    "id": 101,
-    "name": "Eutirox",
-    "active_ingredient": null,
-    "normalized_name": "eutirox"
-  },
-  {
-    "id": 102,
-    "name": "Levothroid",
-    "active_ingredient": null,
-    "normalized_name": "levothroid"
-  },
-  {
-    "id": 103,
-    "name": "Dexnon",
-    "active_ingredient": null,
-    "normalized_name": "dexnon"
-  },
-  {
-    "id": 104,
-    "name": "Ibuprofeno",
-    "active_ingredient": null,
-    "normalized_name": "ibuprofeno"
-  },
-  {
-    "id": 105,
-    "name": "Tramadol",
-    "active_ingredient": null,
+    "id": 167,
+    "name": "tramadol",
+    "active_ingredient": "tramadol",
     "normalized_name": "tramadol"
   },
   {
-    "id": 106,
-    "name": "Morfina",
-    "active_ingredient": null,
-    "normalized_name": "morfina"
+    "id": 168,
+    "name": "travoprost",
+    "active_ingredient": "travoprost",
+    "normalized_name": "travoprost"
   },
   {
-    "id": 107,
-    "name": "Fentanilo",
-    "active_ingredient": null,
-    "normalized_name": "fentanilo"
+    "id": 169,
+    "name": "trazodona",
+    "active_ingredient": "trazodona",
+    "normalized_name": "trazodona"
   },
   {
-    "id": 108,
-    "name": "Bromazepam",
-    "active_ingredient": null,
-    "normalized_name": "bromazepam"
+    "id": 170,
+    "name": "valaciclovir",
+    "active_ingredient": "valaciclovir",
+    "normalized_name": "valaciclovir"
   },
   {
-    "id": 109,
-    "name": "Clonazepam",
-    "active_ingredient": null,
-    "normalized_name": "clonazepam"
+    "id": 171,
+    "name": "valsartán",
+    "active_ingredient": "valsartán",
+    "normalized_name": "valsartán"
   },
   {
-    "id": 110,
-    "name": "Prednisona",
-    "active_ingredient": null,
-    "normalized_name": "prednisona"
+    "id": 172,
+    "name": "vardenafilo",
+    "active_ingredient": "vardenafilo",
+    "normalized_name": "vardenafilo"
   },
   {
-    "id": 111,
-    "name": "Metilprednisolona",
-    "active_ingredient": null,
-    "normalized_name": "metilprednisolona"
+    "id": 173,
+    "name": "venlafaxina",
+    "active_ingredient": "venlafaxina",
+    "normalized_name": "venlafaxina"
   },
   {
-    "id": 112,
-    "name": "Dexametasona",
-    "active_ingredient": null,
-    "normalized_name": "dexametasona"
+    "id": 174,
+    "name": "vildagliptina",
+    "active_ingredient": "vildagliptina",
+    "normalized_name": "vildagliptina"
   },
   {
-    "id": 113,
-    "name": "Hidrocortisona",
-    "active_ingredient": null,
-    "normalized_name": "hidrocortisona"
+    "id": 175,
+    "name": "voriconazol",
+    "active_ingredient": "voriconazol",
+    "normalized_name": "voriconazol"
   },
   {
-    "id": 114,
-    "name": "Insulina",
-    "active_ingredient": null,
-    "normalized_name": "insulina"
+    "id": 176,
+    "name": "vortioxetina",
+    "active_ingredient": "vortioxetina",
+    "normalized_name": "vortioxetina"
   },
   {
-    "id": 115,
-    "name": "Glargina",
-    "active_ingredient": null,
-    "normalized_name": "glargina"
+    "id": 177,
+    "name": "warfarina",
+    "active_ingredient": "warfarina",
+    "normalized_name": "warfarina"
   },
   {
-    "id": 116,
-    "name": "Aspart",
-    "active_ingredient": null,
-    "normalized_name": "aspart"
+    "id": 178,
+    "name": "zolpidem",
+    "active_ingredient": "zolpidem",
+    "normalized_name": "zolpidem"
   },
   {
-    "id": 117,
-    "name": "Lispro",
-    "active_ingredient": null,
-    "normalized_name": "lispro"
+    "id": 179,
+    "name": "zopiclona",
+    "active_ingredient": "zopiclona",
+    "normalized_name": "zopiclona"
   },
   {
-    "id": 118,
-    "name": "Degludec",
-    "active_ingredient": null,
-    "normalized_name": "degludec"
+    "id": 180,
+    "name": "ácido fólico",
+    "active_ingredient": "ácido fólico",
+    "normalized_name": "ácidofólico"
+  },
+  {
+    "id": 181,
+    "name": "ácido zoledrónico",
+    "active_ingredient": "ácido zoledrónico",
+    "normalized_name": "ácidozoledrónico"
   }
 ]

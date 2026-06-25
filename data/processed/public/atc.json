@@ -1,618 +1,2786 @@
 [
   {
-    "id": 1,
-    "code": "J01CA04",
-    "level": 4,
-    "name": "amoxicillin",
-    "parent_code": "J01CA"
+    "code": "A",
+    "name": "Sistema digestivo y metabolismo",
+    "level": 2,
+    "parent_code": ""
   },
   {
-    "id": 2,
-    "code": "J01CR02",
-    "level": 4,
-    "name": "amoxicillin and beta-lactamase inhibitor",
-    "parent_code": "J01CR"
+    "code": "A01",
+    "name": "Preparados estomatológicos",
+    "level": 2,
+    "parent_code": "A"
   },
   {
-    "id": 3,
-    "code": "J01FA10",
-    "level": 4,
-    "name": "azithromycin",
-    "parent_code": "J01FA"
+    "code": "A01A",
+    "name": "Preparados estomatológicos",
+    "level": 3,
+    "parent_code": "A01"
   },
   {
-    "id": 4,
-    "code": "J01MA02",
+    "code": "A01AB",
+    "name": "Antiinfecciosos para tratamiento oral",
     "level": 4,
-    "name": "ciprofloxacin",
-    "parent_code": "J01MA"
+    "parent_code": "A01A"
   },
   {
-    "id": 5,
-    "code": "J01CA01",
-    "level": 4,
-    "name": "ampicillin",
-    "parent_code": "J01CA"
+    "code": "A02",
+    "name": "Antiácidos y antiulcerosos",
+    "level": 2,
+    "parent_code": "A"
   },
   {
-    "id": 6,
-    "code": "J01DD04",
-    "level": 4,
-    "name": "ceftriaxone",
-    "parent_code": "J01DD"
+    "code": "A02B",
+    "name": "Antiulcerosos",
+    "level": 3,
+    "parent_code": "A02"
   },
   {
-    "id": 7,
-    "code": "J01DD01",
+    "code": "A02BA",
+    "name": "Antagonistas H2",
     "level": 4,
-    "name": "cefotaxime",
-    "parent_code": "J01DD"
-  },
-  {
-    "id": 8,
-    "code": "J01FA09",
-    "level": 4,
-    "name": "clarithromycin",
-    "parent_code": "J01FA"
-  },
-  {
-    "id": 9,
-    "code": "J01GB06",
-    "level": 4,
-    "name": "amikacin",
-    "parent_code": "J01GB"
-  },
-  {
-    "id": 10,
-    "code": "J01MA12",
-    "level": 4,
-    "name": "levofloxacin",
-    "parent_code": "J01MA"
-  },
-  {
-    "id": 11,
-    "code": "J01CF05",
-    "level": 4,
-    "name": "flucloxacillin",
-    "parent_code": "J01CF"
-  },
-  {
-    "id": 12,
-    "code": "J01CE02",
-    "level": 4,
-    "name": "phenoxymethylpenicillin",
-    "parent_code": "J01CE"
-  },
-  {
-    "id": 13,
-    "code": "J01CR05",
-    "level": 4,
-    "name": "piperacillin and beta-lactamase inhibitor",
-    "parent_code": "J01CR"
-  },
-  {
-    "id": 14,
-    "code": "J01DH02",
-    "level": 4,
-    "name": "meropenem",
-    "parent_code": "J01DH"
-  },
-  {
-    "id": 15,
-    "code": "J01DH51",
-    "level": 4,
-    "name": "imipenem and cilastatin",
-    "parent_code": "J01DH"
-  },
-  {
-    "id": 16,
-    "code": "J01XC01",
-    "level": 4,
-    "name": "fusidic acid",
-    "parent_code": "J01XC"
-  },
-  {
-    "id": 17,
-    "code": "J01XE01",
-    "level": 4,
-    "name": "nitrofurantoin",
-    "parent_code": "J01XE"
-  },
-  {
-    "id": 18,
-    "code": "J01XX01",
-    "level": 4,
-    "name": "fosfomycin",
-    "parent_code": "J01XX"
-  },
-  {
-    "id": 19,
-    "code": "J01EA01",
-    "level": 4,
-    "name": "trimethoprim",
-    "parent_code": "J01EA"
-  },
-  {
-    "id": 20,
-    "code": "J01EE01",
-    "level": 4,
-    "name": "sulfamethoxazole and trimethoprim",
-    "parent_code": "J01EE"
-  },
-  {
-    "id": 21,
-    "code": "J01MA14",
-    "level": 4,
-    "name": "moxifloxacin",
-    "parent_code": "J01MA"
-  },
-  {
-    "id": 22,
-    "code": "J01FF01",
-    "level": 4,
-    "name": "clindamycin",
-    "parent_code": "J01FF"
-  },
-  {
-    "id": 23,
-    "code": "J01FG01",
-    "level": 4,
-    "name": "pristinamycin",
-    "parent_code": "J01FG"
-  },
-  {
-    "id": 24,
-    "code": "J01MB04",
-    "level": 4,
-    "name": "nalidixic acid",
-    "parent_code": "J01MB"
-  },
-  {
-    "id": 25,
-    "code": "J01XA01",
-    "level": 4,
-    "name": "vancomycin",
-    "parent_code": "J01XA"
-  },
-  {
-    "id": 26,
-    "code": "J01XD01",
-    "level": 4,
-    "name": "metronidazole",
-    "parent_code": "J01XD"
-  },
-  {
-    "id": 27,
-    "code": "J01AA02",
-    "level": 4,
-    "name": "doxycycline",
-    "parent_code": "J01AA"
-  },
-  {
-    "id": 28,
-    "code": "N02BE01",
-    "level": 4,
-    "name": "paracetamol",
-    "parent_code": "N02BE"
-  },
-  {
-    "id": 29,
-    "code": "M01AE01",
-    "level": 4,
-    "name": "ibuprofen",
-    "parent_code": "M01AE"
-  },
-  {
-    "id": 30,
-    "code": "C10AA05",
-    "level": 4,
-    "name": "atorvastatin",
-    "parent_code": "C10AA"
-  },
-  {
-    "id": 31,
-    "code": "A02BC01",
-    "level": 4,
-    "name": "omeprazole",
-    "parent_code": "A02BC"
-  },
-  {
-    "id": 32,
-    "code": "A02BC02",
-    "level": 4,
-    "name": "pantoprazole",
-    "parent_code": "A02BC"
-  },
-  {
-    "id": 33,
-    "code": "A02BC04",
-    "level": 4,
-    "name": "rabeprazole",
-    "parent_code": "A02BC"
-  },
-  {
-    "id": 34,
-    "code": "A02BC05",
-    "level": 4,
-    "name": "esomeprazole",
-    "parent_code": "A02BC"
-  },
-  {
-    "id": 35,
-    "code": "N02BA01",
-    "level": 4,
-    "name": "acetylsalicylic acid",
-    "parent_code": "N02BA"
-  },
-  {
-    "id": 36,
-    "code": "N05BA01",
-    "level": 4,
-    "name": "diazepam",
-    "parent_code": "N05BA"
-  },
-  {
-    "id": 37,
-    "code": "N05BA06",
-    "level": 4,
-    "name": "lorazepam",
-    "parent_code": "N05BA"
-  },
-  {
-    "id": 38,
-    "code": "N05BA12",
-    "level": 4,
-    "name": "alprazolam",
-    "parent_code": "N05BA"
-  },
-  {
-    "id": 39,
-    "code": "N06AB04",
-    "level": 4,
-    "name": "citalopram",
-    "parent_code": "N06AB"
-  },
-  {
-    "id": 40,
-    "code": "N06AB06",
-    "level": 4,
-    "name": "sertraline",
-    "parent_code": "N06AB"
-  },
-  {
-    "id": 41,
-    "code": "N06AB05",
-    "level": 4,
-    "name": "paroxetine",
-    "parent_code": "N06AB"
-  },
-  {
-    "id": 42,
-    "code": "N06AB10",
-    "level": 4,
-    "name": "escitalopram",
-    "parent_code": "N06AB"
-  },
-  {
-    "id": 43,
-    "code": "N06AB03",
-    "level": 4,
-    "name": "fluoxetine",
-    "parent_code": "N06AB"
-  },
-  {
-    "id": 44,
-    "code": "N06DA02",
-    "level": 4,
-    "name": "donepezil",
-    "parent_code": "N06DA"
-  },
-  {
-    "id": 45,
-    "code": "A10BA02",
-    "level": 4,
-    "name": "metformin",
-    "parent_code": "A10BA"
-  },
-  {
-    "id": 46,
-    "code": "C09AA05",
-    "level": 4,
-    "name": "ramipril",
-    "parent_code": "C09AA"
-  },
-  {
-    "id": 47,
-    "code": "C09CA01",
-    "level": 4,
-    "name": "losartan",
-    "parent_code": "C09CA"
-  },
-  {
-    "id": 48,
-    "code": "C09CA06",
-    "level": 4,
-    "name": "candesartan",
-    "parent_code": "C09CA"
-  },
-  {
-    "id": 49,
-    "code": "R03AC02",
-    "level": 4,
-    "name": "salbutamol",
-    "parent_code": "R03AC"
-  },
-  {
-    "id": 50,
-    "code": "R03AK06",
-    "level": 4,
-    "name": "salmeterol and fluticasone",
-    "parent_code": "R03AK"
-  },
-  {
-    "id": 51,
-    "code": "C08CA01",
-    "level": 4,
-    "name": "amlodipine",
-    "parent_code": "C08CA"
-  },
-  {
-    "id": 52,
-    "code": "C07AB03",
-    "level": 4,
-    "name": "atenolol",
-    "parent_code": "C07AB"
-  },
-  {
-    "id": 53,
-    "code": "C07AB02",
-    "level": 4,
-    "name": "metoprolol",
-    "parent_code": "C07AB"
-  },
-  {
-    "id": 54,
-    "code": "A02BC",
-    "level": 4,
-    "name": "Proton pump inhibitors",
     "parent_code": "A02B"
   },
   {
-    "id": 55,
-    "code": "C10AA",
+    "code": "A02BC",
+    "name": "Inhibidores de la bomba de protones",
     "level": 4,
-    "name": "HMG CoA reductase inhibitors",
-    "parent_code": "C10A"
+    "parent_code": "A02B"
   },
   {
-    "id": 56,
-    "code": "J01C",
+    "code": "A02BD",
+    "name": "Combinaciones para erradicar H. pylori",
+    "level": 4,
+    "parent_code": "A02B"
+  },
+  {
+    "code": "A02BX",
+    "name": "Otros antiulcerosos",
+    "level": 4,
+    "parent_code": "A02B"
+  },
+  {
+    "code": "A03",
+    "name": "Antiespasmódicos y procinéticos",
+    "level": 2,
+    "parent_code": "A"
+  },
+  {
+    "code": "A03A",
+    "name": "Antiespasmódicos",
     "level": 3,
-    "name": "Beta-lactam antibacterials, penicillins",
-    "parent_code": "J01"
+    "parent_code": "A03"
   },
   {
-    "id": 57,
-    "code": "J01D",
+    "code": "A03AA",
+    "name": "Anticolinérgicos sintéticos",
+    "level": 4,
+    "parent_code": "A03A"
+  },
+  {
+    "code": "A03AX",
+    "name": "Otros antiespasmódicos",
+    "level": 4,
+    "parent_code": "A03A"
+  },
+  {
+    "code": "A03B",
+    "name": "Procinéticos",
     "level": 3,
-    "name": "Other beta-lactam antibacterials",
-    "parent_code": "J01"
+    "parent_code": "A03"
   },
   {
-    "id": 58,
-    "code": "J01E",
+    "code": "A03BB",
+    "name": "Alcaloides semisintéticos de la belladona",
+    "level": 4,
+    "parent_code": "A03B"
+  },
+  {
+    "code": "A03F",
+    "name": "Procinéticos",
     "level": 3,
-    "name": "Sulfonamides and trimethoprim",
-    "parent_code": "J01"
+    "parent_code": "A03"
   },
   {
-    "id": 59,
-    "code": "J01F",
+    "code": "A03FA",
+    "name": "Procinéticos",
+    "level": 4,
+    "parent_code": "A03F"
+  },
+  {
+    "code": "A04",
+    "name": "Antieméticos",
+    "level": 2,
+    "parent_code": "A"
+  },
+  {
+    "code": "A04A",
+    "name": "Antieméticos",
     "level": 3,
-    "name": "Macrolides, lincosamides and streptogramins",
-    "parent_code": "J01"
+    "parent_code": "A04"
   },
   {
-    "id": 60,
-    "code": "J01G",
+    "code": "A04AA",
+    "name": "Setrones (antagonistas 5-HT3)",
+    "level": 4,
+    "parent_code": "A04A"
+  },
+  {
+    "code": "A05",
+    "name": "A05",
+    "level": 2,
+    "parent_code": "A"
+  },
+  {
+    "code": "A05A",
+    "name": "A05A",
     "level": 3,
-    "name": "Aminoglycoside antibacterials",
-    "parent_code": "J01"
+    "parent_code": "A05"
   },
   {
-    "id": 61,
-    "code": "J01M",
+    "code": "A05AA",
+    "name": "A05AA",
+    "level": 4,
+    "parent_code": "A05A"
+  },
+  {
+    "code": "A06",
+    "name": "Laxantes",
+    "level": 2,
+    "parent_code": "A"
+  },
+  {
+    "code": "A06A",
+    "name": "Laxantes",
     "level": 3,
-    "name": "Quinolone antibacterials",
-    "parent_code": "J01"
+    "parent_code": "A06"
   },
   {
-    "id": 62,
-    "code": "J01X",
+    "code": "A06AC",
+    "name": "A06AC",
+    "level": 4,
+    "parent_code": "A06A"
+  },
+  {
+    "code": "A06AD",
+    "name": "Laxantes osmóticos",
+    "level": 4,
+    "parent_code": "A06A"
+  },
+  {
+    "code": "A06AH",
+    "name": "A06AH",
+    "level": 4,
+    "parent_code": "A06A"
+  },
+  {
+    "code": "A06AX",
+    "name": "A06AX",
+    "level": 4,
+    "parent_code": "A06A"
+  },
+  {
+    "code": "A07",
+    "name": "Antidiarreicos",
+    "level": 2,
+    "parent_code": "A"
+  },
+  {
+    "code": "A07A",
+    "name": "Antiinfecciosos intestinales",
     "level": 3,
-    "name": "Other antibacterials",
-    "parent_code": "J01"
+    "parent_code": "A07"
   },
   {
-    "id": 63,
-    "code": "J01CA",
+    "code": "A07AA",
+    "name": "Antibióticos intestinales",
     "level": 4,
-    "name": "Penicillins with extended spectrum",
-    "parent_code": "J01C"
+    "parent_code": "A07A"
   },
   {
-    "id": 64,
-    "code": "J01CR",
-    "level": 4,
-    "name": "Combinations of penicillins",
-    "parent_code": "J01C"
-  },
-  {
-    "id": 65,
-    "code": "J01DD",
-    "level": 4,
-    "name": "Third-generation cephalosporins",
-    "parent_code": "J01D"
-  },
-  {
-    "id": 66,
-    "code": "J01EE",
-    "level": 4,
-    "name": "Combinations of sulfonamides",
-    "parent_code": "J01E"
-  },
-  {
-    "id": 67,
-    "code": "J01FA",
-    "level": 4,
-    "name": "Macrolides",
-    "parent_code": "J01F"
-  },
-  {
-    "id": 68,
-    "code": "J01FF",
-    "level": 4,
-    "name": "Lincosamides",
-    "parent_code": "J01F"
-  },
-  {
-    "id": 69,
-    "code": "J01GB",
-    "level": 4,
-    "name": "Other aminoglycosides",
-    "parent_code": "J01G"
-  },
-  {
-    "id": 70,
-    "code": "J01MA",
-    "level": 4,
-    "name": "Fluoroquinolones",
-    "parent_code": "J01M"
-  },
-  {
-    "id": 71,
-    "code": "J01XD",
-    "level": 4,
-    "name": "Imidazole derivatives",
-    "parent_code": "J01X"
-  },
-  {
-    "id": 72,
-    "code": "J01XA",
-    "level": 4,
-    "name": "Glycopeptide antibacterials",
-    "parent_code": "J01X"
-  },
-  {
-    "id": 73,
-    "code": "M01A",
+    "code": "A07E",
+    "name": "Antiinflamatorios intestinales",
     "level": 3,
-    "name": "Antiinflammatory and antirheumatic products, non-steroids",
-    "parent_code": "M01"
+    "parent_code": "A07"
   },
   {
-    "id": 74,
-    "code": "N02B",
-    "level": 3,
-    "name": "Other analgesics and antipyretics",
-    "parent_code": "N02"
-  },
-  {
-    "id": 75,
-    "code": "N02BE",
+    "code": "A07EA",
+    "name": "A07EA",
     "level": 4,
-    "name": "Anilides",
-    "parent_code": "N02B"
+    "parent_code": "A07E"
   },
   {
-    "id": 76,
-    "code": "N05B",
-    "level": 3,
-    "name": "Anxiolytics",
-    "parent_code": "N05"
-  },
-  {
-    "id": 77,
-    "code": "N05BA",
+    "code": "A07EB",
+    "name": "A07EB",
     "level": 4,
-    "name": "Benzodiazepine derivatives",
-    "parent_code": "N05B"
+    "parent_code": "A07E"
   },
   {
-    "id": 78,
-    "code": "N05C",
-    "level": 3,
-    "name": "Hypnotics and sedatives",
-    "parent_code": "N05"
-  },
-  {
-    "id": 79,
-    "code": "N06A",
-    "level": 3,
-    "name": "Antidepressants",
-    "parent_code": "N06"
-  },
-  {
-    "id": 80,
-    "code": "N06AB",
+    "code": "A07EC",
+    "name": "Ácido aminosalicílico",
     "level": 4,
-    "name": "Selective serotonin reuptake inhibitors",
-    "parent_code": "N06A"
+    "parent_code": "A07E"
   },
   {
-    "id": 81,
-    "code": "R03A",
+    "code": "A09",
+    "name": "A09",
+    "level": 2,
+    "parent_code": "A"
+  },
+  {
+    "code": "A09A",
+    "name": "A09A",
     "level": 3,
-    "name": "Adrenergics, inhalants",
-    "parent_code": "R03"
+    "parent_code": "A09"
   },
   {
-    "id": 82,
-    "code": "R03AC",
+    "code": "A09AA",
+    "name": "A09AA",
     "level": 4,
-    "name": "Selective beta-2-adrenoreceptor agonists",
-    "parent_code": "R03A"
+    "parent_code": "A09A"
   },
   {
-    "id": 83,
-    "code": "A10B",
+    "code": "A10",
+    "name": "Antidiabéticos",
+    "level": 2,
+    "parent_code": "A"
+  },
+  {
+    "code": "A10A",
+    "name": "Insulinas",
     "level": 3,
-    "name": "Blood glucose lowering drugs, excl. insulins",
     "parent_code": "A10"
   },
   {
-    "id": 84,
-    "code": "A10BA",
+    "code": "A10AB",
+    "name": "Insulinas de acción rápida",
     "level": 4,
-    "name": "Biguanides",
+    "parent_code": "A10A"
+  },
+  {
+    "code": "A10AC",
+    "name": "Insulinas de acción intermedia",
+    "level": 4,
+    "parent_code": "A10A"
+  },
+  {
+    "code": "A10AD",
+    "name": "Insulinas de acción prolongada",
+    "level": 4,
+    "parent_code": "A10A"
+  },
+  {
+    "code": "A10AE",
+    "name": "Insulinas de acción prolongada (nuevas)",
+    "level": 4,
+    "parent_code": "A10A"
+  },
+  {
+    "code": "A10B",
+    "name": "Hipoglucemiantes orales",
+    "level": 3,
+    "parent_code": "A10"
+  },
+  {
+    "code": "A10BA",
+    "name": "Biguanidas (metformina)",
+    "level": 4,
     "parent_code": "A10B"
   },
   {
-    "id": 85,
-    "code": "C07A",
+    "code": "A10BB",
+    "name": "Sulfonilureas",
+    "level": 4,
+    "parent_code": "A10B"
+  },
+  {
+    "code": "A10BD",
+    "name": "Combinaciones de hipoglucemiantes",
+    "level": 4,
+    "parent_code": "A10B"
+  },
+  {
+    "code": "A10BF",
+    "name": "A10BF",
+    "level": 4,
+    "parent_code": "A10B"
+  },
+  {
+    "code": "A10BG",
+    "name": "Tiazolidinedionas",
+    "level": 4,
+    "parent_code": "A10B"
+  },
+  {
+    "code": "A10BH",
+    "name": "Inhibidores DPP-4 (gliptinas)",
+    "level": 4,
+    "parent_code": "A10B"
+  },
+  {
+    "code": "A10BJ",
+    "name": "Agonistas GLP-1",
+    "level": 4,
+    "parent_code": "A10B"
+  },
+  {
+    "code": "A10BK",
+    "name": "Inhibidores SGLT2 (gliflozinas)",
+    "level": 4,
+    "parent_code": "A10B"
+  },
+  {
+    "code": "A10BX",
+    "name": "Otros hipoglucemiantes",
+    "level": 4,
+    "parent_code": "A10B"
+  },
+  {
+    "code": "A11",
+    "name": "Vitaminas",
+    "level": 2,
+    "parent_code": "A"
+  },
+  {
+    "code": "A11C",
+    "name": "Vitaminas A y D",
     "level": 3,
-    "name": "Beta blocking agents",
+    "parent_code": "A11"
+  },
+  {
+    "code": "A11CA",
+    "name": "A11CA",
+    "level": 4,
+    "parent_code": "A11C"
+  },
+  {
+    "code": "A11CC",
+    "name": "Vitamina D y análogos",
+    "level": 4,
+    "parent_code": "A11C"
+  },
+  {
+    "code": "A11D",
+    "name": "A11D",
+    "level": 3,
+    "parent_code": "A11"
+  },
+  {
+    "code": "A11DA",
+    "name": "A11DA",
+    "level": 4,
+    "parent_code": "A11D"
+  },
+  {
+    "code": "A11G",
+    "name": "Ácido ascórbico (vitamina C)",
+    "level": 3,
+    "parent_code": "A11"
+  },
+  {
+    "code": "A11GA",
+    "name": "A11GA",
+    "level": 4,
+    "parent_code": "A11G"
+  },
+  {
+    "code": "A11H",
+    "name": "Otros preparados vitamínicos",
+    "level": 3,
+    "parent_code": "A11"
+  },
+  {
+    "code": "A11HA",
+    "name": "A11HA",
+    "level": 4,
+    "parent_code": "A11H"
+  },
+  {
+    "code": "A12",
+    "name": "Suplementos minerales",
+    "level": 2,
+    "parent_code": "A"
+  },
+  {
+    "code": "A12A",
+    "name": "Calcio",
+    "level": 3,
+    "parent_code": "A12"
+  },
+  {
+    "code": "A12AA",
+    "name": "Calcio",
+    "level": 4,
+    "parent_code": "A12A"
+  },
+  {
+    "code": "A12B",
+    "name": "Potasio",
+    "level": 3,
+    "parent_code": "A12"
+  },
+  {
+    "code": "A12BA",
+    "name": "Potasio",
+    "level": 4,
+    "parent_code": "A12B"
+  },
+  {
+    "code": "A16",
+    "name": "Otros productos metabólicos",
+    "level": 2,
+    "parent_code": "A"
+  },
+  {
+    "code": "A16A",
+    "name": "Otros productos metabólicos",
+    "level": 3,
+    "parent_code": "A16"
+  },
+  {
+    "code": "A16AA",
+    "name": "A16AA",
+    "level": 4,
+    "parent_code": "A16A"
+  },
+  {
+    "code": "B",
+    "name": "Sangre y órganos hematopoyéticos",
+    "level": 2,
+    "parent_code": ""
+  },
+  {
+    "code": "B01",
+    "name": "Anticoagulantes y antiagregantes",
+    "level": 2,
+    "parent_code": "B"
+  },
+  {
+    "code": "B01A",
+    "name": "Anticoagulantes",
+    "level": 3,
+    "parent_code": "B01"
+  },
+  {
+    "code": "B01AA",
+    "name": "Antagonistas de la vitamina K",
+    "level": 4,
+    "parent_code": "B01A"
+  },
+  {
+    "code": "B01AB",
+    "name": "Heparinas",
+    "level": 4,
+    "parent_code": "B01A"
+  },
+  {
+    "code": "B01AC",
+    "name": "Antiagregantes plaquetarios",
+    "level": 4,
+    "parent_code": "B01A"
+  },
+  {
+    "code": "B01AE",
+    "name": "Inhibidores directos de trombina",
+    "level": 4,
+    "parent_code": "B01A"
+  },
+  {
+    "code": "B01AF",
+    "name": "Inhibidores del factor Xa (DOACs)",
+    "level": 4,
+    "parent_code": "B01A"
+  },
+  {
+    "code": "B01AX",
+    "name": "B01AX",
+    "level": 4,
+    "parent_code": "B01A"
+  },
+  {
+    "code": "B02",
+    "name": "Antihemorrágicos",
+    "level": 2,
+    "parent_code": "B"
+  },
+  {
+    "code": "B02A",
+    "name": "B02A",
+    "level": 3,
+    "parent_code": "B02"
+  },
+  {
+    "code": "B02AA",
+    "name": "B02AA",
+    "level": 4,
+    "parent_code": "B02A"
+  },
+  {
+    "code": "B02B",
+    "name": "Vitamina K",
+    "level": 3,
+    "parent_code": "B02"
+  },
+  {
+    "code": "B02BA",
+    "name": "Vitamina K",
+    "level": 4,
+    "parent_code": "B02B"
+  },
+  {
+    "code": "B03",
+    "name": "Antianémicos",
+    "level": 2,
+    "parent_code": "B"
+  },
+  {
+    "code": "B03A",
+    "name": "Preparados de hierro",
+    "level": 3,
+    "parent_code": "B03"
+  },
+  {
+    "code": "B03AA",
+    "name": "Hierro oral",
+    "level": 4,
+    "parent_code": "B03A"
+  },
+  {
+    "code": "B03AB",
+    "name": "Hierro parenteral",
+    "level": 4,
+    "parent_code": "B03A"
+  },
+  {
+    "code": "B03B",
+    "name": "Vitamina B12 y ácido fólico",
+    "level": 3,
+    "parent_code": "B03"
+  },
+  {
+    "code": "B03BA",
+    "name": "Vitamina B12",
+    "level": 4,
+    "parent_code": "B03B"
+  },
+  {
+    "code": "B03BB",
+    "name": "Ácido fólico",
+    "level": 4,
+    "parent_code": "B03B"
+  },
+  {
+    "code": "C01",
+    "name": "Terapia cardíaca",
+    "level": 2,
+    "parent_code": "C"
+  },
+  {
+    "code": "C01A",
+    "name": "Glucósidos cardíacos",
+    "level": 3,
+    "parent_code": "C01"
+  },
+  {
+    "code": "C01AA",
+    "name": "Digitálicos",
+    "level": 4,
+    "parent_code": "C01A"
+  },
+  {
+    "code": "C01B",
+    "name": "Antiarrítmicos clase I y III",
+    "level": 3,
+    "parent_code": "C01"
+  },
+  {
+    "code": "C01BA",
+    "name": "Antiarrítmicos clase Ia",
+    "level": 4,
+    "parent_code": "C01B"
+  },
+  {
+    "code": "C01BC",
+    "name": "Antiarrítmicos clase Ic",
+    "level": 4,
+    "parent_code": "C01B"
+  },
+  {
+    "code": "C01BD",
+    "name": "Antiarrítmicos clase III",
+    "level": 4,
+    "parent_code": "C01B"
+  },
+  {
+    "code": "C01C",
+    "name": "Estimulantes cardíacos",
+    "level": 3,
+    "parent_code": "C01"
+  },
+  {
+    "code": "C01CA",
+    "name": "Adrenérgicos y dopaminérgicos",
+    "level": 4,
+    "parent_code": "C01C"
+  },
+  {
+    "code": "C01D",
+    "name": "Vasodilatadores cardíacos",
+    "level": 3,
+    "parent_code": "C01"
+  },
+  {
+    "code": "C01DA",
+    "name": "Nitratos orgánicos",
+    "level": 4,
+    "parent_code": "C01D"
+  },
+  {
+    "code": "C01DX",
+    "name": "C01DX",
+    "level": 4,
+    "parent_code": "C01D"
+  },
+  {
+    "code": "C01E",
+    "name": "Otros preparados cardíacos",
+    "level": 3,
+    "parent_code": "C01"
+  },
+  {
+    "code": "C01EB",
+    "name": "Ivabradina",
+    "level": 4,
+    "parent_code": "C01E"
+  },
+  {
+    "code": "C02",
+    "name": "Antihipertensivos",
+    "level": 2,
+    "parent_code": "C"
+  },
+  {
+    "code": "C02A",
+    "name": "Antiadrenérgicos centrales",
+    "level": 3,
+    "parent_code": "C02"
+  },
+  {
+    "code": "C02AB",
+    "name": "Metildopa",
+    "level": 4,
+    "parent_code": "C02A"
+  },
+  {
+    "code": "C02AC",
+    "name": "C02AC",
+    "level": 4,
+    "parent_code": "C02A"
+  },
+  {
+    "code": "C02C",
+    "name": "Antiadrenérgicos periféricos",
+    "level": 3,
+    "parent_code": "C02"
+  },
+  {
+    "code": "C02CA",
+    "name": "Alfabloqueantes",
+    "level": 4,
+    "parent_code": "C02C"
+  },
+  {
+    "code": "C02D",
+    "name": "Vasodilatadores arteriales",
+    "level": 3,
+    "parent_code": "C02"
+  },
+  {
+    "code": "C02DB",
+    "name": "C02DB",
+    "level": 4,
+    "parent_code": "C02D"
+  },
+  {
+    "code": "C02DC",
+    "name": "C02DC",
+    "level": 4,
+    "parent_code": "C02D"
+  },
+  {
+    "code": "C03",
+    "name": "Diuréticos",
+    "level": 2,
+    "parent_code": "C"
+  },
+  {
+    "code": "C03A",
+    "name": "Tiazidas",
+    "level": 3,
+    "parent_code": "C03"
+  },
+  {
+    "code": "C03AA",
+    "name": "Tiazidas simples",
+    "level": 4,
+    "parent_code": "C03A"
+  },
+  {
+    "code": "C03B",
+    "name": "Diuréticos de techo bajo",
+    "level": 3,
+    "parent_code": "C03"
+  },
+  {
+    "code": "C03BA",
+    "name": "Sulfonamidas",
+    "level": 4,
+    "parent_code": "C03B"
+  },
+  {
+    "code": "C03C",
+    "name": "Diuréticos de techo alto",
+    "level": 3,
+    "parent_code": "C03"
+  },
+  {
+    "code": "C03CA",
+    "name": "Sulfonamidas de techo alto",
+    "level": 4,
+    "parent_code": "C03C"
+  },
+  {
+    "code": "C03D",
+    "name": "Ahorradores de potasio",
+    "level": 3,
+    "parent_code": "C03"
+  },
+  {
+    "code": "C03DA",
+    "name": "Antagonistas de aldosterona",
+    "level": 4,
+    "parent_code": "C03D"
+  },
+  {
+    "code": "C03E",
+    "name": "Combinaciones de diuréticos",
+    "level": 3,
+    "parent_code": "C03"
+  },
+  {
+    "code": "C03EA",
+    "name": "C03EA",
+    "level": 4,
+    "parent_code": "C03E"
+  },
+  {
+    "code": "C03EB",
+    "name": "C03EB",
+    "level": 4,
+    "parent_code": "C03E"
+  },
+  {
+    "code": "C04",
+    "name": "Vasodilatadores periféricos",
+    "level": 2,
+    "parent_code": "C"
+  },
+  {
+    "code": "C04A",
+    "name": "Vasodilatadores periféricos",
+    "level": 3,
+    "parent_code": "C04"
+  },
+  {
+    "code": "C04AD",
+    "name": "C04AD",
+    "level": 4,
+    "parent_code": "C04A"
+  },
+  {
+    "code": "C04AX",
+    "name": "C04AX",
+    "level": 4,
+    "parent_code": "C04A"
+  },
+  {
+    "code": "C07",
+    "name": "Betabloqueantes",
+    "level": 2,
+    "parent_code": "C"
+  },
+  {
+    "code": "C07A",
+    "name": "Betabloqueantes",
+    "level": 3,
     "parent_code": "C07"
   },
   {
-    "id": 86,
-    "code": "C08C",
+    "code": "C07AA",
+    "name": "Betabloqueantes no selectivos",
+    "level": 4,
+    "parent_code": "C07A"
+  },
+  {
+    "code": "C07AB",
+    "name": "Betabloqueantes selectivos",
+    "level": 4,
+    "parent_code": "C07A"
+  },
+  {
+    "code": "C07AG",
+    "name": "Alfa y betabloqueantes",
+    "level": 4,
+    "parent_code": "C07A"
+  },
+  {
+    "code": "C07B",
+    "name": "C07B",
     "level": 3,
-    "name": "Selective calcium channel blockers with mainly vascular effect",
+    "parent_code": "C07"
+  },
+  {
+    "code": "C07BB",
+    "name": "C07BB",
+    "level": 4,
+    "parent_code": "C07B"
+  },
+  {
+    "code": "C07C",
+    "name": "C07C",
+    "level": 3,
+    "parent_code": "C07"
+  },
+  {
+    "code": "C07CB",
+    "name": "C07CB",
+    "level": 4,
+    "parent_code": "C07C"
+  },
+  {
+    "code": "C07D",
+    "name": "C07D",
+    "level": 3,
+    "parent_code": "C07"
+  },
+  {
+    "code": "C07DB",
+    "name": "C07DB",
+    "level": 4,
+    "parent_code": "C07D"
+  },
+  {
+    "code": "C07F",
+    "name": "C07F",
+    "level": 3,
+    "parent_code": "C07"
+  },
+  {
+    "code": "C07FB",
+    "name": "C07FB",
+    "level": 4,
+    "parent_code": "C07F"
+  },
+  {
+    "code": "C07FX",
+    "name": "C07FX",
+    "level": 4,
+    "parent_code": "C07F"
+  },
+  {
+    "code": "C08",
+    "name": "Calcioantagonistas",
+    "level": 2,
+    "parent_code": "C"
+  },
+  {
+    "code": "C08C",
+    "name": "Calcioantagonistas selectivos vasculares",
+    "level": 3,
     "parent_code": "C08"
   },
   {
-    "id": 87,
-    "code": "C09A",
+    "code": "C08CA",
+    "name": "Dihidropiridinas",
+    "level": 4,
+    "parent_code": "C08C"
+  },
+  {
+    "code": "C08D",
+    "name": "Calcioantagonistas selectivos cardíacos",
     "level": 3,
-    "name": "ACE inhibitors, plain",
+    "parent_code": "C08"
+  },
+  {
+    "code": "C08DA",
+    "name": "Verapamilo y derivados",
+    "level": 4,
+    "parent_code": "C08D"
+  },
+  {
+    "code": "C08DB",
+    "name": "C08DB",
+    "level": 4,
+    "parent_code": "C08D"
+  },
+  {
+    "code": "C09",
+    "name": "IECA y ARA-II",
+    "level": 2,
+    "parent_code": "C"
+  },
+  {
+    "code": "C09A",
+    "name": "IECA solos",
+    "level": 3,
     "parent_code": "C09"
   },
   {
-    "id": 88,
-    "code": "C09C",
+    "code": "C09AA",
+    "name": "IECA",
+    "level": 4,
+    "parent_code": "C09A"
+  },
+  {
+    "code": "C09B",
+    "name": "IECA combinados",
     "level": 3,
-    "name": "Angiotensin II receptor blockers (ARBs), plain",
     "parent_code": "C09"
+  },
+  {
+    "code": "C09BA",
+    "name": "IECA + diuréticos",
+    "level": 4,
+    "parent_code": "C09B"
+  },
+  {
+    "code": "C09BB",
+    "name": "IECA + calcioantagonistas",
+    "level": 4,
+    "parent_code": "C09B"
+  },
+  {
+    "code": "C09BX",
+    "name": "C09BX",
+    "level": 4,
+    "parent_code": "C09B"
+  },
+  {
+    "code": "C09C",
+    "name": "ARA-II solos",
+    "level": 3,
+    "parent_code": "C09"
+  },
+  {
+    "code": "C09CA",
+    "name": "ARA-II",
+    "level": 4,
+    "parent_code": "C09C"
+  },
+  {
+    "code": "C09D",
+    "name": "ARA-II combinados",
+    "level": 3,
+    "parent_code": "C09"
+  },
+  {
+    "code": "C09DA",
+    "name": "ARA-II + diuréticos",
+    "level": 4,
+    "parent_code": "C09D"
+  },
+  {
+    "code": "C09DB",
+    "name": "ARA-II + calcioantagonistas",
+    "level": 4,
+    "parent_code": "C09D"
+  },
+  {
+    "code": "C09DX",
+    "name": "Otras combinaciones con ARA-II",
+    "level": 4,
+    "parent_code": "C09D"
+  },
+  {
+    "code": "C09X",
+    "name": "C09X",
+    "level": 3,
+    "parent_code": "C09"
+  },
+  {
+    "code": "C09XA",
+    "name": "C09XA",
+    "level": 4,
+    "parent_code": "C09X"
+  },
+  {
+    "code": "C10",
+    "name": "Hipolipemiantes",
+    "level": 2,
+    "parent_code": "C"
+  },
+  {
+    "code": "C10A",
+    "name": "Hipolipemiantes solos",
+    "level": 3,
+    "parent_code": "C10"
+  },
+  {
+    "code": "C10AA",
+    "name": "Estatinas",
+    "level": 4,
+    "parent_code": "C10A"
+  },
+  {
+    "code": "C10AB",
+    "name": "Fibratos",
+    "level": 4,
+    "parent_code": "C10A"
+  },
+  {
+    "code": "C10AC",
+    "name": "Secuestradores de ácidos biliares",
+    "level": 4,
+    "parent_code": "C10A"
+  },
+  {
+    "code": "C10AX",
+    "name": "Otros hipolipemiantes",
+    "level": 4,
+    "parent_code": "C10A"
+  },
+  {
+    "code": "C10B",
+    "name": "C10B",
+    "level": 3,
+    "parent_code": "C10"
+  },
+  {
+    "code": "C10BA",
+    "name": "C10BA",
+    "level": 4,
+    "parent_code": "C10B"
+  },
+  {
+    "code": "C10BX",
+    "name": "C10BX",
+    "level": 4,
+    "parent_code": "C10B"
+  },
+  {
+    "code": "D",
+    "name": "Dermatológicos",
+    "level": 2,
+    "parent_code": ""
+  },
+  {
+    "code": "D01",
+    "name": "Antifúngicos tópicos",
+    "level": 2,
+    "parent_code": "D"
+  },
+  {
+    "code": "D01B",
+    "name": "D01B",
+    "level": 3,
+    "parent_code": "D01"
+  },
+  {
+    "code": "D01BA",
+    "name": "D01BA",
+    "level": 4,
+    "parent_code": "D01B"
+  },
+  {
+    "code": "D05",
+    "name": "Antipsoriásicos",
+    "level": 2,
+    "parent_code": "D"
+  },
+  {
+    "code": "D05B",
+    "name": "Antipsoriásicos sistémicos",
+    "level": 3,
+    "parent_code": "D05"
+  },
+  {
+    "code": "D05BB",
+    "name": "Retinoides para psoriasis",
+    "level": 4,
+    "parent_code": "D05B"
+  },
+  {
+    "code": "D10",
+    "name": "Anti-acné",
+    "level": 2,
+    "parent_code": "D"
+  },
+  {
+    "code": "D10B",
+    "name": "Anti-acné sistémicos",
+    "level": 3,
+    "parent_code": "D10"
+  },
+  {
+    "code": "D10BA",
+    "name": "Retinoides sistémicos",
+    "level": 4,
+    "parent_code": "D10B"
+  },
+  {
+    "code": "G",
+    "name": "Sistema genitourinario y hormonas sexuales",
+    "level": 2,
+    "parent_code": ""
+  },
+  {
+    "code": "G01",
+    "name": "Antiinfecciosos ginecológicos",
+    "level": 2,
+    "parent_code": "G"
+  },
+  {
+    "code": "G01A",
+    "name": "Antiinfecciosos ginecológicos",
+    "level": 3,
+    "parent_code": "G01"
+  },
+  {
+    "code": "G01AA",
+    "name": "G01AA",
+    "level": 4,
+    "parent_code": "G01A"
+  },
+  {
+    "code": "G01AC",
+    "name": "G01AC",
+    "level": 4,
+    "parent_code": "G01A"
+  },
+  {
+    "code": "G01AF",
+    "name": "Derivados imidazólicos",
+    "level": 4,
+    "parent_code": "G01A"
+  },
+  {
+    "code": "G02",
+    "name": "Otros preparados ginecológicos",
+    "level": 2,
+    "parent_code": "G"
+  },
+  {
+    "code": "G02B",
+    "name": "Anticonceptivos tópicos",
+    "level": 3,
+    "parent_code": "G02"
+  },
+  {
+    "code": "G02BB",
+    "name": "G02BB",
+    "level": 4,
+    "parent_code": "G02B"
+  },
+  {
+    "code": "G02C",
+    "name": "Otros ginecológicos",
+    "level": 3,
+    "parent_code": "G02"
+  },
+  {
+    "code": "G02CB",
+    "name": "Inhibidores de prolactina",
+    "level": 4,
+    "parent_code": "G02C"
+  },
+  {
+    "code": "G03",
+    "name": "Hormonas sexuales",
+    "level": 2,
+    "parent_code": "G"
+  },
+  {
+    "code": "G03A",
+    "name": "Anticonceptivos sistémicos",
+    "level": 3,
+    "parent_code": "G03"
+  },
+  {
+    "code": "G03AA",
+    "name": "Combinaciones de estrógenos y progestágenos",
+    "level": 4,
+    "parent_code": "G03A"
+  },
+  {
+    "code": "G03AC",
+    "name": "G03AC",
+    "level": 4,
+    "parent_code": "G03A"
+  },
+  {
+    "code": "G03B",
+    "name": "G03B",
+    "level": 3,
+    "parent_code": "G03"
+  },
+  {
+    "code": "G03BA",
+    "name": "G03BA",
+    "level": 4,
+    "parent_code": "G03B"
+  },
+  {
+    "code": "G03BB",
+    "name": "G03BB",
+    "level": 4,
+    "parent_code": "G03B"
+  },
+  {
+    "code": "G03C",
+    "name": "Estrógenos",
+    "level": 3,
+    "parent_code": "G03"
+  },
+  {
+    "code": "G03CA",
+    "name": "Estrógenos naturales",
+    "level": 4,
+    "parent_code": "G03C"
+  },
+  {
+    "code": "G03CC",
+    "name": "G03CC",
+    "level": 4,
+    "parent_code": "G03C"
+  },
+  {
+    "code": "G03CX",
+    "name": "G03CX",
+    "level": 4,
+    "parent_code": "G03C"
+  },
+  {
+    "code": "G03D",
+    "name": "Progestágenos",
+    "level": 3,
+    "parent_code": "G03"
+  },
+  {
+    "code": "G03DA",
+    "name": "Derivados de la pregnen(4)",
+    "level": 4,
+    "parent_code": "G03D"
+  },
+  {
+    "code": "G03DB",
+    "name": "G03DB",
+    "level": 4,
+    "parent_code": "G03D"
+  },
+  {
+    "code": "G03DC",
+    "name": "G03DC",
+    "level": 4,
+    "parent_code": "G03D"
+  },
+  {
+    "code": "G03G",
+    "name": "Gonadotropinas",
+    "level": 3,
+    "parent_code": "G03"
+  },
+  {
+    "code": "G03GA",
+    "name": "Gonadotropinas",
+    "level": 4,
+    "parent_code": "G03G"
+  },
+  {
+    "code": "G03H",
+    "name": "Antiandrógenos",
+    "level": 3,
+    "parent_code": "G03"
+  },
+  {
+    "code": "G03HA",
+    "name": "Antiandrógenos",
+    "level": 4,
+    "parent_code": "G03H"
+  },
+  {
+    "code": "G03HB",
+    "name": "Antiandrógenos + estrógenos",
+    "level": 4,
+    "parent_code": "G03H"
+  },
+  {
+    "code": "G03X",
+    "name": "G03X",
+    "level": 3,
+    "parent_code": "G03"
+  },
+  {
+    "code": "G03XC",
+    "name": "G03XC",
+    "level": 4,
+    "parent_code": "G03X"
+  },
+  {
+    "code": "G04",
+    "name": "Urológicos",
+    "level": 2,
+    "parent_code": "G"
+  },
+  {
+    "code": "G04B",
+    "name": "Medicamentos urológicos",
+    "level": 3,
+    "parent_code": "G04"
+  },
+  {
+    "code": "G04BD",
+    "name": "Antiespasmódicos urinarios",
+    "level": 4,
+    "parent_code": "G04B"
+  },
+  {
+    "code": "G04BE",
+    "name": "Inhibidores PDE5 (disfunción eréctil)",
+    "level": 4,
+    "parent_code": "G04B"
+  },
+  {
+    "code": "G04BX",
+    "name": "G04BX",
+    "level": 4,
+    "parent_code": "G04B"
+  },
+  {
+    "code": "G04C",
+    "name": "Tratamiento HBP",
+    "level": 3,
+    "parent_code": "G04"
+  },
+  {
+    "code": "G04CA",
+    "name": "Alfabloqueantes para HBP",
+    "level": 4,
+    "parent_code": "G04C"
+  },
+  {
+    "code": "G04CB",
+    "name": "Inhibidores 5-alfa reductasa",
+    "level": 4,
+    "parent_code": "G04C"
+  },
+  {
+    "code": "H",
+    "name": "Hormonas sistémicas (excl. sexuales)",
+    "level": 2,
+    "parent_code": ""
+  },
+  {
+    "code": "H01",
+    "name": "Hormonas hipofisarias e hipotalámicas",
+    "level": 2,
+    "parent_code": "H"
+  },
+  {
+    "code": "H01A",
+    "name": "Hormonas del lóbulo anterior de la hipófisis",
+    "level": 3,
+    "parent_code": "H01"
+  },
+  {
+    "code": "H01AX",
+    "name": "H01AX",
+    "level": 4,
+    "parent_code": "H01A"
+  },
+  {
+    "code": "H01B",
+    "name": "Oxitocina y análogos",
+    "level": 3,
+    "parent_code": "H01"
+  },
+  {
+    "code": "H01BA",
+    "name": "H01BA",
+    "level": 4,
+    "parent_code": "H01B"
+  },
+  {
+    "code": "H01C",
+    "name": "H01C",
+    "level": 3,
+    "parent_code": "H01"
+  },
+  {
+    "code": "H01CB",
+    "name": "H01CB",
+    "level": 4,
+    "parent_code": "H01C"
+  },
+  {
+    "code": "H01CC",
+    "name": "H01CC",
+    "level": 4,
+    "parent_code": "H01C"
+  },
+  {
+    "code": "H02",
+    "name": "Corticosteroides sistémicos",
+    "level": 2,
+    "parent_code": "H"
+  },
+  {
+    "code": "H02A",
+    "name": "Corticosteroides sistémicos solos",
+    "level": 3,
+    "parent_code": "H02"
+  },
+  {
+    "code": "H02AA",
+    "name": "H02AA",
+    "level": 4,
+    "parent_code": "H02A"
+  },
+  {
+    "code": "H02AB",
+    "name": "Glucocorticoides",
+    "level": 4,
+    "parent_code": "H02A"
+  },
+  {
+    "code": "H03",
+    "name": "Hormonas tiroideas",
+    "level": 2,
+    "parent_code": "H"
+  },
+  {
+    "code": "H03A",
+    "name": "Hormonas tiroideas",
+    "level": 3,
+    "parent_code": "H03"
+  },
+  {
+    "code": "H03AA",
+    "name": "Hormonas tiroideas (levotiroxina)",
+    "level": 4,
+    "parent_code": "H03A"
+  },
+  {
+    "code": "H03B",
+    "name": "Antitiroideos",
+    "level": 3,
+    "parent_code": "H03"
+  },
+  {
+    "code": "H03BB",
+    "name": "Derivados de la tiourea",
+    "level": 4,
+    "parent_code": "H03B"
+  },
+  {
+    "code": "H03C",
+    "name": "H03C",
+    "level": 3,
+    "parent_code": "H03"
+  },
+  {
+    "code": "H03CA",
+    "name": "H03CA",
+    "level": 4,
+    "parent_code": "H03C"
+  },
+  {
+    "code": "H04",
+    "name": "Hormonas pancreáticas",
+    "level": 2,
+    "parent_code": "H"
+  },
+  {
+    "code": "H04A",
+    "name": "Glucagón",
+    "level": 3,
+    "parent_code": "H04"
+  },
+  {
+    "code": "H04AA",
+    "name": "Glucagón",
+    "level": 4,
+    "parent_code": "H04A"
+  },
+  {
+    "code": "H05",
+    "name": "Homeostasis del calcio",
+    "level": 2,
+    "parent_code": "H"
+  },
+  {
+    "code": "H05A",
+    "name": "H05A",
+    "level": 3,
+    "parent_code": "H05"
+  },
+  {
+    "code": "H05AA",
+    "name": "H05AA",
+    "level": 4,
+    "parent_code": "H05A"
+  },
+  {
+    "code": "H05B",
+    "name": "Antiparatiroideos",
+    "level": 3,
+    "parent_code": "H05"
+  },
+  {
+    "code": "H05BX",
+    "name": "Otros antiparatiroideos (cinacalcet)",
+    "level": 4,
+    "parent_code": "H05B"
+  },
+  {
+    "code": "J",
+    "name": "Antiinfecciosos sistémicos",
+    "level": 2,
+    "parent_code": ""
+  },
+  {
+    "code": "J01",
+    "name": "Antibacterianos sistémicos",
+    "level": 2,
+    "parent_code": "J"
+  },
+  {
+    "code": "J01A",
+    "name": "Tetraciclinas",
+    "level": 3,
+    "parent_code": "J01"
+  },
+  {
+    "code": "J01AA",
+    "name": "Tetraciclinas",
+    "level": 4,
+    "parent_code": "J01A"
+  },
+  {
+    "code": "J01C",
+    "name": "Penicilinas",
+    "level": 3,
+    "parent_code": "J01"
+  },
+  {
+    "code": "J01CA",
+    "name": "Penicilinas de amplio espectro",
+    "level": 4,
+    "parent_code": "J01C"
+  },
+  {
+    "code": "J01CE",
+    "name": "Penicilinas sensibles a betalactamasas",
+    "level": 4,
+    "parent_code": "J01C"
+  },
+  {
+    "code": "J01CF",
+    "name": "Penicilinas resistentes a betalactamasas",
+    "level": 4,
+    "parent_code": "J01C"
+  },
+  {
+    "code": "J01CR",
+    "name": "Combinaciones de penicilinas",
+    "level": 4,
+    "parent_code": "J01C"
+  },
+  {
+    "code": "J01D",
+    "name": "Cefalosporinas y otros betalactámicos",
+    "level": 3,
+    "parent_code": "J01"
+  },
+  {
+    "code": "J01DB",
+    "name": "Cefalosporinas de primera generación",
+    "level": 4,
+    "parent_code": "J01D"
+  },
+  {
+    "code": "J01DC",
+    "name": "Cefalosporinas de segunda generación",
+    "level": 4,
+    "parent_code": "J01D"
+  },
+  {
+    "code": "J01DD",
+    "name": "Cefalosporinas de tercera generación",
+    "level": 4,
+    "parent_code": "J01D"
+  },
+  {
+    "code": "J01E",
+    "name": "Sulfonamidas y trimetoprima",
+    "level": 3,
+    "parent_code": "J01"
+  },
+  {
+    "code": "J01F",
+    "name": "Macrólidos y lincosamidas",
+    "level": 3,
+    "parent_code": "J01"
+  },
+  {
+    "code": "J01FA",
+    "name": "Macrólidos",
+    "level": 4,
+    "parent_code": "J01F"
+  },
+  {
+    "code": "J01FF",
+    "name": "Lincosamidas",
+    "level": 4,
+    "parent_code": "J01F"
+  },
+  {
+    "code": "J01M",
+    "name": "Quinolonas",
+    "level": 3,
+    "parent_code": "J01"
+  },
+  {
+    "code": "J01MA",
+    "name": "Fluoroquinolonas",
+    "level": 4,
+    "parent_code": "J01M"
+  },
+  {
+    "code": "J01X",
+    "name": "Otros antibacterianos",
+    "level": 3,
+    "parent_code": "J01"
+  },
+  {
+    "code": "J01XE",
+    "name": "Nitrofuranos",
+    "level": 4,
+    "parent_code": "J01X"
+  },
+  {
+    "code": "J01XX",
+    "name": "Otros antibacterianos",
+    "level": 4,
+    "parent_code": "J01X"
+  },
+  {
+    "code": "J02",
+    "name": "Antifúngicos sistémicos",
+    "level": 2,
+    "parent_code": "J"
+  },
+  {
+    "code": "J02A",
+    "name": "Antifúngicos sistémicos",
+    "level": 3,
+    "parent_code": "J02"
+  },
+  {
+    "code": "J02AC",
+    "name": "Triazoles",
+    "level": 4,
+    "parent_code": "J02A"
+  },
+  {
+    "code": "J04",
+    "name": "Antimicobacterianos",
+    "level": 2,
+    "parent_code": "J"
+  },
+  {
+    "code": "J04A",
+    "name": "Antituberculosos",
+    "level": 3,
+    "parent_code": "J04"
+  },
+  {
+    "code": "J04AB",
+    "name": "Antibióticos antituberculosos",
+    "level": 4,
+    "parent_code": "J04A"
+  },
+  {
+    "code": "J04AC",
+    "name": "Hidrazidas",
+    "level": 4,
+    "parent_code": "J04A"
+  },
+  {
+    "code": "J04AK",
+    "name": "Combinaciones antituberculosas",
+    "level": 4,
+    "parent_code": "J04A"
+  },
+  {
+    "code": "J04AM",
+    "name": "J04AM",
+    "level": 4,
+    "parent_code": "J04A"
+  },
+  {
+    "code": "J05",
+    "name": "Antivirales sistémicos",
+    "level": 2,
+    "parent_code": "J"
+  },
+  {
+    "code": "J05A",
+    "name": "Antivirales de acción directa",
+    "level": 3,
+    "parent_code": "J05"
+  },
+  {
+    "code": "J05AB",
+    "name": "Nucleósidos/nucleótidos (excl. VIH)",
+    "level": 4,
+    "parent_code": "J05A"
+  },
+  {
+    "code": "L",
+    "name": "Antineoplásicos e inmunomoduladores",
+    "level": 2,
+    "parent_code": ""
+  },
+  {
+    "code": "L01",
+    "name": "Antineoplásicos",
+    "level": 2,
+    "parent_code": "L"
+  },
+  {
+    "code": "L01B",
+    "name": "Antimetabolitos",
+    "level": 3,
+    "parent_code": "L01"
+  },
+  {
+    "code": "L01BA",
+    "name": "Análogos del ácido fólico",
+    "level": 4,
+    "parent_code": "L01B"
+  },
+  {
+    "code": "L02",
+    "name": "Terapia endocrina",
+    "level": 2,
+    "parent_code": "L"
+  },
+  {
+    "code": "L02A",
+    "name": "Hormonas y análogos",
+    "level": 3,
+    "parent_code": "L02"
+  },
+  {
+    "code": "L02AB",
+    "name": "L02AB",
+    "level": 4,
+    "parent_code": "L02A"
+  },
+  {
+    "code": "L02AE",
+    "name": "Análogos de GnRH",
+    "level": 4,
+    "parent_code": "L02A"
+  },
+  {
+    "code": "L02B",
+    "name": "Antagonistas hormonales",
+    "level": 3,
+    "parent_code": "L02"
+  },
+  {
+    "code": "L02BA",
+    "name": "Antiestrógenos",
+    "level": 4,
+    "parent_code": "L02B"
+  },
+  {
+    "code": "L02BB",
+    "name": "Antiandrógenos",
+    "level": 4,
+    "parent_code": "L02B"
+  },
+  {
+    "code": "L02BG",
+    "name": "Inhibidores de aromatasa",
+    "level": 4,
+    "parent_code": "L02B"
+  },
+  {
+    "code": "L04",
+    "name": "Inmunosupresores",
+    "level": 2,
+    "parent_code": "L"
+  },
+  {
+    "code": "L04A",
+    "name": "Inmunosupresores",
+    "level": 3,
+    "parent_code": "L04"
+  },
+  {
+    "code": "L04AA",
+    "name": "Inhibidores de calcineurina",
+    "level": 4,
+    "parent_code": "L04A"
+  },
+  {
+    "code": "L04AD",
+    "name": "Inhibidores JAK",
+    "level": 4,
+    "parent_code": "L04A"
+  },
+  {
+    "code": "L04AH",
+    "name": "L04AH",
+    "level": 4,
+    "parent_code": "L04A"
+  },
+  {
+    "code": "L04AK",
+    "name": "L04AK",
+    "level": 4,
+    "parent_code": "L04A"
+  },
+  {
+    "code": "L04AX",
+    "name": "Otros inmunosupresores",
+    "level": 4,
+    "parent_code": "L04A"
+  },
+  {
+    "code": "M",
+    "name": "Sistema musculoesquelético",
+    "level": 2,
+    "parent_code": ""
+  },
+  {
+    "code": "M01",
+    "name": "Antiinflamatorios y antirreumáticos",
+    "level": 2,
+    "parent_code": "M"
+  },
+  {
+    "code": "M01A",
+    "name": "AINEs no esteroideos",
+    "level": 3,
+    "parent_code": "M01"
+  },
+  {
+    "code": "M01AB",
+    "name": "Derivados del ácido acético (diclofenaco)",
+    "level": 4,
+    "parent_code": "M01A"
+  },
+  {
+    "code": "M01AC",
+    "name": "Oxicams",
+    "level": 4,
+    "parent_code": "M01A"
+  },
+  {
+    "code": "M01AE",
+    "name": "Derivados del ácido propiónico (ibuprofeno)",
+    "level": 4,
+    "parent_code": "M01A"
+  },
+  {
+    "code": "M01AG",
+    "name": "Fenamatos",
+    "level": 4,
+    "parent_code": "M01A"
+  },
+  {
+    "code": "M01AH",
+    "name": "Coxibs",
+    "level": 4,
+    "parent_code": "M01A"
+  },
+  {
+    "code": "M01AX",
+    "name": "Otros AINEs",
+    "level": 4,
+    "parent_code": "M01A"
+  },
+  {
+    "code": "M01C",
+    "name": "Fármacos antirreumáticos específicos",
+    "level": 3,
+    "parent_code": "M01"
+  },
+  {
+    "code": "M01CC",
+    "name": "Penicilamina",
+    "level": 4,
+    "parent_code": "M01C"
+  },
+  {
+    "code": "M03",
+    "name": "Relajantes musculares",
+    "level": 2,
+    "parent_code": "M"
+  },
+  {
+    "code": "M03B",
+    "name": "Relajantes musculares centrales",
+    "level": 3,
+    "parent_code": "M03"
+  },
+  {
+    "code": "M03BA",
+    "name": "Carbamatos",
+    "level": 4,
+    "parent_code": "M03B"
+  },
+  {
+    "code": "M03BX",
+    "name": "Otros relajantes centrales",
+    "level": 4,
+    "parent_code": "M03B"
+  },
+  {
+    "code": "M04",
+    "name": "Antigotosos",
+    "level": 2,
+    "parent_code": "M"
+  },
+  {
+    "code": "M04A",
+    "name": "Antigotosos",
+    "level": 3,
+    "parent_code": "M04"
+  },
+  {
+    "code": "M04AA",
+    "name": "Inhibidores de la síntesis de ácido úrico",
+    "level": 4,
+    "parent_code": "M04A"
+  },
+  {
+    "code": "M04AB",
+    "name": "Uricosúricos",
+    "level": 4,
+    "parent_code": "M04A"
+  },
+  {
+    "code": "M04AC",
+    "name": "Sin acción sobre el ácido úrico (colchicina)",
+    "level": 4,
+    "parent_code": "M04A"
+  },
+  {
+    "code": "M05",
+    "name": "Tratamiento de enfermedades óseas",
+    "level": 2,
+    "parent_code": "M"
+  },
+  {
+    "code": "M05B",
+    "name": "Bifosfonatos",
+    "level": 3,
+    "parent_code": "M05"
+  },
+  {
+    "code": "M05BA",
+    "name": "Bifosfonatos",
+    "level": 4,
+    "parent_code": "M05B"
+  },
+  {
+    "code": "M05BB",
+    "name": "Bifosfonatos + vitamina D",
+    "level": 4,
+    "parent_code": "M05B"
+  },
+  {
+    "code": "M05BX",
+    "name": "Otros tratamientos óseos (denosumab)",
+    "level": 4,
+    "parent_code": "M05B"
+  },
+  {
+    "code": "N02",
+    "name": "Analgésicos",
+    "level": 2,
+    "parent_code": "N"
+  },
+  {
+    "code": "N02A",
+    "name": "Opioides",
+    "level": 3,
+    "parent_code": "N02"
+  },
+  {
+    "code": "N02AA",
+    "name": "Alcaloides naturales del opio",
+    "level": 4,
+    "parent_code": "N02A"
+  },
+  {
+    "code": "N02AB",
+    "name": "Derivados de la fenilpiperidina",
+    "level": 4,
+    "parent_code": "N02A"
+  },
+  {
+    "code": "N02AE",
+    "name": "Derivados de la oripavina",
+    "level": 4,
+    "parent_code": "N02A"
+  },
+  {
+    "code": "N02AJ",
+    "name": "N02AJ",
+    "level": 4,
+    "parent_code": "N02A"
+  },
+  {
+    "code": "N02AX",
+    "name": "Otros opioides",
+    "level": 4,
+    "parent_code": "N02A"
+  },
+  {
+    "code": "N02B",
+    "name": "Analgésicos no opioides",
+    "level": 3,
+    "parent_code": "N02"
+  },
+  {
+    "code": "N02BA",
+    "name": "Salicilatos",
+    "level": 4,
+    "parent_code": "N02B"
+  },
+  {
+    "code": "N02BB",
+    "name": "Pirazolonas (metamizol)",
+    "level": 4,
+    "parent_code": "N02B"
+  },
+  {
+    "code": "N02BE",
+    "name": "Anilidas (paracetamol)",
+    "level": 4,
+    "parent_code": "N02B"
+  },
+  {
+    "code": "N02BF",
+    "name": "N02BF",
+    "level": 4,
+    "parent_code": "N02B"
+  },
+  {
+    "code": "N02C",
+    "name": "Antimigrañosos",
+    "level": 3,
+    "parent_code": "N02"
+  },
+  {
+    "code": "N02CA",
+    "name": "Alcaloides del cornezuelo del centeno",
+    "level": 4,
+    "parent_code": "N02C"
+  },
+  {
+    "code": "N02CC",
+    "name": "Agonistas selectivos 5-HT1 (triptanes)",
+    "level": 4,
+    "parent_code": "N02C"
+  },
+  {
+    "code": "N03",
+    "name": "Antiepilépticos",
+    "level": 2,
+    "parent_code": "N"
+  },
+  {
+    "code": "N03A",
+    "name": "Antiepilépticos",
+    "level": 3,
+    "parent_code": "N03"
+  },
+  {
+    "code": "N03AA",
+    "name": "Barbitúricos",
+    "level": 4,
+    "parent_code": "N03A"
+  },
+  {
+    "code": "N03AB",
+    "name": "Hidantoínas",
+    "level": 4,
+    "parent_code": "N03A"
+  },
+  {
+    "code": "N03AD",
+    "name": "N03AD",
+    "level": 4,
+    "parent_code": "N03A"
+  },
+  {
+    "code": "N03AE",
+    "name": "Benzodiazepinas",
+    "level": 4,
+    "parent_code": "N03A"
+  },
+  {
+    "code": "N03AF",
+    "name": "Carboxamidas",
+    "level": 4,
+    "parent_code": "N03A"
+  },
+  {
+    "code": "N03AG",
+    "name": "Ácidos grasos (valproato)",
+    "level": 4,
+    "parent_code": "N03A"
+  },
+  {
+    "code": "N03AX",
+    "name": "Otros antiepilépticos",
+    "level": 4,
+    "parent_code": "N03A"
+  },
+  {
+    "code": "N04",
+    "name": "Antiparkinsonianos",
+    "level": 2,
+    "parent_code": "N"
+  },
+  {
+    "code": "N04A",
+    "name": "Anticolinérgicos",
+    "level": 3,
+    "parent_code": "N04"
+  },
+  {
+    "code": "N04AA",
+    "name": "Aminas terciarias",
+    "level": 4,
+    "parent_code": "N04A"
+  },
+  {
+    "code": "N04B",
+    "name": "Dopaminérgicos",
+    "level": 3,
+    "parent_code": "N04"
+  },
+  {
+    "code": "N04BA",
+    "name": "Dopa y derivados (levodopa)",
+    "level": 4,
+    "parent_code": "N04B"
+  },
+  {
+    "code": "N04BC",
+    "name": "Agonistas dopaminérgicos",
+    "level": 4,
+    "parent_code": "N04B"
+  },
+  {
+    "code": "N04BD",
+    "name": "Inhibidores MAO-B",
+    "level": 4,
+    "parent_code": "N04B"
+  },
+  {
+    "code": "N04BX",
+    "name": "Otros dopaminérgicos",
+    "level": 4,
+    "parent_code": "N04B"
+  },
+  {
+    "code": "N05",
+    "name": "Psicolépticos",
+    "level": 2,
+    "parent_code": "N"
+  },
+  {
+    "code": "N05A",
+    "name": "Antipsicóticos",
+    "level": 3,
+    "parent_code": "N05"
+  },
+  {
+    "code": "N05AA",
+    "name": "Fenotiazinas alifáticas",
+    "level": 4,
+    "parent_code": "N05A"
+  },
+  {
+    "code": "N05AB",
+    "name": "Fenotiazinas piperazínicas",
+    "level": 4,
+    "parent_code": "N05A"
+  },
+  {
+    "code": "N05AC",
+    "name": "N05AC",
+    "level": 4,
+    "parent_code": "N05A"
+  },
+  {
+    "code": "N05AD",
+    "name": "Butirofenonas",
+    "level": 4,
+    "parent_code": "N05A"
+  },
+  {
+    "code": "N05AE",
+    "name": "Derivados del indol",
+    "level": 4,
+    "parent_code": "N05A"
+  },
+  {
+    "code": "N05AF",
+    "name": "Derivados del tioxanteno",
+    "level": 4,
+    "parent_code": "N05A"
+  },
+  {
+    "code": "N05AG",
+    "name": "Derivados de la difenilbutilpiperidina",
+    "level": 4,
+    "parent_code": "N05A"
+  },
+  {
+    "code": "N05AH",
+    "name": "Diazepinas y oxazepinas (olanzapina)",
+    "level": 4,
+    "parent_code": "N05A"
+  },
+  {
+    "code": "N05AL",
+    "name": "Benzamidas (sulpirida)",
+    "level": 4,
+    "parent_code": "N05A"
+  },
+  {
+    "code": "N05AN",
+    "name": "N05AN",
+    "level": 4,
+    "parent_code": "N05A"
+  },
+  {
+    "code": "N05AX",
+    "name": "Otros antipsicóticos",
+    "level": 4,
+    "parent_code": "N05A"
+  },
+  {
+    "code": "N05B",
+    "name": "Ansiolíticos",
+    "level": 3,
+    "parent_code": "N05"
+  },
+  {
+    "code": "N05BA",
+    "name": "Benzodiazepinas",
+    "level": 4,
+    "parent_code": "N05B"
+  },
+  {
+    "code": "N05BB",
+    "name": "Derivados del difenilmetano",
+    "level": 4,
+    "parent_code": "N05B"
+  },
+  {
+    "code": "N05C",
+    "name": "Hipnóticos y sedantes",
+    "level": 3,
+    "parent_code": "N05"
+  },
+  {
+    "code": "N05CD",
+    "name": "Benzodiazepinas hipnóticas",
+    "level": 4,
+    "parent_code": "N05C"
+  },
+  {
+    "code": "N05CF",
+    "name": "Fármacos relacionados con benzodiazepinas (z-drugs)",
+    "level": 4,
+    "parent_code": "N05C"
+  },
+  {
+    "code": "N05CM",
+    "name": "Otros hipnóticos y sedantes",
+    "level": 4,
+    "parent_code": "N05C"
+  },
+  {
+    "code": "N06",
+    "name": "Psicoanalépticos",
+    "level": 2,
+    "parent_code": "N"
+  },
+  {
+    "code": "N06A",
+    "name": "Antidepresivos",
+    "level": 3,
+    "parent_code": "N06"
+  },
+  {
+    "code": "N06AA",
+    "name": "Inhibidores no selectivos de recaptación de monoaminas (tricíclicos)",
+    "level": 4,
+    "parent_code": "N06A"
+  },
+  {
+    "code": "N06AB",
+    "name": "ISRS",
+    "level": 4,
+    "parent_code": "N06A"
+  },
+  {
+    "code": "N06AG",
+    "name": "IMAO-A",
+    "level": 4,
+    "parent_code": "N06A"
+  },
+  {
+    "code": "N06AX",
+    "name": "Otros antidepresivos",
+    "level": 4,
+    "parent_code": "N06A"
+  },
+  {
+    "code": "N06B",
+    "name": "Psicoestimulantes y nootrópicos",
+    "level": 3,
+    "parent_code": "N06"
+  },
+  {
+    "code": "N06BA",
+    "name": "Simpaticomiméticos centrales",
+    "level": 4,
+    "parent_code": "N06B"
+  },
+  {
+    "code": "N06D",
+    "name": "Antidemencia",
+    "level": 3,
+    "parent_code": "N06"
+  },
+  {
+    "code": "N06DA",
+    "name": "Inhibidores de la colinesterasa",
+    "level": 4,
+    "parent_code": "N06D"
+  },
+  {
+    "code": "N06DX",
+    "name": "Otros fármacos antidemencia",
+    "level": 4,
+    "parent_code": "N06D"
+  },
+  {
+    "code": "N07",
+    "name": "Otros fármacos del sistema nervioso",
+    "level": 2,
+    "parent_code": "N"
+  },
+  {
+    "code": "N07A",
+    "name": "Parasimpaticomiméticos",
+    "level": 3,
+    "parent_code": "N07"
+  },
+  {
+    "code": "N07AA",
+    "name": "Anticolinesterásicos",
+    "level": 4,
+    "parent_code": "N07A"
+  },
+  {
+    "code": "N07AX",
+    "name": "N07AX",
+    "level": 4,
+    "parent_code": "N07A"
+  },
+  {
+    "code": "N07B",
+    "name": "Tratamiento de adicciones",
+    "level": 3,
+    "parent_code": "N07"
+  },
+  {
+    "code": "N07BA",
+    "name": "Tratamiento de la dependencia de nicotina",
+    "level": 4,
+    "parent_code": "N07B"
+  },
+  {
+    "code": "N07BB",
+    "name": "Tratamiento de la dependencia de alcohol",
+    "level": 4,
+    "parent_code": "N07B"
+  },
+  {
+    "code": "N07BC",
+    "name": "Tratamiento de la dependencia de opioides",
+    "level": 4,
+    "parent_code": "N07B"
+  },
+  {
+    "code": "N07C",
+    "name": "N07C",
+    "level": 3,
+    "parent_code": "N07"
+  },
+  {
+    "code": "N07CA",
+    "name": "N07CA",
+    "level": 4,
+    "parent_code": "N07C"
+  },
+  {
+    "code": "N07X",
+    "name": "Otros fármacos del sistema nervioso",
+    "level": 3,
+    "parent_code": "N07"
+  },
+  {
+    "code": "N07XX",
+    "name": "Otros (p. ej., riluzol)",
+    "level": 4,
+    "parent_code": "N07X"
+  },
+  {
+    "code": "P",
+    "name": "Antiparasitarios",
+    "level": 2,
+    "parent_code": ""
+  },
+  {
+    "code": "P01",
+    "name": "Antiprotozoarios",
+    "level": 2,
+    "parent_code": "P"
+  },
+  {
+    "code": "P01A",
+    "name": "Contra amebiasis y otras protozoosis",
+    "level": 3,
+    "parent_code": "P01"
+  },
+  {
+    "code": "P01AB",
+    "name": "Derivados nitroimidazólicos",
+    "level": 4,
+    "parent_code": "P01A"
+  },
+  {
+    "code": "P01B",
+    "name": "Antimaláricos",
+    "level": 3,
+    "parent_code": "P01"
+  },
+  {
+    "code": "P01BA",
+    "name": "Aminoquinolinas",
+    "level": 4,
+    "parent_code": "P01B"
+  },
+  {
+    "code": "P01BB",
+    "name": "Biguanidas",
+    "level": 4,
+    "parent_code": "P01B"
+  },
+  {
+    "code": "P02",
+    "name": "Antihelmínticos",
+    "level": 2,
+    "parent_code": "P"
+  },
+  {
+    "code": "P02C",
+    "name": "Antinematodos",
+    "level": 3,
+    "parent_code": "P02"
+  },
+  {
+    "code": "P02CA",
+    "name": "Derivados del benzimidazol",
+    "level": 4,
+    "parent_code": "P02C"
+  },
+  {
+    "code": "P02CF",
+    "name": "Avermectinas",
+    "level": 4,
+    "parent_code": "P02C"
+  },
+  {
+    "code": "R",
+    "name": "Sistema respiratorio",
+    "level": 2,
+    "parent_code": ""
+  },
+  {
+    "code": "R01",
+    "name": "Descongestivos nasales",
+    "level": 2,
+    "parent_code": "R"
+  },
+  {
+    "code": "R01A",
+    "name": "Simpaticomiméticos nasales",
+    "level": 3,
+    "parent_code": "R01"
+  },
+  {
+    "code": "R01AC",
+    "name": "R01AC",
+    "level": 4,
+    "parent_code": "R01A"
+  },
+  {
+    "code": "R01AD",
+    "name": "Corticosteroides nasales",
+    "level": 4,
+    "parent_code": "R01A"
+  },
+  {
+    "code": "R01AX",
+    "name": "R01AX",
+    "level": 4,
+    "parent_code": "R01A"
+  },
+  {
+    "code": "R03",
+    "name": "Antiasmáticos y EPOC",
+    "level": 2,
+    "parent_code": "R"
+  },
+  {
+    "code": "R03A",
+    "name": "Adrenérgicos inhalados",
+    "level": 3,
+    "parent_code": "R03"
+  },
+  {
+    "code": "R03AC",
+    "name": "Agonistas beta-2 selectivos de acción corta",
+    "level": 4,
+    "parent_code": "R03A"
+  },
+  {
+    "code": "R03AK",
+    "name": "Combinaciones de adrenérgicos",
+    "level": 4,
+    "parent_code": "R03A"
+  },
+  {
+    "code": "R03AL",
+    "name": "R03AL",
+    "level": 4,
+    "parent_code": "R03A"
+  },
+  {
+    "code": "R03B",
+    "name": "Otros fármacos inhalados para EPOC/asma",
+    "level": 3,
+    "parent_code": "R03"
+  },
+  {
+    "code": "R03BA",
+    "name": "Corticosteroides inhalados",
+    "level": 4,
+    "parent_code": "R03B"
+  },
+  {
+    "code": "R03BB",
+    "name": "Anticolinérgicos inhalados",
+    "level": 4,
+    "parent_code": "R03B"
+  },
+  {
+    "code": "R03C",
+    "name": "R03C",
+    "level": 3,
+    "parent_code": "R03"
+  },
+  {
+    "code": "R03CC",
+    "name": "R03CC",
+    "level": 4,
+    "parent_code": "R03C"
+  },
+  {
+    "code": "R03D",
+    "name": "Antileucotrienos",
+    "level": 3,
+    "parent_code": "R03"
+  },
+  {
+    "code": "R03DA",
+    "name": "Cisteinil-leucotrienos",
+    "level": 4,
+    "parent_code": "R03D"
+  },
+  {
+    "code": "R03DC",
+    "name": "Antagonistas de leucotrienos",
+    "level": 4,
+    "parent_code": "R03D"
+  },
+  {
+    "code": "R03DX",
+    "name": "Otros fármacos para asma",
+    "level": 4,
+    "parent_code": "R03D"
+  },
+  {
+    "code": "R05",
+    "name": "Antitusivos y expectorantes",
+    "level": 2,
+    "parent_code": "R"
+  },
+  {
+    "code": "R05C",
+    "name": "Expectorantes",
+    "level": 3,
+    "parent_code": "R05"
+  },
+  {
+    "code": "R05CB",
+    "name": "Mucolíticos (acetilcisteína)",
+    "level": 4,
+    "parent_code": "R05C"
+  },
+  {
+    "code": "R05D",
+    "name": "Antitusivos",
+    "level": 3,
+    "parent_code": "R05"
+  },
+  {
+    "code": "R05DA",
+    "name": "Alcaloides del opio",
+    "level": 4,
+    "parent_code": "R05D"
+  },
+  {
+    "code": "R06",
+    "name": "Antihistamínicos sistémicos",
+    "level": 2,
+    "parent_code": "R"
+  },
+  {
+    "code": "R06A",
+    "name": "Antihistamínicos sistémicos",
+    "level": 3,
+    "parent_code": "R06"
+  },
+  {
+    "code": "R06AB",
+    "name": "Alquilaminas sustituidas",
+    "level": 4,
+    "parent_code": "R06A"
+  },
+  {
+    "code": "R06AE",
+    "name": "Derivados de la piperazina",
+    "level": 4,
+    "parent_code": "R06A"
+  },
+  {
+    "code": "R06AX",
+    "name": "Otros antihistamínicos",
+    "level": 4,
+    "parent_code": "R06A"
+  },
+  {
+    "code": "S",
+    "name": "Órganos de los sentidos",
+    "level": 2,
+    "parent_code": ""
+  },
+  {
+    "code": "S01",
+    "name": "Oftalmológicos",
+    "level": 2,
+    "parent_code": "S"
+  },
+  {
+    "code": "S01E",
+    "name": "Antiglaucoma y mióticos",
+    "level": 3,
+    "parent_code": "S01"
+  },
+  {
+    "code": "S01EA",
+    "name": "S01EA",
+    "level": 4,
+    "parent_code": "S01E"
+  },
+  {
+    "code": "S01EB",
+    "name": "S01EB",
+    "level": 4,
+    "parent_code": "S01E"
+  },
+  {
+    "code": "S01EC",
+    "name": "Inhibidores de la anhidrasa carbónica",
+    "level": 4,
+    "parent_code": "S01E"
+  },
+  {
+    "code": "S01ED",
+    "name": "Betabloqueantes oftálmicos",
+    "level": 4,
+    "parent_code": "S01E"
+  },
+  {
+    "code": "S01EE",
+    "name": "Análogos de prostaglandinas",
+    "level": 4,
+    "parent_code": "S01E"
+  },
+  {
+    "code": "V",
+    "name": "Varios",
+    "level": 2,
+    "parent_code": ""
+  },
+  {
+    "code": "V03",
+    "name": "Varios terapéuticos",
+    "level": 2,
+    "parent_code": "V"
+  },
+  {
+    "code": "V03A",
+    "name": "Antídotos",
+    "level": 3,
+    "parent_code": "V03"
+  },
+  {
+    "code": "V03AE",
+    "name": "V03AE",
+    "level": 4,
+    "parent_code": "V03A"
+  },
+  {
+    "code": "V03AF",
+    "name": "Agentes desintoxicantes para citostáticos",
+    "level": 4,
+    "parent_code": "V03A"
   }
 ]
