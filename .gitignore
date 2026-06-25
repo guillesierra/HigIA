@@ -7,12 +7,10 @@ __pycache__/
 htmlcov/
 .venv/
 venv/
-
 # Node
 node_modules/
 dist/
 npm-debug.log*
-
 # Local databases and generated data
 data/*.sqlite
 data/*.sqlite3
@@ -31,22 +29,15 @@ data/processed/**/*.xlsx
 data/processed/**/*.json
 data/metadata/**/*.json
 data/metadata/**/*.jsonl
-
 # Keep public demo exports versionable by default.
 !data/processed/public/*.json
 !frontend/public/data/*.json
-
 # OS/editor
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
-
 # Environment
 .env
 .env.*
-data/processed/public/consumption.json
-frontend/public/data/consumption.json
-data/processed/public/consumption.json
-frontend/public/data/consumption.json
 frontend/dist/
