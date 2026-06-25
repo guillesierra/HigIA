@@ -71,8 +71,10 @@ export function TimeSeriesChart({ records, metric = "dhd", maxSeries }: Props) {
     series: seriesEntries.map(({ name, values }) => ({
       name,
       type: "line",
-      smooth: true,
-      symbolSize: 7,
+      smooth: false,
+      connectNulls: true,
+      symbolSize: 5,
+      lineStyle: { width: 1.5 },
       data: years.map((year) => {
         const bucket = values.get(year);
         return bucket ? Number(getBucketValue(bucket, metric).toFixed(4)) : null;
