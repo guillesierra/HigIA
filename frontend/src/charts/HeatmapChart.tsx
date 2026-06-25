@@ -98,8 +98,8 @@ export function HeatmapChart({ records, metric = "dhd" }: Props) {
     visualMap: {
       min: minVal, max: maxVal,
       calculable: true, orient: "horizontal",
-      left: "center", bottom: 0,
-      text: [`Alto (${unit})`, `Bajo (${unit})`],
+      left: "center", bottom: 15,
+      text: [`Alto (${unit}/hab/día)`, `Bajo (${unit}/hab/día)`],
       inRange: { color: ["#edf7ed", "#a5d6a7", "#66bb6a", "#2f8f83", "#1b5e50"] },
     },
     series: [{
